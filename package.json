@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "format:check": "prettier --check \"src/recettes/static/**/*.{js,css}\"",
+    "format": "prettier --write \"src/recettes/static/**/*.{js,css}\""
+  },
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}
