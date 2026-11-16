@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+  # Run manually (Actions tab → "Run workflow") to rebuild the site.
+  workflow_dispatch:
 
 permissions:
   contents: write
