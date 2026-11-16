@@ -48,4 +48,4 @@ Attendre 30min avant de démouler.
 
 ## Étape 10
 
-Pour le glaçage, [voir recette du frosting](frosting.md) ou sinon mélanger {{ 200g de sucre glace }} et {{ 2 blancs d'oeuf }}.
+Pour le glaçage, [voir recette du frosting](glacage-frosting.md) ou sinon mélanger {{ 200g de sucre glace }} et {{ 2 blancs d'oeuf }}.
