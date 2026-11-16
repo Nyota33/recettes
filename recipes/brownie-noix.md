@@ -1,7 +1,7 @@
 ---
 title: Brownie aux noix
 cuisson: 20min
-tags: gâteau, dessert
+tags: dessert, gâteau
 lang: fr
 ---
 

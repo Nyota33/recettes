@@ -1,6 +1,6 @@
 ---
 title: Caramel au beurre salé
-tags: dessert
+tags: base
 lang: fr
 ---
 

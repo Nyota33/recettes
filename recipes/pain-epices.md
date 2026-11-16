@@ -2,7 +2,7 @@
 title: Pain d'épices
 cuisson: 1h
 repos: plusieurs jours
-tags: gâteau, hiver
+tags: dessert, gâteau, hiver
 lang: fr
 ---
 

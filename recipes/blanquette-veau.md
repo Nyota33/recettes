@@ -3,7 +3,7 @@ title: Blanquette de veau
 portions: 6
 preparation: 30min
 cuisson: 1h30
-tags: plat, hiver, économique
+tags: plat, viande, hiver, économique
 lang: fr
 ---
 

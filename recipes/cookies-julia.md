@@ -3,7 +3,7 @@ title: Cookies
 preparation: 5min
 cuisson: 10min
 portions: 9
-tags: snack, biscuits
+tags: dessert, biscuits
 lang: fr
 ---
 

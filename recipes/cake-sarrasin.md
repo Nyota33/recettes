@@ -1,7 +1,7 @@
 ---
 title: Cake salé à la farine de sarrasin
 cuisson: 40min
-tags: gluten-free, salé
+tags: snack, végétarien, gluten-free
 lang: fr
 ---
 

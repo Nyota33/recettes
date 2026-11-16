@@ -1,6 +1,6 @@
 ---
 title: Glaçage (frosting)
-tags: dessert, facile
+tags: base, facile
 lang: fr
 ---
 

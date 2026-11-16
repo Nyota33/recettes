@@ -1,7 +1,7 @@
 ---
 title: Frangipane
 cuisson: 40min
-tags: dessert, tarte
+tags: base
 lang: fr
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Lasagnes chèvre courgettes
 repos: 1h
-tags: plat, pâte, fromage
+tags: plat, fromage, végétarien
 lang: fr
 ---
 

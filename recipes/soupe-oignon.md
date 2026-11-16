@@ -3,7 +3,7 @@ title: Soupe à l'oignon
 portions: 4
 preparation: 45min
 cuisson: 15min
-tags: hiver, soupe, facile, économique
+tags: plat, soupe, végétarien, hiver, facile, économique
 lang: fr
 ---
 

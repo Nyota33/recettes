@@ -1,11 +1,11 @@
 ---
 title: Soupe aztèque
 cuisson: 15min
-tags: soupe, plat
+tags: plat, soupe, végétarien, vegan
 lang: fr
 ---
 
-Sopa azteca d'Ari.
+D'Ari.
 
 # Préparation
 

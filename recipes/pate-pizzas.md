@@ -2,7 +2,7 @@
 title: Pâte à pizzas
 portions: 10
 repos: 3 jours
-tags: pizza, pâte
+tags: base
 lang: fr
 ---
 

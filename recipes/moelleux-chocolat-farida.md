@@ -1,7 +1,7 @@
 ---
 title: Moelleux au chocolat
 cuisson: 15min
-tags: gâteau, dessert, facile
+tags: dessert, gâteau, facile
 lang: fr
 ---
 

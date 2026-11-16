@@ -1,9 +1,11 @@
 ---
 title: Gâteau au chocolat
 cuisson: 40min
-tags: gâteau, dessert, facile
+tags: dessert, gâteau, facile
 lang: fr
 ---
+
+De Mamie Josette.
 
 # Préparation
 

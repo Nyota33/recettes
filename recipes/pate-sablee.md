@@ -1,7 +1,7 @@
 ---
 title: Pâte sablée
 repos: 20min au frais
-tags: pâte, tarte
+tags: base
 lang: fr
 ---
 

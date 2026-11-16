@@ -1,6 +1,6 @@
 ---
 title: Crème pâtissière
-tags: dessert, facile
+tags: base, facile
 lang: fr
 ---
 

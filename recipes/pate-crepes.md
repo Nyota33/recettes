@@ -1,7 +1,7 @@
 ---
 title: Pâte à crêpes
 repos: 1h
-tags: pâte, dessert, facile
+tags: dessert, facile
 lang: fr
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Pulled pork
 cuisson: 3h
-tags: plat
+tags: plat, viande
 lang: fr
 ---
 

@@ -2,7 +2,7 @@
 title: Pâte à galettes de sarrasin
 preparation: 3min
 portions: 8
-tags: sain, gluten-free
+tags: base, gluten-free
 lang: fr
 ---
 

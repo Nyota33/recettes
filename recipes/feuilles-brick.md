@@ -1,6 +1,6 @@
 ---
 title: Feuilles de brick
-tags: pâte, économique
+tags: base, économique
 lang: fr
 ---
 

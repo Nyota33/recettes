@@ -1,6 +1,6 @@
 ---
 title: Hachis parmentier
-tags: plat, hiver
+tags: plat, viande, hiver
 lang: fr
 ---
 

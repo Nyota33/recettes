@@ -1,7 +1,7 @@
 ---
 title: Gâteau de semoule
 repos: 1h au frigo
-tags: dessert
+tags: dessert, gâteau
 lang: fr
 ---
 

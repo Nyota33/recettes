@@ -2,7 +2,7 @@
 title: Crunchy Granola
 preparation: 5min
 cuisson: 16min
-tags: petit-déjeuner, sain, gluten-free, économique
+tags: petit-déjeuner, végétarien, sain, gluten-free, économique
 lang: fr
 ---
 

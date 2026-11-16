@@ -1,7 +1,7 @@
 ---
 title: Tartiflette
 portions: 8
-tags: plat, hiver, fromage
+tags: plat, fromage, viande, hiver
 lang: fr
 ---
 

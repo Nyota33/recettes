@@ -1,7 +1,7 @@
 ---
 title: Hummus iranien
 cuisson: 15min
-tags: snack, salé, économique
+tags: snack, végétarien, vegan, économique
 lang: fr
 ---
 
@@ -25,4 +25,4 @@ Ajouter {{ 150g de tahin }}, {{ 50cl de jus de citron }}, {{ 4 gros glaçons }} 
 
 ## Étape 5
 
-Ajouter de l'{{ huile d'arachide }} petit à petit dans le mixeur.
+Ajouter de l'{{ huile d'arachide }} petit à petit dans le mixeur pour faire monter l'émulsion.

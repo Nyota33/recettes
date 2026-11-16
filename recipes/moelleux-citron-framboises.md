@@ -2,11 +2,11 @@
 title: Moelleux citron framboises
 portions: 6
 cuisson: 20min
-tags: gâteau, gluten-free
+tags: dessert, gâteau, sain, gluten-free, sans-lactose
 lang: fr
 ---
 
-Léger, sans gluten et sans lactose.
+De Mamie Josette.
 
 # Préparation
 

@@ -1,7 +1,7 @@
 ---
 title: Combinado colombien
 cuisson: 2h
-tags: plat, économique
+tags: plat, végétarien, vegan, économique
 lang: fr
 ---
 

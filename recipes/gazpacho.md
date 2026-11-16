@@ -1,7 +1,7 @@
 ---
 title: Gazpacho
 repos: quelques heures au frigo
-tags: soupe, sain, facile
+tags: plat, soupe, végétarien, vegan, sain, facile
 lang: fr
 ---
 

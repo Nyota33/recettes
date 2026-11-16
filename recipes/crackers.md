@@ -3,7 +3,7 @@ title: Crackers
 portions: 20
 preparation: 10min
 cuisson: 1h
-tags: snack, gluten-free
+tags: snack, végétarien, sain, gluten-free
 lang: fr
 ---
 

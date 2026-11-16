@@ -2,7 +2,7 @@
 title: Paella
 portions: 4
 cuisson: 15min
-tags: plat
+tags: plat, poisson
 lang: fr
 ---
 

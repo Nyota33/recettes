@@ -1,6 +1,6 @@
 ---
 title: Béchamel
-tags: salé, facile
+tags: base, facile
 lang: fr
 ---
 

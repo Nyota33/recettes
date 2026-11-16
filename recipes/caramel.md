@@ -1,7 +1,7 @@
 ---
 title: Caramel
 cuisson: 15min
-tags: astuces, dessert
+tags: base
 lang: fr
 ---
 

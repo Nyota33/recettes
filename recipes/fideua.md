@@ -2,7 +2,7 @@
 title: Fideuà
 cuisson: 15min
 repos: 5min
-tags: plat
+tags: plat, poisson
 lang: fr
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Gaufres liégeoises
 repos: 24h
-tags: dessert, petit-déjeuner
+tags: dessert
 lang: fr
 ---
 

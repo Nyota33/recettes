@@ -1,7 +1,7 @@
 ---
 title: Flan pâtissier
 cuisson: 35min
-tags: dessert, flan, tarte
+tags: dessert, flan
 lang: fr
 ---
 

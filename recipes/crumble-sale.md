@@ -1,7 +1,7 @@
 ---
 title: Crumble salé
 repos: au frigo
-tags: salé, fromage
+tags: base
 lang: fr
 ---
 

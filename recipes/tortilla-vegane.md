@@ -1,10 +1,10 @@
 ---
 title: Tortilla végane
-tags: plat, économique, vegan
+tags: plat, végétarien, vegan, économique
 lang: fr
 ---
 
-D'Ari!
+D'Ari.
 
 # Préparation
 

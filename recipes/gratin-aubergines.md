@@ -3,7 +3,7 @@ title: Gratin d'aubergines au parmesan
 portions: 4
 cuisson: 30min
 repos: 1h de dégorgement
-tags: plat, fromage
+tags: plat, fromage, végétarien
 lang: fr
 ---
 
@@ -33,6 +33,8 @@ Rincer les tranches d'aubergine et les tamponner avec du papier absorbant.
 
 Les faire frire dans de l'{{ huile pour friture }} bouillante, quelques tranches à la fois. Les égoutter et les laisser sécher sur du papier absorbant.
 
+Alternative: les faire griller au four.
+
 ## Étape 7
 
 Répartir un peu de sauce tomate au fond d'un plat, puis y disposer quelques tranches d'aubergine en les superposant. Recouvrir de sauce tomate, ajouter le basilic haché et un peu de mozzarella.
@@ -44,8 +46,3 @@ Saupoudrer de {{ 40g de parmesan râpé }}, puis répéter l'opération avec le 
 ## Étape 9
 
 Enfourner à *180ºC* (th. 6) pendant 30min.
-
-# Conseils
-
-- Toutes les aubergines n'ont pas besoin de dégorger. On peut aussi utiliser des tranches d'aubergines grillées surgelées plutôt que de les frire.
-- Vin : un vin de Corse (Figari), un Mourvèdre (Pays d'Oc) ou un Chianti Classico.

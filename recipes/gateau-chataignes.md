@@ -1,11 +1,11 @@
 ---
 title: Gâteau aux châtaignes
 cuisson: 50min
-tags: gâteau, hiver
+tags: dessert, gâteau, hiver
 lang: fr
 ---
 
-De Mama Montse.
+De l'Avia Montse.
 
 # Préparation
 

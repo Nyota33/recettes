@@ -1,7 +1,7 @@
 ---
 title: P'tits bouchons à la châtaigne
 cuisson: 25min
-tags: dessert, facile
+tags: dessert, gâteau, facile
 lang: fr
 ---
 

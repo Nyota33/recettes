@@ -2,7 +2,7 @@
 title: Gâteau aux noix
 preparation: 15min
 cuisson: 30min
-tags: dessert
+tags: dessert, gâteau
 lang: fr
 ---
 

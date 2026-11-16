@@ -2,9 +2,11 @@
 title: Carrot cake
 cuisson: 1h
 repos: 30min avant de démouler
-tags: gâteau
+tags: dessert, gâteau
 lang: fr
 ---
+
+De Guillaume S.
 
 # Préparation
 

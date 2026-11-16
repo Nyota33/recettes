@@ -1,7 +1,7 @@
 ---
 title: Gâteau aux pommes
 cuisson: 30min
-tags: gâteau, facile
+tags: dessert, gâteau, facile
 lang: fr
 ---
 

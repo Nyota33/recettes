@@ -1,7 +1,7 @@
 ---
 title: Käsespätzle
 cuisson: 30min
-tags: plat, fromage
+tags: plat, fromage, végétarien
 lang: fr
 ---
 
@@ -9,7 +9,7 @@ lang: fr
 
 ## Étape 1
 
-Fabriquer une planche percée de trous de 1cm de diamètre.
+Dans un {{ plat jetable en aluminium }}, fabriquer une planche percée de trous de 1cm de diamètre.
 
 ## Étape 2
 

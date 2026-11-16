@@ -1,7 +1,7 @@
 ---
 title: Pommes de terre et seitan
 portions: 2
-tags: plat, économique
+tags: plat, végétarien, vegan, économique
 lang: fr
 ---
 
