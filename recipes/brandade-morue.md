@@ -1,5 +1,7 @@
 ---
 title: Brandade de morue
+portions: 6
+preparation: 30min
 cuisson: 25min
 tags: plat, poisson
 lang: fr

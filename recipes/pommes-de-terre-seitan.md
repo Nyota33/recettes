@@ -1,6 +1,7 @@
 ---
 title: Pommes de terre et seitan
 portions: 2
+preparation: 15min
 tags: plat, végétarien, vegan, économique
 lang: fr
 ---

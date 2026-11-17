@@ -1,5 +1,7 @@
 ---
 title: Brownie à la betterave
+portions: 8
+preparation: 20min
 cuisson: 45min
 tags: dessert, gâteau
 lang: fr

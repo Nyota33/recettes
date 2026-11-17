@@ -1,5 +1,6 @@
 ---
 title: Hachis parmentier
+preparation: 30min
 tags: plat, viande, hiver
 lang: fr
 ---

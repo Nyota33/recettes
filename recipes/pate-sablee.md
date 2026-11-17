@@ -1,5 +1,6 @@
 ---
 title: Pâte sablée
+preparation: 10min
 repos: 20min au frais
 tags: base
 lang: fr

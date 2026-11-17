@@ -1,5 +1,7 @@
 ---
 title: Pulled pork
+portions: 8
+preparation: 30min
 cuisson: 3h
 tags: plat, viande
 lang: fr

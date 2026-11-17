@@ -1,5 +1,7 @@
 ---
 title: Crumble aux pommes
+portions: 4
+preparation: 15min
 cuisson: 25min
 tags: dessert, facile
 lang: fr

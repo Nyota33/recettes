@@ -1,5 +1,7 @@
 ---
 title: Lasagnes chèvre courgettes
+portions: 4
+preparation: 45min
 repos: 1h
 tags: plat, fromage, végétarien
 lang: fr

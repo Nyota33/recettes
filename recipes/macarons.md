@@ -1,5 +1,6 @@
 ---
 title: Macarons
+preparation: 30min
 cuisson: 10min
 tags: dessert, biscuits
 lang: fr

@@ -1,6 +1,7 @@
 ---
 title: Crème renversée
 portions: 6
+preparation: 15min
 tags: dessert, flan
 lang: fr
 ---

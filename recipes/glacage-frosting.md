@@ -1,5 +1,6 @@
 ---
 title: Glaçage (frosting)
+preparation: 10min
 tags: base, facile
 lang: fr
 ---

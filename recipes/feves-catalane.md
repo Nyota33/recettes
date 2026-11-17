@@ -1,5 +1,6 @@
 ---
 title: Fèves à la catalane
+preparation: 15min
 cuisson: 30min
 tags: plat, viande
 lang: fr

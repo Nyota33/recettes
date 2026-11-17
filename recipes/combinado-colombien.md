@@ -1,5 +1,6 @@
 ---
 title: Combinado colombien
+preparation: 45min
 cuisson: 2h
 tags: plat, végétarien, vegan, économique
 lang: fr

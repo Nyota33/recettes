@@ -1,5 +1,7 @@
 ---
 title: Pâte à crêpes
+portions: 20
+preparation: 10min
 repos: 1h
 tags: dessert, facile
 lang: fr

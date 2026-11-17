@@ -1,5 +1,7 @@
 ---
 title: Pain d'épices
+portions: 10
+preparation: 15min
 cuisson: 1h
 repos: plusieurs jours
 tags: dessert, gâteau, hiver

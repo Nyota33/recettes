@@ -1,5 +1,7 @@
 ---
 title: Carrot cake
+portions: 12
+preparation: 30min
 cuisson: 1h
 repos: 30min avant de démouler
 tags: dessert, gâteau

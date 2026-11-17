@@ -1,5 +1,7 @@
 ---
 title: Gâteau au chocolat
+portions: 8
+preparation: 15min
 cuisson: 40min
 tags: dessert, gâteau, facile
 lang: fr

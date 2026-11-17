@@ -1,5 +1,6 @@
 ---
 title: Tuiles aux amandes
+preparation: 10min
 cuisson: 10min
 tags: dessert, biscuits
 lang: fr

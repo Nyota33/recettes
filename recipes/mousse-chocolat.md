@@ -1,5 +1,7 @@
 ---
 title: Mousse au chocolat
+portions: 6
+preparation: 20min
 repos: 1 nuit au frigo
 tags: dessert
 lang: fr

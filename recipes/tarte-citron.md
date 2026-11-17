@@ -1,6 +1,7 @@
 ---
 title: Tarte au citron
 portions: 6
+preparation: 30min
 cuisson: 10min
 tags: dessert, tarte
 lang: fr

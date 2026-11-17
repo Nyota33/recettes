@@ -1,5 +1,7 @@
 ---
 title: Crème catalane
+portions: 6
+preparation: 20min
 tags: dessert
 lang: fr
 ---

@@ -1,6 +1,7 @@
 ---
 title: Nuggets de poulet
 portions: 4
+preparation: 30min
 repos: 30min au congélateur
 tags: plat, viande
 lang: fr

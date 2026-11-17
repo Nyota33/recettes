@@ -1,5 +1,6 @@
 ---
 title: Gazpacho
+preparation: 20min
 repos: quelques heures au frigo
 tags: plat, soupe, végétarien, vegan, sain, facile
 lang: fr

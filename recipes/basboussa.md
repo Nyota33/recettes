@@ -1,5 +1,6 @@
 ---
 title: Basboussa
+preparation: 20min
 cuisson: 30min
 repos: 24h sous film
 tags: dessert, gâteau

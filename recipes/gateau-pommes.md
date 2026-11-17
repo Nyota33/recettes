@@ -1,5 +1,7 @@
 ---
 title: Gâteau aux pommes
+portions: 6
+preparation: 15min
 cuisson: 30min
 tags: dessert, gâteau, facile
 lang: fr

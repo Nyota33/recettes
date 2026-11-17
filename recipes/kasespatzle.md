@@ -1,5 +1,7 @@
 ---
 title: Käsespätzle
+portions: 4
+preparation: 45min
 cuisson: 30min
 tags: plat, fromage, végétarien
 lang: fr

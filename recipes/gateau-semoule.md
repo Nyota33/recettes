@@ -1,5 +1,7 @@
 ---
 title: Gâteau de semoule
+portions: 6
+preparation: 15min
 repos: 1h au frigo
 tags: dessert, gâteau
 lang: fr

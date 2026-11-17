@@ -1,5 +1,6 @@
 ---
 title: Frangipane
+preparation: 10min
 cuisson: 40min
 tags: base
 lang: fr

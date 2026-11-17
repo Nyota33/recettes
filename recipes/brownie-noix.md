@@ -1,5 +1,7 @@
 ---
 title: Brownie aux noix
+portions: 8
+preparation: 15min
 cuisson: 20min
 tags: dessert, gâteau
 lang: fr

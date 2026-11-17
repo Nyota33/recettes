@@ -1,6 +1,7 @@
 ---
 title: Tartiflette
 portions: 8
+preparation: 30min
 tags: plat, fromage, viande, hiver
 lang: fr
 ---

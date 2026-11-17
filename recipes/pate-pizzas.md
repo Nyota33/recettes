@@ -1,6 +1,7 @@
 ---
 title: Pâte à pizzas
 portions: 10
+preparation: 30min
 repos: 3 jours
 tags: base
 lang: fr

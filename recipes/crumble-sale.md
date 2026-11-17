@@ -1,5 +1,6 @@
 ---
 title: Crumble salé
+preparation: 5min
 repos: au frigo
 tags: base
 lang: fr

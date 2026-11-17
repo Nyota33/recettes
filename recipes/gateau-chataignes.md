@@ -1,5 +1,7 @@
 ---
 title: Gâteau aux châtaignes
+portions: 8
+preparation: 30min
 cuisson: 50min
 tags: dessert, gâteau, hiver
 lang: fr

@@ -1,5 +1,6 @@
 ---
 title: Haricots blancs et orecchiette
+preparation: 15min
 cuisson: 15min
 tags: plat, végétarien, économique
 lang: fr

@@ -1,5 +1,6 @@
 ---
 title: Gaufres liégeoises
+preparation: 15min
 repos: 24h
 tags: dessert
 lang: fr

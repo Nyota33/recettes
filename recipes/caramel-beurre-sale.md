@@ -1,5 +1,6 @@
 ---
 title: Caramel au beurre salé
+preparation: 15min
 tags: base
 lang: fr
 ---

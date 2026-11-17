@@ -1,6 +1,7 @@
 ---
 title: Moelleux citron framboises
 portions: 6
+preparation: 25min
 cuisson: 20min
 tags: dessert, gâteau, sain, gluten-free, sans-lactose
 lang: fr

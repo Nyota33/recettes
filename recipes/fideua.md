@@ -1,5 +1,7 @@
 ---
 title: Fideuà
+portions: 4
+preparation: 20min
 cuisson: 15min
 repos: 5min
 tags: plat, poisson

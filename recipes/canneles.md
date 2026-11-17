@@ -1,5 +1,6 @@
 ---
 title: Cannelés
+preparation: 20min
 cuisson: 1h
 repos: 24h à 48h au frigo
 tags: dessert, gâteau

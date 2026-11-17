@@ -1,5 +1,6 @@
 ---
 title: Béchamel
+preparation: 10min
 tags: base, facile
 lang: fr
 ---

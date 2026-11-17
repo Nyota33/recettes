@@ -1,5 +1,6 @@
 ---
 title: Soupe aztèque
+preparation: 30min
 cuisson: 15min
 tags: plat, soupe, végétarien, vegan
 lang: fr

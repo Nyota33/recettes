@@ -1,5 +1,7 @@
 ---
 title: Tortilla végane
+portions: 4
+preparation: 30min
 tags: plat, végétarien, vegan, économique
 lang: fr
 ---

@@ -1,5 +1,7 @@
 ---
 title: Cheesecake
+portions: 8
+preparation: 20min
 cuisson: 55min
 tags: dessert, gâteau
 lang: fr

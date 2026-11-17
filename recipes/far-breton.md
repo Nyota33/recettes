@@ -1,5 +1,7 @@
 ---
 title: Far breton
+portions: 8
+preparation: 10min
 cuisson: 1h
 tags: dessert, flan
 lang: fr

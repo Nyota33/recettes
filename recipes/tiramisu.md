@@ -1,6 +1,7 @@
 ---
 title: Tiramisu
 portions: 8
+preparation: 30min
 repos: 2h minimum au frigo
 tags: dessert
 lang: fr

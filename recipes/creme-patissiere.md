@@ -1,5 +1,6 @@
 ---
 title: Crème pâtissière
+preparation: 15min
 tags: base, facile
 lang: fr
 ---

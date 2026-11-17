@@ -1,5 +1,6 @@
 ---
 title: Barres aux dattes
+preparation: 20min
 cuisson: 1h
 tags: snack, sain
 lang: fr

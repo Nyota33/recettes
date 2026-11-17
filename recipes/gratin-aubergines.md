@@ -1,6 +1,7 @@
 ---
 title: Gratin d'aubergines au parmesan
 portions: 4
+preparation: 45min
 cuisson: 30min
 repos: 1h de dégorgement
 tags: plat, fromage, végétarien

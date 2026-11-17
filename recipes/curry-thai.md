@@ -1,5 +1,6 @@
 ---
 title: Curry thaï
+preparation: 30min
 tags: plat
 lang: fr
 ---

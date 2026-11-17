@@ -1,5 +1,7 @@
 ---
 title: Cake salé à la farine de sarrasin
+portions: 8
+preparation: 15min
 cuisson: 40min
 tags: snack, végétarien, gluten-free
 lang: fr

@@ -1,7 +1,7 @@
 ---
 title: Nougat glacé
 portions: 6
-préparation: 30min
+preparation: 30min
 congélation: 12h
 cuisson: 5min
 tags: dessert, glace

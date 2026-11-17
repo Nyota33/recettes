@@ -1,5 +1,6 @@
 ---
 title: Thé chai masala
+preparation: 10min
 tags: boisson, facile
 lang: fr
 ---

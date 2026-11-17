@@ -1,5 +1,7 @@
 ---
 title: Tarte à la noix de coco
+portions: 8
+preparation: 15min
 cuisson: 30min
 tags: dessert, tarte
 lang: fr

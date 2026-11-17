@@ -1,5 +1,7 @@
 ---
 title: Flan pâtissier
+portions: 8
+preparation: 20min
 cuisson: 35min
 tags: dessert, flan
 lang: fr

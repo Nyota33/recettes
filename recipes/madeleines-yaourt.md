@@ -1,5 +1,6 @@
 ---
 title: Madeleines au yaourt
+preparation: 15min
 cuisson: 10min
 tags: dessert, gâteau, facile
 lang: fr
