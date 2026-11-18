@@ -2,7 +2,7 @@
 title: Granola au cacao
 preparation: 10min
 cuisson: 16min
-tags: petit-déjeuner, vegan, sain
+tags: petit-déjeuner, vegan, sain, favori
 lang: fr
 ---
 
