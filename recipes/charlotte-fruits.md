@@ -2,7 +2,7 @@
 title: Charlotte aux fruits
 portions: 6
 repos: 6h
-tags: dessert
+tags: dessert, favori
 lang: fr
 ---
 
