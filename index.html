@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recettes de Nyota</title>
+    <link rel="stylesheet" href="assets/style.css?v=3ed6799f64">
+    <link rel="preload" id="recipes-data" href="recipes.json?v=179dbc8bb0" as="fetch" crossorigin>
+    <link rel="prefetch" href="recipes/aubergines-ricotta-pesto.html">
+    <link rel="prefetch" href="recipes/aubergines-roulees-mozzarella.html">
+    <link rel="prefetch" href="recipes/aubergines-steak-feta.html">
+    <link rel="prefetch" href="recipes/bechamel-express.html">
+    <link rel="prefetch" href="recipes/biscuits-chocolat.html">
+    <link rel="prefetch" href="recipes/blanquette-saumon-champignons.html">
+    <link rel="prefetch" href="recipes/bouchees-courgettes-feta.html">
+    <link rel="prefetch" href="recipes/bouchees-indiennes.html">
+    <link rel="prefetch" href="recipes/boulettes-sauce-tomate.html">
+    <link rel="prefetch" href="recipes/boulettes-surprise.html">
+    <link rel="prefetch" href="recipes/brandade-poisson.html">
+    <link rel="prefetch" href="recipes/brick-indienne.html">
+    <link rel="prefetch" href="recipes/brioche-thermomix.html">
+    <link rel="prefetch" href="recipes/briques-samoussas.html">
+    <link rel="prefetch" href="recipes/brochettes-apero.html">
+    <link rel="prefetch" href="recipes/brownie.html">
+    <link rel="prefetch" href="recipes/cabillaud-basilic.html">
+    <link rel="prefetch" href="recipes/cake-pecan-vanille.html">
+    <link rel="prefetch" href="recipes/cake-pistache-fleur-oranger.html">
+    <link rel="prefetch" href="recipes/cake-poire-chocolat-amande.html">
+    <link rel="prefetch" href="recipes/cake-poires.html">
+    <link rel="prefetch" href="recipes/cake-rhubarbe.html">
+    <link rel="prefetch" href="recipes/cake-sale.html">
+    <link rel="prefetch" href="recipes/canneles.html">
+    <link rel="prefetch" href="recipes/cannellonis-ricotta-epinards.html">
+    <link rel="prefetch" href="recipes/carottes-vichy.html">
+    <link rel="prefetch" href="recipes/charlotte-fruits.html">
+    <link rel="prefetch" href="recipes/chausson-lardons-pdt-mozza.html">
+    <link rel="prefetch" href="recipes/chaussons-apero.html">
+    <link rel="prefetch" href="recipes/chili-sin-carne-thermomix.html">
+    <link rel="prefetch" href="recipes/chili.html">
+    <link rel="prefetch" href="recipes/clafoutis-pois-jambon-thermomix.html">
+    <link rel="prefetch" href="recipes/clafoutis-poivrons-chevre.html">
+    <link rel="prefetch" href="recipes/clafoutis.html">
+    <link rel="prefetch" href="recipes/cocotte-poisson-champignons.html">
+    <link rel="prefetch" href="recipes/colombo-poulet.html">
+    <link rel="prefetch" href="recipes/cookies-sales.html">
+    <link rel="prefetch" href="recipes/cookies.html">
+    <link rel="prefetch" href="recipes/cordons-bleus.html">
+    <link rel="prefetch" href="recipes/coulant-chocolat-pecan.html">
+    <link rel="prefetch" href="recipes/couronne-feuilletee.html">
+    <link rel="prefetch" href="recipes/couscous.html">
+    <link rel="prefetch" href="recipes/creme-dessert-vanille.html">
+    <link rel="prefetch" href="recipes/creme-marrons.html">
+    <link rel="prefetch" href="recipes/creme-patissiere-mamie.html">
+    <link rel="prefetch" href="recipes/creme-renversee.html">
+    <link rel="prefetch" href="recipes/crepes.html">
+    <link rel="prefetch" href="recipes/crevettes-mangue-coco.html">
+    <link rel="prefetch" href="recipes/croque-cake-tomate-mozza.html">
+    <link rel="prefetch" href="recipes/croque-chevre-pesto.html">
+    <link rel="prefetch" href="recipes/croquettes-poisson-oignon.html">
+    <link rel="prefetch" href="recipes/croziflette-poireaux-champignons.html">
+    <link rel="prefetch" href="recipes/crumble-banane-chocolat.html">
+    <link rel="prefetch" href="recipes/crumble-courgettes-boursin.html">
+    <link rel="prefetch" href="recipes/crumble-courgettes-chevre.html">
+    <link rel="prefetch" href="recipes/crumble-fruits.html">
+    <link rel="prefetch" href="recipes/crumble-provencal-feta.html">
+    <link rel="prefetch" href="recipes/crumble-saumon-epinards.html">
+    <link rel="prefetch" href="recipes/crumble-st-jacques-poireaux.html">
+    <link rel="prefetch" href="recipes/crumble-tomates-chevre.html">
+    <link rel="prefetch" href="recipes/dahl-lentilles-corail.html">
+    <link rel="prefetch" href="recipes/dahl-lentilles-epinards.html">
+    <link rel="prefetch" href="recipes/dips.html">
+    <link rel="prefetch" href="recipes/fajitas-poulet-cheddar.html">
+    <link rel="prefetch" href="recipes/feuillete-poireaux-saumon.html">
+    <link rel="prefetch" href="recipes/filet-mignon-croute.html">
+    <link rel="prefetch" href="recipes/filet-mignon-italienne.html">
+    <link rel="prefetch" href="recipes/filet-mignon-morilles.html">
+    <link rel="prefetch" href="recipes/filet-mignon-sesame.html">
+    <link rel="prefetch" href="recipes/financiers-pistache.html">
+    <link rel="prefetch" href="recipes/financiers-thermomix.html">
+    <link rel="prefetch" href="recipes/flan-coco.html">
+    <link rel="prefetch" href="recipes/flan-patissier-sans-pate.html">
+    <link rel="prefetch" href="recipes/flan-patissier.html">
+    <link rel="prefetch" href="recipes/fondant-chocolat-framboises.html">
+    <link rel="prefetch" href="recipes/fondue-poireaux.html">
+    <link rel="prefetch" href="recipes/galette-des-rois-express.html">
+    <link rel="prefetch" href="recipes/galette-des-rois.html">
+    <link rel="prefetch" href="recipes/galette-fourree-jambon-champignons.html">
+    <link rel="prefetch" href="recipes/galette-pdt-jambon-fromage.html">
+    <link rel="prefetch" href="recipes/galettes-polenta-epinards.html">
+    <link rel="prefetch" href="recipes/gaspacho.html">
+    <link rel="prefetch" href="recipes/gateau-chocolat-coco.html">
+    <link rel="prefetch" href="recipes/gateau-chocolat-thermomix.html">
+    <link rel="prefetch" href="recipes/gateau-fruit-mamie.html">
+    <link rel="prefetch" href="recipes/gateau-moelleux-citron.html">
+    <link rel="prefetch" href="recipes/gateau-pain-perdu.html">
+    <link rel="prefetch" href="recipes/gateau-sale-kiri-chorizo.html">
+    <link rel="prefetch" href="recipes/gateau-yaourt.html">
+    <link rel="prefetch" href="recipes/gaufres-epinards.html">
+    <link rel="prefetch" href="recipes/gaufres-express.html">
+    <link rel="prefetch" href="recipes/gaufres-jambon-emmental.html">
+    <link rel="prefetch" href="recipes/gaufres-salees.html">
+    <link rel="prefetch" href="recipes/gaufres.html">
+    <link rel="prefetch" href="recipes/gnocchis-epinards-tomates.html">
+    <link rel="prefetch" href="recipes/gnocchis.html">
+    <link rel="prefetch" href="recipes/gougeres.html">
+    <link rel="prefetch" href="recipes/granola-cacao.html">
+    <link rel="prefetch" href="recipes/granola-chocolat-amande.html">
+    <link rel="prefetch" href="recipes/gratin-chou-fleur-chorizo.html">
+    <link rel="prefetch" href="recipes/gratin-courgettes-tomates-feta.html">
+    <link rel="prefetch" href="recipes/gratin-dauphinois-thermomix.html">
+    <link rel="prefetch" href="recipes/gratin-dauphinois.html">
+    <link rel="prefetch" href="recipes/gratin-oignons-poireaux-brick.html">
+    <link rel="prefetch" href="recipes/gratin-pates-brocolis-boursin.html">
+    <link rel="prefetch" href="recipes/gratin-poireaux-jambon.html">
+    <link rel="prefetch" href="recipes/gratin-pommes-de-terre-brocoli-chorizo.html">
+    <link rel="prefetch" href="recipes/gratin-pommes-de-terre-dinde.html">
+    <link rel="prefetch" href="recipes/gratin-pommes-de-terre-vache-qui-rit.html">
+    <link rel="prefetch" href="recipes/gratin-quenelles.html">
+    <link rel="prefetch" href="recipes/gratin-quinoa.html">
+    <link rel="prefetch" href="recipes/guacamole.html">
+    <link rel="prefetch" href="recipes/hachis-parmentier.html">
+    <link rel="prefetch" href="recipes/jambalaya-poulet-thermomix.html">
+    <link rel="prefetch" href="recipes/jambalaya-poulet.html">
+    <link rel="prefetch" href="recipes/lasagnes-bolognaise-thermomix.html">
+    <link rel="prefetch" href="recipes/lasagnes-bolognaise.html">
+    <link rel="prefetch" href="recipes/lasagnes-chevre-epinards.html">
+    <link rel="prefetch" href="recipes/lasagnes-courgettes-jambon.html">
+    <link rel="prefetch" href="recipes/lasagnes-poireaux-saumon.html">
+    <link rel="prefetch" href="recipes/lasagnes-ricotta-epinards.html">
+    <link rel="prefetch" href="recipes/macarons-vanille.html">
+    <link rel="prefetch" href="recipes/madeleines.html">
+    <link rel="prefetch" href="recipes/marbre-yaourt-grec.html">
+    <link rel="prefetch" href="recipes/marbre.html">
+    <link rel="prefetch" href="recipes/marinade-miel-moutarde-sauce-porto.html">
+    <link rel="prefetch" href="recipes/millefeuilles-betterave-ricotta.html">
+    <link rel="prefetch" href="recipes/mini-madeleines-salees.html">
+    <link rel="prefetch" href="recipes/moelleux-saumon-epinards.html">
+    <link rel="prefetch" href="recipes/moussaka-lentilles.html">
+    <link rel="prefetch" href="recipes/moussaka.html">
+    <link rel="prefetch" href="recipes/mousse-chocolat.html">
+    <link rel="prefetch" href="recipes/muffins-anglais.html">
+    <link rel="prefetch" href="recipes/muffins-banane-chocolat.html">
+    <link rel="prefetch" href="recipes/muffins-pepites-chocolat.html">
+    <link rel="prefetch" href="recipes/muffins-pizza.html">
+    <link rel="prefetch" href="recipes/muffins-quinoa.html">
+    <link rel="prefetch" href="recipes/muffins.html">
+    <link rel="prefetch" href="recipes/naans-fromage.html">
+    <link rel="prefetch" href="recipes/nouilles-dinde-cacahuete.html">
+    <link rel="prefetch" href="recipes/pain-maria.html">
+    <link rel="prefetch" href="recipes/pain-perdu-tapenade-mozza.html">
+    <link rel="prefetch" href="recipes/pain-perdu.html">
+    <link rel="prefetch" href="recipes/palets-bretons.html">
+    <link rel="prefetch" href="recipes/palmiers-roules.html">
+    <link rel="prefetch" href="recipes/pancakes.html">
+    <link rel="prefetch" href="recipes/panna-cotta.html">
+    <link rel="prefetch" href="recipes/papillote-poulet.html">
+    <link rel="prefetch" href="recipes/papillotes-saumon.html">
+    <link rel="prefetch" href="recipes/parmentier-cabillaud.html">
+    <link rel="prefetch" href="recipes/parmentier-canard.html">
+    <link rel="prefetch" href="recipes/parmentier-chou-fleur-saumon.html">
+    <link rel="prefetch" href="recipes/parmentier-poisson-chevre.html">
+    <link rel="prefetch" href="recipes/pate-brisee.html">
+    <link rel="prefetch" href="recipes/pate-galettes-thermomix.html">
+    <link rel="prefetch" href="recipes/pate-sablee.html">
+    <link rel="prefetch" href="recipes/patotto-lardons-courgettes.html">
+    <link rel="prefetch" href="recipes/pesto-basilic.html">
+    <link rel="prefetch" href="recipes/pizza-epinards-feta.html">
+    <link rel="prefetch" href="recipes/pizza-thermomix.html">
+    <link rel="prefetch" href="recipes/polenta-gratinee.html">
+    <link rel="prefetch" href="recipes/porridge-chocolat-poire.html">
+    <link rel="prefetch" href="recipes/poulet-chorizo.html">
+    <link rel="prefetch" href="recipes/poulet-cidre-bacon-champignons.html">
+    <link rel="prefetch" href="recipes/poulet-coco.html">
+    <link rel="prefetch" href="recipes/poulet-miel.html">
+    <link rel="prefetch" href="recipes/poulet-noix-cajou.html">
+    <link rel="prefetch" href="recipes/pudding-chia-cacao.html">
+    <link rel="prefetch" href="recipes/puree-thermomix.html">
+    <link rel="prefetch" href="recipes/quatre-quarts.html">
+    <link rel="prefetch" href="recipes/quenelles-comte.html">
+    <link rel="prefetch" href="recipes/quiche-brousse-menthe.html">
+    <link rel="prefetch" href="recipes/quiche-epinards-chevre.html">
+    <link rel="prefetch" href="recipes/quiche-epinards-lardons.html">
+    <link rel="prefetch" href="recipes/quiche-poireaux.html">
+    <link rel="prefetch" href="recipes/quiche-pommes-de-terre-poireaux.html">
+    <link rel="prefetch" href="recipes/quiche-sans-pate-haricots-verts.html">
+    <link rel="prefetch" href="recipes/quiche-saumon-asperges.html">
+    <link rel="prefetch" href="recipes/quiche-saumon-epinards-chevre.html">
+    <link rel="prefetch" href="recipes/quiche-thon.html">
+    <link rel="prefetch" href="recipes/ratatouille.html">
+    <link rel="prefetch" href="recipes/rillettes-thon.html">
+    <link rel="prefetch" href="recipes/risotto-cepes.html">
+    <link rel="prefetch" href="recipes/risotto-courgettes-ricotta.html">
+    <link rel="prefetch" href="recipes/riz-au-lait.html">
+    <link rel="prefetch" href="recipes/riz-cantonais-thermomix.html">
+    <link rel="prefetch" href="recipes/rougail-saucisse.html">
+    <link rel="prefetch" href="recipes/roule-poulet-mozza-tomates.html">
+    <link rel="prefetch" href="recipes/roule-saumon-epinards.html">
+    <link rel="prefetch" href="recipes/roule-saumon-palmier.html">
+    <link rel="prefetch" href="recipes/sables-diamant-vanille-thermomix.html">
+    <link rel="prefetch" href="recipes/sables-huile-olive.html">
+    <link rel="prefetch" href="recipes/sables.html">
+    <link rel="prefetch" href="recipes/salade-piemontaise-thermomix.html">
+    <link rel="prefetch" href="recipes/salade-savoyarde.html">
+    <link rel="prefetch" href="recipes/saumon-mozza-aubergine.html">
+    <link rel="prefetch" href="recipes/saumon-vanille.html">
+    <link rel="prefetch" href="recipes/souffle-fromage-thermomix.html">
+    <link rel="prefetch" href="recipes/soupe-legumes.html">
+    <link rel="prefetch" href="recipes/soupe-lentilles-corail-thermomix.html">
+    <link rel="prefetch" href="recipes/soupe-lentilles-corail.html">
+    <link rel="prefetch" href="recipes/soupe-potimarron-epices.html">
+    <link rel="prefetch" href="recipes/st-jacques-chorizo.html">
+    <link rel="prefetch" href="recipes/st-jacques-miel-curry-pomme.html">
+    <link rel="prefetch" href="recipes/taboule-thermomix.html">
+    <link rel="prefetch" href="recipes/taboule.html">
+    <link rel="prefetch" href="recipes/tagliatelles-feta.html">
+    <link rel="prefetch" href="recipes/tajine-lotte-tomates.html">
+    <link rel="prefetch" href="recipes/tapenade.html">
+    <link rel="prefetch" href="recipes/tarte-abricot-chocolat-blanc.html">
+    <link rel="prefetch" href="recipes/tarte-amandine-poires.html">
+    <link rel="prefetch" href="recipes/tarte-asperges-ricotta-tomates.html">
+    <link rel="prefetch" href="recipes/tarte-brocolis-lardons.html">
+    <link rel="prefetch" href="recipes/tarte-champignons.html">
+    <link rel="prefetch" href="recipes/tarte-chevre-miel.html">
+    <link rel="prefetch" href="recipes/tarte-courgettes-chevre-pignons.html">
+    <link rel="prefetch" href="recipes/tarte-fraises-speculoos-thermomix.html">
+    <link rel="prefetch" href="recipes/tarte-fraises-speculoos.html">
+    <link rel="prefetch" href="recipes/tarte-italienne.html">
+    <link rel="prefetch" href="recipes/tarte-normande.html">
+    <link rel="prefetch" href="recipes/tarte-oignons.html">
+    <link rel="prefetch" href="recipes/tarte-rhubarbe.html">
+    <link rel="prefetch" href="recipes/tarte-tomates.html">
+    <link rel="prefetch" href="recipes/tartinades-saint-moret.html">
+    <link rel="prefetch" href="recipes/tatin-tomates.html">
+    <link rel="prefetch" href="recipes/tian-legumes.html">
+    <link rel="prefetch" href="recipes/tiramisu-thermomix.html">
+    <link rel="prefetch" href="recipes/tiramisu.html">
+    <link rel="prefetch" href="recipes/toasts-chauds.html">
+    <link rel="prefetch" href="recipes/toasts-froids.html">
+    <link rel="prefetch" href="recipes/tomates-farcies-chevre-lardons.html">
+    <link rel="prefetch" href="recipes/tortilla.html">
+    <link rel="prefetch" href="recipes/tresse-tomate-courgette-jambon.html">
+    <link rel="prefetch" href="recipes/truffade-saint-nectaire.html">
+    <link rel="prefetch" href="recipes/tuiles-amandes.html">
+    <link rel="prefetch" href="recipes/veloute-carotte-coco.html">
+    <link rel="prefetch" href="recipes/veloute-courgette.html">
+    <link rel="prefetch" href="recipes/verrine-perles-japon-mangue.html">
+    <link rel="prefetch" href="recipes/verrines-cuilleres.html">
+    <link rel="prefetch" href="recipes/verrines-fraises-bananes.html">
+    <link rel="prefetch" href="recipes/yaourt-nature-varoma.html">
+    <link rel="prefetch" href="recipes/yaourt-vanille-thermomix.html">
+    <script type="module" src="assets/app.js?v=e9322c862f"></script>
+  </head>
+  <body>
+    <main class="recipe-index">
+      <h1>Recettes de Nyota</h1>
+      <label class="search-box">
+        <span aria-hidden="true">⌕</span>
+        <input id="recipe-search" type="search" aria-label="Search recipes" autocomplete="off">
+      </label>
+      <div class="tag-cloud" id="tag-cloud"></div>
+      <div class="recipe-grid" id="recipe-grid"></div>
+    </main>
+    <footer class="site-footer">
+      Built with
+      <a href="https://github.com/leplatrem/python-recettes">Recettes</a>, the free software
+      that turns Markdown files into a recipes website.
+    </footer>
+
+    <template id="tag-cloud-item-template">
+      <button class="tag-cloud-item" type="button" aria-pressed="false">
+        <span data-tag-name></span>
+        <span data-tag-count></span>
+      </button>
+    </template>
+
+    <template id="recipe-card-template">
+      <article class="recipe-card">
+        <a>
+          <div class="card-body">
+            <h2 data-recipe-title></h2>
+            <p class="card-excerpt" data-recipe-excerpt></p>
+            <div class="recipe-tags" data-recipe-tags></div>
+          </div>
+          <img class="card-image" data-recipe-image alt="" loading="lazy" hidden>
+          <span class="card-arrow" aria-hidden="true">↗</span>
+        </a>
+      </article>
+    </template>
+
+    <template id="recipe-tag-template">
+      <span class="tag" data-tag-label></span>
+    </template>
+  </body>
+</html>
