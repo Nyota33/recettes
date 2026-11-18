@@ -16,7 +16,7 @@ lang: fr
 
 ## Étape 2
 
-Ajouter un peu de {{ sucre }} (moins de 25g) et {{ 20g de perles du Japon }}. *Cuire* **15 min/95ºC/sens inverse/vitesse 1**. Répartir dans 2 verrines et réserver au frais.
+Ajouter un peu de {{ 15g sucre }} et {{ 20g de perles du Japon }}. *Cuire* **15 min/95ºC/sens inverse/vitesse 1**. Répartir dans 2 verrines et réserver au frais.
 
 ## Étape 3
 
