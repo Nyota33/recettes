@@ -1,7 +1,7 @@
 ---
 title: Clafoutis
 cuisson: 45min
-tags: dessert, facile
+tags: dessert, facile, favori
 lang: fr
 ---
 
