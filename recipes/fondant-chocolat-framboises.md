@@ -3,7 +3,7 @@ title: Fondant au chocolat et framboises
 portions: 10
 preparation: 5min
 cuisson: 30min
-tags: dessert, gâteau, facile, thermomix
+tags: dessert, gâteau, facile, thermomix, favori
 lang: fr
 ---
 
@@ -23,7 +23,7 @@ Ajouter {{ 50g de farine }}, {{ 1 pincée de sel }} et {{ 3 oeufs }}, *mixer* **
 
 ## Étape 4
 
-Verser dans le moule et *cuire* 20 à 30min : la lame d'un couteau doit ressortir propre. Laisser tiédir et garnir de {{ 150g de framboises }}.
+Verser dans le moule et *cuire* 20 à 30min : la lame d'un couteau doit ressortir propre. Laisser tiédir
 
 # Conseils
 
