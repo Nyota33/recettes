@@ -2,7 +2,7 @@
 title: Gratin dauphinois (Thermomix)
 portions: 6
 cuisson: 35min
-tags: plat, végétarien, thermomix
+tags: plat, végétarien, thermomix, favori
 lang: fr
 ---
 
