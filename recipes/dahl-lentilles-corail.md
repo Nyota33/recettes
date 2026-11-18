@@ -2,7 +2,7 @@
 title: Dahl de lentilles corail
 portions: 4
 cuisson: 25min
-tags: plat, vegan
+tags: plat, vegan, favori
 lang: fr
 ---
 
