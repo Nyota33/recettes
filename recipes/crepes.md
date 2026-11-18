@@ -3,7 +3,7 @@ title: Crêpes
 portions: 4
 preparation: 10min
 repos: 1h
-tags: dessert, petit-déjeuner, facile, base
+tags: dessert, petit-déjeuner, facile, favori
 lang: fr
 ---
 
