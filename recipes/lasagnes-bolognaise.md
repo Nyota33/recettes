@@ -2,7 +2,7 @@
 title: Lasagnes bolognaise
 portions: 4
 cuisson: 30min
-tags: plat, viande, pâtes
+tags: plat, viande, pâtes, favori
 lang: fr
 ---
 
