@@ -1,6 +1,6 @@
 ---
 title: Gaufres aux épinards
-tags: plat, végétarien, fromage
+tags: plat, végétarien, fromage, favori
 lang: fr
 ---
 
