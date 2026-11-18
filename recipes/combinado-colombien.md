@@ -12,11 +12,11 @@ Haricots, riz, patacones, avocat et pico de gallo frais.
 
 ## Étape 1
 
-*Faire tremper* les {{ haricots secs }}.
+*Mettre à tremper* les {{ haricots secs }}.
 
 ## Étape 2
 
-Changer l'eau, puis *couvrir* les haricots de 3 doigts d'{{ eau }}.
+Changer l'eau, puis couvrir les haricots de 3 doigts d'{{ eau }}.
 
 ## Étape 3
 
@@ -24,11 +24,11 @@ Changer l'eau, puis *couvrir* les haricots de 3 doigts d'{{ eau }}.
 
 ## Étape 4
 
-*Faire bouillir* environ 1h.
+*Cuire à petits bouillons* environ 1h.
 
 ## Étape 5
 
-À part, *faire un sofrito* avec {{ 1 oignon }} et {{ 3 tomates }}.
+À part, *préparer un sofrito* avec {{ 1 oignon }} et {{ 3 tomates }}.
 
 ## Étape 6
 
@@ -36,19 +36,19 @@ Changer l'eau, puis *couvrir* les haricots de 3 doigts d'{{ eau }}.
 
 ## Étape 7
 
-*Mixer* la courge et la carotte avec un peu d'eau, puis *remettre* le tout dans la marmite.
+*Mixer* la courge et la carotte avec un peu d'eau, puis remettre le tout dans la marmite.
 
 ## Étape 8
 
-*Faire bouillir* encore environ 1h, jusqu'à obtenir un bouillon épais et gélatineux.
+*Prolonger la cuisson* d'environ 1h, jusqu'à obtenir un bouillon épais et gélatineux.
 
 ## Étape 9
 
-Pour les patacones, *couper* des {{ bananes plantains vertes }} en gros morceaux et les *faire frire* à feu doux.
+Pour les patacones, couper des {{ bananes plantains vertes }} en gros morceaux et les *frire* à feu doux.
 
 ## Étape 10
 
-Les *aplatir*, puis les *faire frire* à nouveau à feu vif. *Saler*.
+Les *aplatir*, puis les *frire* à nouveau à feu vif. Saler.
 
 ## Étape 11
 

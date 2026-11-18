@@ -14,4 +14,4 @@ lang: fr
 
 ## Étape 2
 
-*Sabler* du bout des doigts, puis *mettre au frigo*.
+*Sabler* du bout des doigts, puis mettre au frigo.

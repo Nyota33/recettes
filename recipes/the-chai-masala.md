@@ -13,7 +13,7 @@ lang: fr
 
 ## Étape 2
 
-*Ouvrir* et *écraser* {{ 5 gousses de cardamome }}.
+Ouvrir et *écraser* {{ 5 gousses de cardamome }}.
 
 ## Étape 3
 
@@ -21,7 +21,7 @@ lang: fr
 
 ## Étape 4
 
-*Faire bouillir* avec {{ 4 cac de thé noir }}.
+*Porter à ébullition* avec {{ 4 cac de thé noir }}.
 
 ## Étape 5
 
@@ -29,4 +29,4 @@ lang: fr
 
 ## Étape 6
 
-*Porter à ébullition* puis *laisser reposer*, 3 à 5 fois.
+*Porter à ébullition* puis laisser reposer, 3 à 5 fois.

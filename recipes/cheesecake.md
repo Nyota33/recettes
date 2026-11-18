@@ -11,11 +11,11 @@ lang: fr
 
 ## Étape 1
 
-*Préchauffer* le four à *180ºC* (th. 6).
+*Préchauffer* le four à **180ºC** (th. 6).
 
 ## Étape 2
 
-*Broyer* {{ 250g de biscuits }} avec {{ 125g de beurre fondu }}. *Étaler* dans le moule et *aplatir* avec le fond d'un verre.
+*Broyer* {{ 250g de biscuits }} avec {{ 125g de beurre fondu }}. *Étaler* dans le moule et aplatir avec le fond d'un verre.
 
 ## Étape 3
 

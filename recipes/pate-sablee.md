@@ -18,7 +18,7 @@ lang: fr
 
 ## Étape 3
 
-*Ajouter* {{ 1 oeuf }}. *Mélanger*.
+*Ajouter* {{ 1 oeuf }}. Mélanger.
 
 ## Étape 4
 
@@ -26,7 +26,7 @@ lang: fr
 
 ## Étape 5
 
-*Former* une boule et *laisser* 20min au frais avant utilisation.
+*Former* une boule et *laisser reposer* 20min au frais avant utilisation.
 
 # Conseils
 

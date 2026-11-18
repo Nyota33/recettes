@@ -16,7 +16,7 @@ De Mamie Josette.
 
 ## Étape 2
 
-*Battre* {{ 90g de blancs d'oeufs }} en neige ferme. *Ajouter* {{ 25g de sucre en poudre }} et *battre* encore quelques minutes.
+*Battre* {{ 90g de blancs d'oeufs }} en neige ferme. Ajouter {{ 25g de sucre en poudre }} et battre encore quelques minutes.
 
 ## Étape 3
 
@@ -24,15 +24,15 @@ De Mamie Josette.
 
 ## Étape 4
 
-*Remuer* délicatement et *mettre* le mélange dans une poche à douille.
+*Remuer* délicatement et mettre le mélange dans une poche à douille.
 
 ## Étape 5
 
-Sur un papier sulfurisé, *faire des petits ronds* assez réguliers.
+Sur un papier sulfurisé, *pocher des petits ronds* assez réguliers.
 
 ## Étape 6
 
-*Enfourner* à *160ºC* (th. 5-6) pendant environ 10min. *Surveiller* la cuisson.
+*Enfourner* à **160ºC** (th. 5-6) pendant environ 10min. Surveiller la cuisson.
 
 ## Étape 7
 

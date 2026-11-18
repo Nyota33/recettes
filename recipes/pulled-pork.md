@@ -13,7 +13,7 @@ D'Albert.
 
 ## Étape 1
 
-*Préchauffer* le four à *160ºC* (th. 5).
+*Préchauffer* le four à **160ºC** (th. 5).
 
 ## Étape 2
 
@@ -21,23 +21,23 @@ Dans une cocotte en fonte, *mélanger* 1/2 tasse de {{ 3/4 tasse de gochujang }}
 
 ## Étape 3
 
-*Chauffer* sur le gaz, *ajouter* {{ 2.2kg de porc }} et *enfourner* pendant 3h.
+Chauffer sur le gaz, ajouter {{ 2.2kg de porc }} et *enfourner* pendant 3h.
 
 ## Étape 4
 
-*Faire réduire* et *brunir* {{ 2 gros oignons jaunes }} avec du {{ sel }}. *Ajouter* 4 cas de miso blanc et *laisser brunir*.
+*Caraméliser* longuement {{ 2 gros oignons jaunes }} avec du {{ sel }}. Ajouter 4 cas de miso blanc et *laisser brunir*.
 
 ## Étape 5
 
-*Sortir* la viande, la *laisser refroidir*, puis l'*effilocher*.
+Sortir la viande, la laisser refroidir, puis l'*effilocher*.
 
 ## Étape 6
 
-*Dégraisser* la cocotte. La *mettre* sur le feu et *réduire* de moitié en *remuant*, jusqu'à ce que le fond apparaisse (7min).
+*Dégraisser* la cocotte. La mettre sur le feu et *réduire* de moitié en remuant, jusqu'à ce que le fond apparaisse (7min).
 
 ## Étape 7
 
-*Ajouter* 4 cas de gochujang, les oignons et la viande, et *réduire* de moitié sur le feu.
+*Ajouter* 4 cas de gochujang, les oignons et la viande, et réduire de moitié sur le feu.
 
 ## Étape 8
 

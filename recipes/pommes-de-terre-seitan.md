@@ -16,7 +16,7 @@ D'Ari.
 
 ## Étape 2
 
-Les *faire frire* dans beaucoup d'{{ huile }}.
+Les *frire* dans beaucoup d'{{ huile }}.
 
 ## Étape 3
 

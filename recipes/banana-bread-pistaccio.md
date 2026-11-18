@@ -17,4 +17,4 @@ Un banana bread bien riche et moelleux.
 
 ## Étape 2
 
-*Cuire* à *180ºC* pendant 40min environ.
+*Cuire* à **180ºC** pendant 40min environ.

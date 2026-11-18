@@ -25,4 +25,4 @@ Pour 20 crêpes.
 
 ## Étape 4
 
-*Laisser reposer* 1h recouvert d'un linge.
+*Laisser reposer 1h* recouvert d'un linge.

@@ -15,7 +15,7 @@ Dans une casserole, *porter à ébullition* 1/2L des {{ 0.75L de lait }} avec {{
 
 ## Étape 2
 
-Dans un saladier, *mettre* le 1/4L de lait restant et {{ 3 jaunes d'oeufs }}.
+Dans un saladier, *mélanger* le 1/4L de lait restant et {{ 3 jaunes d'oeufs }}.
 
 ## Étape 3
 
@@ -31,4 +31,4 @@ Quand la préparation est froide, *ajouter* {{ 200g de sucre }}, {{ 225g de fari
 
 ## Étape 6
 
-*Enfourner* à *200ºC* (th. 7) pendant 1h.
+*Enfourner* à **200ºC** (th. 7) pendant 1h.

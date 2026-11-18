@@ -13,11 +13,11 @@ De Mamie Josette.
 
 ## Étape 1
 
-*Séparer* les blancs des jaunes de {{ 4 oeufs }}.
+*Séparer les blancs des jaunes* de {{ 4 oeufs }}.
 
 ## Étape 2
 
-*Monter* les blancs en neige bien denses.
+*Monter les blancs en neige* bien denses.
 
 ## Étape 3
 
@@ -29,7 +29,7 @@ Dans un saladier, *mélanger* les jaunes, {{ 4 cas de sucre de canne complet }},
 
 ## Étape 5
 
-Dans une casserole, *couper* {{ 200g de framboises }} en petits morceaux, *ajouter* {{ 1 cas de sucre }} et {{ 2 cas d'eau }} et *faire cuire* une dizaine de minutes.
+Dans une casserole, couper {{ 200g de framboises }} en petits morceaux, ajouter {{ 1 cas de sucre }} et {{ 2 cas d'eau }} et *laisser compoter* une dizaine de minutes.
 
 ## Étape 6
 
@@ -41,7 +41,7 @@ Dans un moule à cake, *verser* la moitié de la pâte, puis les framboises cuit
 
 ## Étape 8
 
-*Enfourner* à *160ºC* (th. 5) pendant 20min environ. *Surveiller* : *vérifier* la cuisson avec une pointe de couteau, qui doit ressortir propre.
+*Enfourner* à **160ºC** (th. 5) pendant 20min environ. Surveiller : vérifier la cuisson avec une pointe de couteau, qui doit ressortir propre.
 
 # Conseils
 

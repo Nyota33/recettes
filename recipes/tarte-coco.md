@@ -29,4 +29,4 @@ Pour la pâte, *mélanger* {{ 200g de farine }}, {{ 100g de beurre }}, {{ 1 oeuf
 
 ## Étape 5
 
-*Enfourner* à *180ºC* (th. 6) pendant 30min.
+*Enfourner* à **180ºC** (th. 6) pendant 30min.

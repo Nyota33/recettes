@@ -10,7 +10,7 @@ lang: fr
 
 ## Étape 1
 
-*Faire tremper* {{ 70g de pain sec }} puis l'*égoutter*.
+*Tremper* {{ 70g de pain sec }} puis l'égoutter.
 
 ## Étape 2
 
@@ -18,11 +18,11 @@ lang: fr
 
 ## Étape 3
 
-*Ajouter* {{ 1 tasse d'huile d'olive }} et {{ 1/2 tasse de vinaigre }}, puis *mixer*.
+*Ajouter* {{ 1 tasse d'huile d'olive }} et {{ 1/2 tasse de vinaigre }}, puis mixer.
 
 ## Étape 4
 
-*Verser* dans un bol, ajouter de l'{{ eau }} si nécessaire et *laisser* quelques heures au frigo.
+Verser dans un bol, ajouter de l'{{ eau }} si nécessaire et *laisser reposer quelques heures au frigo*.
 
 ## Étape 5
 

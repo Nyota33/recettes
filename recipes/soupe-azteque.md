@@ -16,11 +16,11 @@ D'Ari.
 
 ## Étape 2
 
-Une fois cuits, les *éplucher* et les *mettre* dans le blender avec {{ 2 piments chipotle }}, {{ 2 cas de pâte d'ají panca }}, de l'{{ eau }} et du {{ sel }}.
+Une fois cuits, les éplucher et les *mixer* avec {{ 2 piments chipotle }}, {{ 2 cas de pâte d'ají panca }}, de l'{{ eau }} et du {{ sel }}.
 
 ## Étape 3
 
-*Verser* dans une casserole et *cuire* environ 15min. *Ajuster* l'eau selon que l'on veut la soupe plus liquide ou plus épaisse.
+Verser dans une casserole et *cuire* environ 15min. Ajuster l'eau selon que l'on veut la soupe plus liquide ou plus épaisse.
 
 ## Étape 4
 
@@ -28,7 +28,7 @@ Une fois cuits, les *éplucher* et les *mettre* dans le blender avec {{ 2 piment
 
 ## Étape 5
 
-*Couper* {{ 6 tortillas de maïs }} en lanières et les *faire frire*.
+Couper {{ 6 tortillas de maïs }} en lanières et les *frire*.
 
 ## Étape 6
 

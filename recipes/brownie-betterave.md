@@ -17,12 +17,12 @@ De l'EcoResort Cerdanya.
 
 ## Étape 2
 
-*Faire fondre* {{ 100g de chocolat }} avec {{ 160g de beurre }}.
+*Fondre* {{ 100g de chocolat }} avec {{ 160g de beurre }}.
 
 ## Étape 3
 
-*Incorporer*, puis *ajouter* {{ 60g de farine }}, {{ 50g de noix concassées }}, {{ 250g de betteraves cuites }} râpées et {{ 1/2 cac de levure }}.
+*Incorporer*, puis ajouter {{ 60g de farine }}, {{ 50g de noix concassées }}, {{ 250g de betteraves cuites }} râpées et {{ 1/2 cac de levure }}.
 
 ## Étape 4
 
-*Enfourner* à *180ºC* (th. 6) pendant 45min.
+*Enfourner* à **180ºC** (th. 6) pendant 45min.

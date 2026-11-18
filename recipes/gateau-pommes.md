@@ -13,7 +13,7 @@ De Mamie Lucette.
 
 ## Étape 1
 
-*Préchauffer* le four à *210ºC* (th. 7).
+*Préchauffer* le four à **210ºC** (th. 7).
 
 ## Étape 2
 

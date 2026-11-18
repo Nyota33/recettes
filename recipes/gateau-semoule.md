@@ -11,11 +11,11 @@ lang: fr
 
 ## Étape 1
 
-*Faire bouillir* {{ 1L de lait }} avec {{ 100g de sucre }}, {{ 1 cac de vanille }} et {{ 2 cac de cannelle }}.
+*Porter à ébullition* {{ 1L de lait }} avec {{ 100g de sucre }}, {{ 1 cac de vanille }} et {{ 2 cac de cannelle }}.
 
 ## Étape 2
 
-*Verser* {{ 125g de semoule }} et *remuer* jusqu'à épaississement.
+*Verser* {{ 125g de semoule }} et *remuer jusqu'à épaississement*.
 
 Ajouter si on veut {{ 1 poignée de coco râpée }} et {{ 1 poignée de raisins secs }}.
 

@@ -41,4 +41,4 @@ lang: fr
 
 ## Étape 9
 
-*Arroser* de {{ citron vert }} au moment de *servir*.
+*Arroser* de {{ citron vert }} au moment de servir.

@@ -10,11 +10,11 @@ lang: fr
 
 ## Étape 1
 
-*Faire bouillir* de l'eau. Quand elle bout, y *plonger* les {{ fèves }} jusqu'à ce qu'elles rendent un jus noir (environ 10min).
+Porter à ébullition de l'eau, puis y *plonger* les {{ fèves }} jusqu'à ce qu'elles rendent un jus noir (environ 10min).
 
 ## Étape 2
 
-Dans une cocotte, *faire revenir* la {{ poitrine de porc salée }} coupée en petits morceaux.
+Dans une cocotte, *rissoler* la {{ poitrine de porc salée }} coupée en petits morceaux.
 
 ## Étape 3
 
@@ -30,4 +30,4 @@ Quand elle est un peu cuite, *ajouter* les {{ aillets }}.
 
 ## Étape 6
 
-*Ajouter* le {{ boudin noir }} (botifarra negra) et *laisser* 5min.
+*Ajouter* le {{ boudin noir }} (botifarra negra) et laisser 5min.

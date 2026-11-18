@@ -45,4 +45,4 @@ Pour 15 gros ou 30 petits nuggets.
 
 ## Étape 9
 
-*Faire frire*.
+*Frire* les nuggets.

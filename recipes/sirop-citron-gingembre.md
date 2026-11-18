@@ -15,12 +15,12 @@ lang: fr
 
 ## Étape 2
 
-*Peler* et *triturer* {{ 300 g de gingembre frais }}, à l'aide d'un mixeur.
+Peler et *triturer* {{ 300 g de gingembre frais }}, à l'aide d'un mixeur.
 
 ## Étape 3
 
-*Faire bouillir* le mélange à feu doux avec {{ 0.5L d'eau }} et {{ 100 g de sucre }}.
+*Cuire* le mélange à petits bouillons avec {{ 0.5L d'eau }} et {{ 100 g de sucre }}.
 
 ## Étape 4
 
-*Passer* le résultat au blender.
+*Mixer* le résultat au blender.

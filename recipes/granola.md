@@ -20,12 +20,12 @@ Classique économique.
 
 ## Étape 3
 
-*Étaler* sur du {{ papier sulfurisé }}, *mettre au four* à *180ºC* pendant 10min.
+Étaler sur du {{ papier sulfurisé }}, *mettre au four* à **180ºC** pendant 10min.
 
 ## Étape 4
 
-*Remuer*, et *remettre* au four pendant 6min.
+*Remuer*, et *remettre au four* pendant 6min.
 
 ## Étape 5
 
-*Laisser refroidir* et *concasser*.
+Laisser refroidir et *concasser*.

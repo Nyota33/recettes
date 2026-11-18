@@ -16,8 +16,8 @@ lang: fr
 
 ## Étape 3
 
-*Faire chauffer* une casserole d'eau à feu doux et *poser* une poêle au-dessus, sur la vapeur (bain-marie).
+*Chauffer* une poêle sur une casserole d'eau à **feu doux** (**bain-marie**).
 
 ## Étape 4
 
-*Huiler* légèrement la poêle avec un peu d'{{ huile }}, puis *peindre* une fine couche de pâte au pinceau.
+Huiler légèrement la poêle avec un peu d'{{ huile }}, puis *peindre* une fine couche de pâte au pinceau.

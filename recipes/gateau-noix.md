@@ -11,7 +11,7 @@ De Mamie Lucette.
 
 # Préparation
 
-*Préchauffer* le four à *180ºC*.
+*Préchauffer* le four à **180ºC**.
 
 ## Étape 1
 

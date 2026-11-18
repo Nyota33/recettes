@@ -13,7 +13,7 @@ Un cake salé sans gluten, à garnir selon les envies.
 
 ## Étape 1
 
-*Préchauffer* le four à *180ºC*.
+*Préchauffer* le four à **180ºC**.
 
 ## Étape 2
 
@@ -29,7 +29,7 @@ Un cake salé sans gluten, à garnir selon les envies.
 
 ## Étape 5
 
-*Verser* dans un moule à cake et *enfourner* pendant 40min environ.
+Verser dans un moule à cake et *enfourner* pendant 40min environ.
 
 # Idées de garnitures
 

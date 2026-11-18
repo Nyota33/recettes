@@ -23,12 +23,12 @@ lang: fr
 
 ## Étape 4
 
-*Disposer* une première {{ feuille de papier sulfurisé }}. *Étaler* le mélange, *poser* une deuxième feuille par-dessus, et *étaler* avec un rouleau à pâtisserie.
+Disposer une première {{ feuille de papier sulfurisé }}. *Étaler* le mélange, poser une deuxième feuille par-dessus, et étaler avec un rouleau à pâtisserie.
 
 ## Étape 5
 
-*Dessiner* des lignes / triangles. *Enlever* la feuille du dessus délicatement.
+*Dessiner* des lignes / triangles. Enlever la feuille du dessus délicatement.
 
 ## Étape 6
 
-*Mettre au four* à *150ºC* pendant 1h environ.
+*Enfourner* à **150ºC** pendant 1h environ.

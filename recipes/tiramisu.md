@@ -11,7 +11,7 @@ lang: fr
 
 ## Étape 1
 
-*Séparer* les blancs des jaunes de {{ 5 oeufs }}.
+*Séparer les blancs des jaunes* de {{ 5 oeufs }}.
 
 ## Étape 2
 
@@ -19,7 +19,7 @@ lang: fr
 
 ## Étape 3
 
-*Monter* les blancs en neige avec une {{ pincée de sel }}.
+*Monter les blancs en neige* avec une {{ pincée de sel }}.
 
 ## Étape 4
 
@@ -31,9 +31,9 @@ lang: fr
 
 ## Étape 6
 
-*Laisser* au moins 2h au frigo (idéalement 1 jour).
+*Laisser reposer* au moins 2h au frigo (idéalement 1 jour).
 
-*Saupoudrer* de {{ cacao amer en poudre }} juste avant de *servir*.
+*Saupoudrer* de {{ cacao amer en poudre }} juste avant de servir.
 
 ## Conseils
 

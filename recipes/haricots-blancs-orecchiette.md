@@ -10,15 +10,15 @@ lang: fr
 
 ## Étape 1
 
-*Faire revenir* {{ 1 gousse d'ail }} et {{ 1 oignon }} émincé (beaucoup).
+*Dorer* {{ 1 gousse d'ail }} et {{ 1 oignon }} émincé (beaucoup).
 
 ## Étape 2
 
-*Ajouter* {{ 2 tomates }} en petits morceaux et *remuer* un peu (3min).
+*Ajouter* {{ 2 tomates }} en petits morceaux et remuer un peu (3min).
 
 ## Étape 3
 
-*Ajouter* les {{ haricots blancs }} avec leur jus et *remuer*.
+*Ajouter* les {{ haricots blancs }} avec leur jus et remuer.
 
 ## Étape 4
 
@@ -30,7 +30,7 @@ lang: fr
 
 ## Étape 6
 
-*Faire cuire* les {{ orecchiette }} à part et les *ajouter* au mélange.
+*Cuire* les {{ orecchiette }} à part et les ajouter au mélange.
 
 ## Étape 7
 

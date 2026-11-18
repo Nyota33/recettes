@@ -13,7 +13,7 @@ Bien *mélanger* {{ 100g de beurre mou }} et {{ 100g de sucre glace }}.
 
 ## Étape 2
 
-*Ajouter* {{ 200g de Philadelphia }} et *battre* au fouet.
+*Ajouter* {{ 200g de Philadelphia }} et *battre au fouet*.
 
 ## Étape 3
 

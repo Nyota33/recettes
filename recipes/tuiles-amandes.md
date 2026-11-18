@@ -10,7 +10,7 @@ lang: fr
 
 ## Étape 1
 
-*Faire fondre* du {{ beurre }}.
+*Fondre* du {{ beurre }}.
 
 ## Étape 2
 
@@ -26,4 +26,4 @@ lang: fr
 
 ## Étape 5
 
-*Enfourner* à *165ºC* (th. 5/6) pendant 10min.
+*Enfourner* à **165ºC** (th. 5/6) pendant 10min.

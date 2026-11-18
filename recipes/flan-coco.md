@@ -31,8 +31,8 @@ Pour la version fond caramel, *recouvrir* le fond du moule avec [un caramel asse
 
 ## Étape 5
 
-*Verser* le mélange dans le moule et *mettre au four* au *bain-marie* pendant 30 min.
+Verser le mélange dans le moule et *enfourner* au **bain-marie** pendant 30 min.
 
 ## Étape 6 (Option 2)
 
-*Démouler* et *recouvrir* d'un nappage chocolat (100g de crème liquide avec 100g de chocolat fondu).
+Démouler et *napper de chocolat* (100g de crème liquide avec 100g de chocolat fondu).

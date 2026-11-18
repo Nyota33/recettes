@@ -14,16 +14,16 @@ lang: fr
 
 ## Étape 2
 
-*Enfourner* à *150ºC* pendant 40min.
+*Enfourner* à **150ºC** pendant 40min.
 
 ## Étape 3
 
-*Laisser refroidir*, puis *former* les barres.
+Laisser refroidir, puis *former* les barres.
 
 ## Étape 4
 
-*Remettre* au four 20min.
+*Remettre au four* 20min.
 
 ## Étape 5
 
-*Napper* de {{ chocolat noir }} fondu avec un peu d'*huile* de coco.
+*Napper* de {{ chocolat noir }} fondu avec un peu d'huile de coco.

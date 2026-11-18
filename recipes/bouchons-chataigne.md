@@ -10,7 +10,7 @@ lang: fr
 
 ## Étape 1
 
-*Préchauffer* le four à *175ºC* (th. 6).
+*Préchauffer* le four à **175ºC** (th. 6).
 
 ## Étape 2
 
@@ -18,7 +18,7 @@ lang: fr
 
 ## Étape 3
 
-*Ajouter* {{ 2 gros oeufs }} entiers. Bien *mélanger*.
+*Ajouter* {{ 2 gros oeufs }} entiers. Bien mélanger.
 
 ## Étape 4
 

@@ -22,11 +22,11 @@ De Mamie Lou.
 
 ## Étape 3
 
-*Ajouter* le mélange tiède et bien *mélanger*.
+*Ajouter* le mélange tiède et bien mélanger.
 
 ## Étape 4
 
-*Verser* dans un moule et *enfourner* **à froid**, 1h à *150ºC*.
+Verser dans un moule et *enfourner* **à froid**, 1h à **150ºC**.
 
 ## Étape 5
 
@@ -34,8 +34,8 @@ De Mamie Lou.
 
 ## Étape 6
 
-*Garder* dans du film alimentaire plusieurs jours avant de le *manger*.
+*Laisser reposer* dans du film alimentaire plusieurs jours avant de le manger.
 
 # Épices
 
-Gingembre, clous de girofle, cardamome, anis vert, muscade, cannelle, *poivre* et sel.
+Gingembre, clous de girofle, cardamome, anis vert, muscade, cannelle, poivre et sel.

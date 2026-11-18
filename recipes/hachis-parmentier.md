@@ -9,7 +9,7 @@ lang: fr
 
 ## Étape 1
 
-*Faire revenir* la {{ viande hachée }} avec des {{ oignons }} émincés, des {{ carottes }} râpées, des {{ champignons }}, de l'{{ ail }} et du {{ persil }}.
+*Dorer* la {{ viande hachée }} avec des {{ oignons }} émincés, des {{ carottes }} râpées, des {{ champignons }}, de l'{{ ail }} et du {{ persil }}.
 
 ## Étape 2
 

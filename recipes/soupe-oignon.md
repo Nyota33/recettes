@@ -13,23 +13,23 @@ Un classique de l'hiver qui fait toujours plaisir.
 
 ## Étape 1
 
-*Peler* et *émincer* les {{ 4 oignons }}.
+Peler et *émincer* les {{ 4 oignons }}.
 
 ## Étape 2
 
-Les *faire revenir* dans {{ 50g de beurre }} et {{ 1cas d'huile }} jusqu'à ce qu'ils soient tendres et bien dorés.
+Les *cuire* dans {{ 50g de beurre }} et {{ 1cas d'huile }} jusqu'à ce qu'ils soient tendres et bien dorés.
 
 ## Étape 3
 
-*Saupoudrer* le mélange de {{ 1cas de farine }}, *mouiller* avec {{ 1L d'eau chaude }} et {{ 25cl de vin blanc }} et *assaisonner*.
+*Saupoudrer* le mélange de {{ 1cas de farine }}, *mouiller* avec {{ 1L d'eau chaude }} et {{ 25cl de vin blanc }} et assaisonner.
 
 ## Étape 4
 
-*Couvrir* et *laisser bouillonner* doucement pendant 20 minutes.
+Couvrir et *laisser bouillonner* doucement pendant 20 minutes.
 
 ## Étape 5
 
-*Faire griller* {{ 6 tranches de pain }}.
+*Griller* {{ 6 tranches de pain }}.
 
 ## Étape 6
 
@@ -39,7 +39,7 @@ Les *faire revenir* dans {{ 50g de beurre }} et {{ 1cas d'huile }} jusqu'à ce q
 
 *Saupoudrer* d'un peu de {{ comté râpé }}. *Verser* la soupe par-dessus.
 
-*Saupoudrer* à nouveau de fromage et *faire gratiner*.
+Saupoudrer à nouveau de fromage et *gratiner*.
 
 # Conseils
 

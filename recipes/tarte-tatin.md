@@ -12,7 +12,7 @@ Recette originale.
 
 Pour un {{ moule de 24 cm }}.
 
-*Chauffer* le four à *180ºC*.
+*Chauffer* le four à **180ºC**.
 
 ## Étape 1
 
@@ -20,11 +20,11 @@ Eplucher et *couper* {{ 1.2 kg de pommes }} (Golden ou Reinette) en gros morceau
 
 ## Étape 2
 
-Dans une moule métallique ou poêle qui va au four, *chauffer* {{ 150 g de beurre doux }} avec {{ 140 g de cassonade }} jusqu'à ce que cela bien caramélisé.
+Dans une moule métallique ou poêle qui va au four, *caraméliser* {{ 150 g de beurre doux }} avec {{ 140 g de cassonade }}.
 
 ## Étape 3
 
-*Poser* les quartiers de pomme dans le moule.
+*Disposer* les quartiers de pomme dans le moule.
 
 ## Étape 4
 

@@ -15,11 +15,11 @@ lang: fr
 
 ## Étape 2
 
-*Préchauffer* le four à *200ºC* (th. 6-7).
+*Préchauffer* le four à **200ºC** (th. 6-7).
 
 ## Étape 3
 
-*Faire fondre* un {{ morceau de beurre }} dans le moule, y *verser* la pâte et *ajouter* les {{ pruneaux }}.
+*Fondre* un {{ morceau de beurre }} dans le moule, y *verser* la pâte et *ajouter* les {{ pruneaux }}.
 
 ## Étape 4
 
@@ -27,7 +27,7 @@ lang: fr
 
 ## Étape 5
 
-*Éteindre* le four et *laisser* 30min de plus. Ne pas *ouvrir* la porte du four.
+Éteindre le four et *laisser cuire 30min de plus*. Ne pas ouvrir la porte du four.
 
 # Conseils
 

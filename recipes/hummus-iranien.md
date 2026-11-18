@@ -10,7 +10,7 @@ lang: fr
 
 ## Étape 1
 
-*Laver* et *rincer* {{ 500g de pois chiches }}.
+*Rincer* {{ 500g de pois chiches }}.
 
 ## Étape 2
 
@@ -18,7 +18,7 @@ lang: fr
 
 ## Étape 3
 
-*Enlever* l'eau et *mixer* à chaud.
+Égoutter et *mixer* à chaud.
 
 ## Étape 4
 
@@ -26,4 +26,4 @@ lang: fr
 
 ## Étape 5
 
-*Ajouter* de l'{{ huile d'arachide }} petit à petit dans le mixeur pour *faire monter* l'émulsion.
+Ajouter de l'{{ huile d'arachide }} petit à petit dans le mixeur pour *monter l'émulsion*.

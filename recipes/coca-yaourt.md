@@ -21,15 +21,15 @@ Recette catalane.
 
 ## Étape 3
 
-*Incorporer* délicatement {{ 2 sachets de levure }} à la pâte, puis *verser* la pâte dans le moule.
+*Incorporer* délicatement {{ 2 sachets de levure }} à la pâte, puis verser la pâte dans le moule.
 
 ## Étape 4
 
-*Enfourner* à *180ºC* (th. 6), à mi-hauteur, pendant 30min.
+*Enfourner* à **180ºC** (th. 6), à mi-hauteur, pendant 30min.
 
 ## Étape 5
 
-*Sortir* du four et *piquer* avec un couteau pour *vérifier* la cuisson. Prolonger si nécessaire.
+Sortir du four et *vérifier la cuisson* avec un couteau. Prolonger si nécessaire.
 
 # Conseils
 

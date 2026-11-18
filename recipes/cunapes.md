@@ -15,7 +15,7 @@ lang: fr
 
 ## Étape 2
 
-*Ajouter* {{ 25g d'huile, margarine ou beurre }}, {{ 1 oeuf }} et une partie des {{ 150ml d'eau }}. Bien *mélanger*.
+*Ajouter* {{ 25g d'huile, margarine ou beurre }}, {{ 1 oeuf }} et une partie des {{ 150ml d'eau }}. Bien mélanger.
 
 ## Étape 3
 
@@ -27,7 +27,7 @@ lang: fr
 
 ## Étape 5
 
-*Enfourner* à *230ºC* jusqu'à ce que ça lève, puis à *180ºC* jusqu'à ce que ce soit doré (environ 30min au total).
+*Enfourner* à **230ºC** jusqu'à ce que ça lève, puis à **180ºC** jusqu'à ce que ce soit doré (environ 30min au total).
 
 # Conseils
 

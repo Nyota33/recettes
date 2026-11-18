@@ -9,16 +9,16 @@ lang: fr
 
 ## Étape 1
 
-*Faire bouillir* {{ 25cl de lait }}.
+*Porter à ébullition* {{ 25cl de lait }}.
 
 ## Étape 2
 
-*Faire fondre* {{ 20g de beurre }}, puis *ajouter* {{ 2 cas de farine }}.
+*Fondre* {{ 20g de beurre }}, puis ajouter {{ 2 cas de farine }}.
 
 ## Étape 3
 
-*Verser* le lait bouillant petit à petit. *Garder sur le feu* et bien *fouetter*.
+*Incorporer le lait* bouillant petit à petit. Garder sur le feu et bien *fouetter*.
 
 ## Étape 4
 
-*Ajouter* de la {{ noix de muscade }}, du {{ sel }} et du {{ poivre }}.
+*Assaisonner* avec de la {{ noix de muscade }}, du {{ sel }} et du {{ poivre }}.

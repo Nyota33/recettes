@@ -18,7 +18,7 @@ lang: fr
 
 ## Étape 3
 
-*Ajouter* un des {{ 2 sachets de levure chimique }} et {{ 1/2 cac de vanille }}. Bien *mélanger* le tout.
+*Ajouter* un des {{ 2 sachets de levure chimique }} et {{ 1/2 cac de vanille }}. Bien mélanger le tout.
 
 ## Étape 4
 
@@ -26,4 +26,4 @@ lang: fr
 
 ## Étape 5
 
-*Enfourner* à *210ºC* (th. 7) pendant 10min.
+*Enfourner* à **210ºC** (th. 7) pendant 10min.

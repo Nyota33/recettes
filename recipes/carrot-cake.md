@@ -14,7 +14,7 @@ De Guillaume S.
 
 ## Étape 1
 
-*Préchauffer* le four à *180ºC* (th. 6).
+*Préchauffer* le four à **180ºC** (th. 6).
 
 ## Étape 2
 
@@ -38,7 +38,7 @@ De Guillaume S.
 
 ## Étape 7
 
-Bien *mélanger* et *verser* dans un grand moule.
+Bien *mélanger* et verser dans un grand moule.
 
 ## Étape 8
 
@@ -46,7 +46,7 @@ Bien *mélanger* et *verser* dans un grand moule.
 
 ## Étape 9
 
-*Attendre* 30min avant de *démouler*.
+Attendre 30min avant de *démouler*.
 
 ## Étape 10
 

@@ -9,11 +9,11 @@ lang: fr
 
 ## Étape 1
 
-*Faire bouillir* {{ 25cl de lait }} avec de la {{ vanille }}.
+*Porter à ébullition* {{ 25cl de lait }} avec de la {{ vanille }}.
 
 ## Étape 2
 
-*Mélanger* {{ 2 jaunes d'oeuf }} et {{ 50g de sucre }}, puis *ajouter* {{ 25g de farine }}.
+*Mélanger* {{ 2 jaunes d'oeuf }} et {{ 50g de sucre }}, puis ajouter {{ 25g de farine }}.
 
 ## Étape 3
 
@@ -21,4 +21,4 @@ lang: fr
 
 ## Étape 4
 
-*Remettre* sur le feu jusqu'à épaississement.
+*Remettre sur le feu* jusqu'à épaississement.

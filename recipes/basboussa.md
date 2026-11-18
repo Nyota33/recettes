@@ -15,15 +15,15 @@ lang: fr
 
 ## Étape 2
 
-*Verser* dans un {{ moule de 20cm x 20cm }}. *Disposer* des {{ amandes ou pistaches }} et *couper* en losanges avant de *mettre au four*.
+*Verser* dans un {{ moule de 20cm x 20cm }}. Disposer des {{ amandes ou pistaches }} et *couper en losanges* avant de mettre au four.
 
 ## Étape 3
 
-*Enfourner* à *200ºC* pendant 30min. Couvrir si ça brunit trop vite.
+*Enfourner* à **200ºC** pendant 30min. Couvrir si ça brunit trop vite.
 
 ## Étape 4
 
-*Faire un sirop* : *porter à ébullition* {{ 2 tasses de sucre pour le sirop }}, {{ 1.75 tasse d'eau }}, {{ 1 cas de citron }}, {{ 1 cas de fleur d'oranger }} et {{ 1 cas d'eau de rose }}.
+*Faire un sirop* : porter à ébullition {{ 2 tasses de sucre pour le sirop }}, {{ 1.75 tasse d'eau }}, {{ 1 cas de citron }}, {{ 1 cas de fleur d'oranger }} et {{ 1 cas d'eau de rose }}.
 
 ## Étape 5
 
@@ -31,7 +31,7 @@ lang: fr
 
 ## Étape 6
 
-*Manger* après 24h sous film.
+*Laisser reposer 24h* sous film avant de manger.
 
 # Notes
 

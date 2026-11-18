@@ -11,7 +11,7 @@ lang: fr
 
 ## Étape 1
 
-*Faire fondre* {{ 200g de chocolat }} et {{ 125g de beurre }} au bain-marie.
+*Fondre* {{ 200g de chocolat }} et {{ 125g de beurre }} au bain-marie.
 
 ## Étape 2
 
