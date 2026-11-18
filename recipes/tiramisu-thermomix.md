@@ -3,7 +3,7 @@ title: Tiramisu
 portions: 8
 preparation: 15min
 repos: 5h
-tags: dessert, thermomix
+tags: dessert, thermomix, favori
 lang: fr
 ---
 
