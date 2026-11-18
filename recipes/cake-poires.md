@@ -2,7 +2,7 @@
 title: Cake aux poires
 portions: 8
 cuisson: 45min
-tags: dessert, gâteau, facile
+tags: dessert, gâteau, facile, favori
 lang: fr
 ---
 
