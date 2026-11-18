@@ -9,11 +9,11 @@ lang: fr
 
 ## Étape 1
 
-Faire un [caramel](caramel.md) bien fort.
+*Faire un [caramel](caramel.md)* bien fort.
 
 ## Étape 2
 
-Ajouter {{ 100g de beurre }} et {{ 2 cas de crème fraîche épaisse d'Isigny }}.
+*Ajouter* {{ 100g de beurre }} et {{ 2 cas de crème fraîche épaisse d'Isigny }}.
 
 # Conseils
 

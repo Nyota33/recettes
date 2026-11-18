@@ -11,23 +11,23 @@ lang: fr
 
 ## Étape 1
 
-Faire un puits avec {{ 250g de farine de manioc }} « pandeyuca » (Colmaiz).
+*Faire un puits* avec {{ 250g de farine de manioc }} « pandeyuca » (Colmaiz).
 
 ## Étape 2
 
-Ajouter {{ 25g d'huile, margarine ou beurre }}, {{ 1 oeuf }} et une partie des {{ 150ml d'eau }}. Bien mélanger.
+*Ajouter* {{ 25g d'huile, margarine ou beurre }}, {{ 1 oeuf }} et une partie des {{ 150ml d'eau }}. Bien *mélanger*.
 
 ## Étape 3
 
-Ajouter le reste de l'eau et {{ 250g de fromage }}.
+*Ajouter* le reste de l'eau et {{ 250g de fromage }}.
 
 ## Étape 4
 
-Répartir dans un {{ moule à muffins }}.
+*Répartir* dans un {{ moule à muffins }}.
 
 ## Étape 5
 
-Enfourner à *230ºC* jusqu'à ce que ça lève, puis à *180ºC* jusqu'à ce que ce soit doré (environ 30min au total).
+*Enfourner* à *230ºC* jusqu'à ce que ça lève, puis à *180ºC* jusqu'à ce que ce soit doré (environ 30min au total).
 
 # Conseils
 

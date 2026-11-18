@@ -12,35 +12,35 @@ De Mamie Josette.
 
 ## Étape 1
 
-Tamiser {{ 125g de poudre d'amandes }} avec {{ 200g de sucre glace }}.
+*Tamiser* {{ 125g de poudre d'amandes }} avec {{ 200g de sucre glace }}.
 
 ## Étape 2
 
-Battre {{ 90g de blancs d'oeufs }} en neige ferme. Ajouter {{ 25g de sucre en poudre }} et battre encore quelques minutes.
+*Battre* {{ 90g de blancs d'oeufs }} en neige ferme. *Ajouter* {{ 25g de sucre en poudre }} et *battre* encore quelques minutes.
 
 ## Étape 3
 
-Ajouter du {{ colorant }} au choix aux blancs, puis le mélange sucre glace et poudre d'amandes.
+*Ajouter* du {{ colorant }} au choix aux blancs, puis le mélange sucre glace et poudre d'amandes.
 
 ## Étape 4
 
-Remuer délicatement et mettre le mélange dans une poche à douille.
+*Remuer* délicatement et *mettre* le mélange dans une poche à douille.
 
 ## Étape 5
 
-Sur un papier sulfurisé, faire des petits ronds assez réguliers.
+Sur un papier sulfurisé, *faire des petits ronds* assez réguliers.
 
 ## Étape 6
 
-Enfourner à *160ºC* (th. 5-6) pendant environ 10min. Surveiller la cuisson.
+*Enfourner* à *160ºC* (th. 5-6) pendant environ 10min. *Surveiller* la cuisson.
 
 ## Étape 7
 
-Laisser refroidir.
+*Laisser refroidir*.
 
 ## Étape 8
 
-Garnir avec une {{ garniture }} au choix, puis assembler.
+*Garnir* avec une {{ garniture }} au choix, puis *assembler*.
 
 # Conseils
 

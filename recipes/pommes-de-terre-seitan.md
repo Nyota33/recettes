@@ -12,24 +12,24 @@ D'Ari.
 
 ## Étape 1
 
-Couper {{ 3 grosses pommes de terre }} comme pour une tortilla (en fines lamelles).
+*Couper* {{ 3 grosses pommes de terre }} comme pour une tortilla (en fines lamelles).
 
 ## Étape 2
 
-Les faire frire dans beaucoup d'{{ huile }}.
+Les *faire frire* dans beaucoup d'{{ huile }}.
 
 ## Étape 3
 
-Quand elles sont à moitié cuites, ajouter {{ 1 bloc de seitan bio }} coupé de la même façon.
+Quand elles sont à moitié cuites, *ajouter* {{ 1 bloc de seitan bio }} coupé de la même façon.
 
 ## Étape 4
 
-Ajouter du {{ paprika fumé de la Vera }}.
+*Ajouter* du {{ paprika fumé de la Vera }}.
 
 ## Étape 5
 
-Remuer jusqu'à ce que tout soit bien réduit.
+*Remuer* jusqu'à ce que tout soit bien réduit.
 
 ## Étape 6
 
-Ajouter du {{ sel }}.
+*Ajouter* du {{ sel }}.

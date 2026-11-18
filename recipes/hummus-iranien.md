@@ -10,20 +10,20 @@ lang: fr
 
 ## Étape 1
 
-Laver et rincer {{ 500g de pois chiches }}.
+*Laver* et *rincer* {{ 500g de pois chiches }}.
 
 ## Étape 2
 
-Mettre à bouillir 10 à 15min.
+*Mettre à bouillir* 10 à 15min.
 
 ## Étape 3
 
-Enlever l'eau et mixer à chaud.
+*Enlever* l'eau et *mixer* à chaud.
 
 ## Étape 4
 
-Ajouter {{ 150g de tahin }}, {{ 50cl de jus de citron }}, {{ 4 gros glaçons }} et {{ 1 petite cac de sel }}.
+*Ajouter* {{ 150g de tahin }}, {{ 50cl de jus de citron }}, {{ 4 gros glaçons }} et {{ 1 petite cac de sel }}.
 
 ## Étape 5
 
-Ajouter de l'{{ huile d'arachide }} petit à petit dans le mixeur pour faire monter l'émulsion.
+*Ajouter* de l'{{ huile d'arachide }} petit à petit dans le mixeur pour *faire monter* l'émulsion.

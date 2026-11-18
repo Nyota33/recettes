@@ -10,20 +10,20 @@ lang: fr
 
 ## Étape 1
 
-Faire fondre du {{ beurre }}.
+*Faire fondre* du {{ beurre }}.
 
 ## Étape 2
 
-Battre {{ 4 blancs d'oeufs }} avec {{ 200g de sucre }}.
+*Battre* {{ 4 blancs d'oeufs }} avec {{ 200g de sucre }}.
 
 ## Étape 3
 
-Ajouter {{ 60g de farine }}, le beurre fondu et {{ 100g d'amandes effilées }}.
+*Ajouter* {{ 60g de farine }}, le beurre fondu et {{ 100g d'amandes effilées }}.
 
 ## Étape 4
 
-Disposer sur du papier sulfurisé beurré et fariné.
+*Disposer* sur du papier sulfurisé beurré et fariné.
 
 ## Étape 5
 
-Enfourner à *165ºC* (th. 5/6) pendant 10min.
+*Enfourner* à *165ºC* (th. 5/6) pendant 10min.

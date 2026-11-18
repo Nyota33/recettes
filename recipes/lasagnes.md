@@ -11,20 +11,20 @@ lang: fr
 
 ## Étape 1
 
-Mélanger {{ 200g de farine }} et {{ 2 oeufs }}.
+*Mélanger* {{ 200g de farine }} et {{ 2 oeufs }}.
 
 ## Étape 2
 
-Lorsque les oeufs ont absorbé la farine, intégrer {{ 3 cas d'huile d'olive }}.
+Lorsque les oeufs ont absorbé la farine, *intégrer* {{ 3 cas d'huile d'olive }}.
 
 ## Étape 3
 
-Pétrir pendant 15min.
+*Pétrir* pendant 15min.
 
 ## Étape 4
 
-Laisser reposer 1h.
+*Laisser reposer* 1h.
 
 ## Étape 5
 
-Garnir avec du {{ chèvre }}, des {{ courgettes }} et de la {{ béchamel }} (voir [béchamel](bechamel.md)).
+*Garnir* avec du {{ chèvre }}, des {{ courgettes }} et de la {{ béchamel }} (voir [béchamel](bechamel.md)).

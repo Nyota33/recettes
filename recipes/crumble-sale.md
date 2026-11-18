@@ -10,8 +10,8 @@ lang: fr
 
 ## Étape 1
 
-Mélanger {{ 75g de beurre }}, {{ 40g de parmesan }}, {{ 60g de chapelure }} et {{ 40g de farine }}.
+*Mélanger* {{ 75g de beurre }}, {{ 40g de parmesan }}, {{ 60g de chapelure }} et {{ 40g de farine }}.
 
 ## Étape 2
 
-Sabler du bout des doigts, puis mettre au frigo.
+*Sabler* du bout des doigts, puis *mettre au frigo*.

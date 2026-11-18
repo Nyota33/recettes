@@ -10,4 +10,4 @@ Ou farine de blé noir.
 
 # Préparation
 
-Mélanger {{ 300 g de farine de sarrasin }}, {{ 10g de sel }}, {{ 1 oeuf }}, et incorporer petit à petit {{ 75 cl d'eau }} en gardant le mélange homogène.
+*Mélanger* {{ 300 g de farine de sarrasin }}, {{ 10g de sel }}, {{ 1 oeuf }}, et *incorporer* petit à petit {{ 75 cl d'eau }} en *gardant* le mélange homogène.

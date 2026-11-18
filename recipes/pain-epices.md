@@ -14,28 +14,28 @@ De Mamie Lou.
 
 ## Étape 1
 
-Chauffer {{ 100g de beurre }}, {{ 150ml de jus d'orange }}, du {{ zeste d'orange }} et {{ 180g de miel crémeux }}. Laisser tiédir.
+*Chauffer* {{ 100g de beurre }}, {{ 150ml de jus d'orange }}, du {{ zeste d'orange }} et {{ 180g de miel crémeux }}. *Laisser tiédir*.
 
 ## Étape 2
 
-Mélanger {{ 250g de farine T55 }} avec {{ 1 cac de bicarbonate }}, {{ 150g de sucre }} et {{ 1 cac d'épices }}.
+*Mélanger* {{ 250g de farine T55 }} avec {{ 1 cac de bicarbonate }}, {{ 150g de sucre }} et {{ 1 cac d'épices }}.
 
 ## Étape 3
 
-Ajouter le mélange tiède et bien mélanger.
+*Ajouter* le mélange tiède et bien *mélanger*.
 
 ## Étape 4
 
-Verser dans un moule et enfourner **à froid**, 1h à 150ºC.
+*Verser* dans un moule et *enfourner* **à froid**, 1h à *150ºC*.
 
 ## Étape 5
 
-Démouler tiède.
+*Démouler* tiède.
 
 ## Étape 6
 
-Garder dans du film alimentaire plusieurs jours avant de le manger.
+*Garder* dans du film alimentaire plusieurs jours avant de le *manger*.
 
 # Épices
 
-Gingembre, clous de girofle, cardamome, anis vert, muscade, cannelle, poivre et sel.
+Gingembre, clous de girofle, cardamome, anis vert, muscade, cannelle, *poivre* et sel.

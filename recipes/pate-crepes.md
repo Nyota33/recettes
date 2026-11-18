@@ -13,16 +13,16 @@ Pour 20 crêpes.
 
 ## Étape 1
 
-Faire un puits avec {{ 250g de farine }}.
+*Faire un puits* avec {{ 250g de farine }}.
 
 ## Étape 2
 
-Incorporer {{ 4 oeufs }} et {{ 0.5L de lait }} progressivement en mélangeant.
+*Incorporer* {{ 4 oeufs }} et {{ 0.5L de lait }} progressivement en mélangeant.
 
 ## Étape 3
 
-Ajouter une {{ pincée de sel }}, {{ 1 cas de rhum }} et {{ 50g de beurre }} fondu.
+*Ajouter* une {{ pincée de sel }}, {{ 1 cas de rhum }} et {{ 50g de beurre }} fondu.
 
 ## Étape 4
 
-Laisser reposer 1h recouvert d'un linge.
+*Laisser reposer* 1h recouvert d'un linge.

@@ -11,20 +11,20 @@ lang: fr
 
 ## Étape 1
 
-Faire fondre {{ 200g de chocolat }} avec un peu de {{ beurre }}.
+*Faire fondre* {{ 200g de chocolat }} avec un peu de {{ beurre }}.
 
 ## Étape 2
 
-Séparer les blancs des jaunes de {{ 6 oeufs }}. Incorporer les jaunes et {{ 2 sachets de sucre vanillé }} au chocolat.
+*Séparer* les blancs des jaunes de {{ 6 oeufs }}. *Incorporer* les jaunes et {{ 2 sachets de sucre vanillé }} au chocolat.
 
 ## Étape 3
 
-Monter les blancs en neige avec une {{ pincée de sel }}.
+*Monter* les blancs en neige avec une {{ pincée de sel }}.
 
 ## Étape 4
 
-Incorporer les blancs au chocolat tout doucement.
+*Incorporer* les blancs au chocolat tout doucement.
 
 ## Étape 5
 
-Laisser une nuit au frigo.
+*Laisser* une nuit au frigo.
