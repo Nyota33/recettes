@@ -1,9 +1,7 @@
 ---
 title: Mousse au chocolat
 portions: 6
-preparation: 20min
-repos: 1 nuit au frigo
-tags: dessert
+tags: dessert, facile
 lang: fr
 ---
 
@@ -11,20 +9,16 @@ lang: fr
 
 ## Étape 1
 
-*Fondre* {{ 200g de chocolat }} avec un peu de {{ beurre }}.
+*Fondre* {{ 200g de chocolat }}.
 
 ## Étape 2
 
-*Séparer les blancs des jaunes* de {{ 6 oeufs }}. *Incorporer* les jaunes et {{ 2 sachets de sucre vanillé }} au chocolat.
+*Séparer les blancs des jaunes* de {{ 6 oeufs }}. Mélanger les jaunes au chocolat avec {{ 1 cas de sucre }}.
 
 ## Étape 3
 
-*Monter les blancs en neige* avec une {{ pincée de sel }}.
+*Monter les blancs en neige* ferme. *Mélanger* 1/3 des blancs au chocolat, puis *incorporer* délicatement le reste.
 
 ## Étape 4
 
-*Incorporer* les blancs au chocolat tout doucement.
-
-## Étape 5
-
-*Laisser prendre* une nuit au frigo.
+*Laisser reposer* plusieurs heures au frais.
