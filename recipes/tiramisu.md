@@ -1,8 +1,7 @@
 ---
 title: Tiramisu
-portions: 8
-preparation: 30min
-repos: 2h minimum au frigo
+portions: 4
+repos: 3h
 tags: dessert
 lang: fr
 ---
@@ -11,30 +10,20 @@ lang: fr
 
 ## Étape 1
 
-*Séparer* les blancs des jaunes de {{ 5 oeufs }}.
+*Séparer les blancs des jaunes* de {{ 3 oeufs }}. *Fouetter* les jaunes avec 2 cas de {{ 100g de sucre }} et {{ 1 sachet de sucre vanillé }} jusqu'à blanchiment. *Monter les blancs en neige*.
 
 ## Étape 2
 
-*Battre* les jaunes avec {{ 5 cas de sucre }}.
+Ajouter {{ 250g de mascarpone }} aux jaunes jusqu'à obtenir une crème lisse, puis *incorporer* délicatement les blancs.
 
 ## Étape 3
 
-*Monter* les blancs en neige avec une {{ pincée de sel }}.
+*Alterner* les couches : {{ 1 paquet de Roudor ou boudoirs }} trempés dans {{ 1 double café }}, puis crème au mascarpone. *Laisser reposer 3h* au frais.
 
 ## Étape 4
 
-*Mélanger* {{ 500g de mascarpone }} avec les jaunes sucrés, puis *incorporer* délicatement les blancs en neige.
+*Saupoudrer* de {{ 30g de cacao amer }} avant de servir.
 
-## Étape 5
+# Conseils
 
-*Alterner* des couches de {{ 400g de boudoirs }} trempés dans du {{ café fort }} et de crème.
-
-## Étape 6
-
-*Laisser* au moins 2h au frigo (idéalement 1 jour).
-
-*Saupoudrer* de {{ cacao amer en poudre }} juste avant de *servir*.
-
-## Conseils
-
-- Ajouter {{ 1/2 verre de rhum ou d'Amaretto }} dans le café
+Version framboises : remplacer le café par 200g de framboises sucrées avec 35g de sucre ; ne pas tremper les biscuits et ajouter une cuillère de framboises sur chaque couche.

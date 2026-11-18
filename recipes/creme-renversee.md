@@ -1,7 +1,7 @@
 ---
 title: Crème renversée
-portions: 6
-preparation: 15min
+portions: 4
+cuisson: 30min
 tags: dessert, flan
 lang: fr
 ---
@@ -10,18 +10,16 @@ lang: fr
 
 ## Étape 1
 
-*Préparer* un [caramel](caramel.md) avec {{ 100g de sucre }} et {{ 1 cas d'eau }}, et le *verser* dans le moule.
+*Préparer un caramel* avec {{ 100g de sucre }} et {{ 2 à 3 cas d'eau }} et en napper le fond des cocottes (ou utiliser du caramel au beurre salé).
 
 ## Étape 2
 
-*Faire bouillir* {{ 0.5L de lait }} avec {{ 75g de sucre en poudre }} et {{ 2 sachets de sucre vanillé }}.
+*Porter à ébullition* {{ 1/2L de lait }} avec {{ 75g de sucre }} et {{ 1 sachet de sucre vanillé }}.
 
 ## Étape 3
 
-*Battre* {{ 3 oeufs }} en omelette et *verser* le lait doucement dessus, en mélangeant. *Verser* dans le moule.
+*Battre* {{ 3 oeufs }} et y verser doucement le lait chaud.
 
 ## Étape 4
 
-*Faire cuire* au *bain-marie* dans le four à *130–150ºC* (th. 4-5).
-
-C'est cuit quand le centre résiste au toucher.
+Verser sur le caramel et *cuire* environ 30min au **bain-marie** à **180ºC**. C'est cuit quand le centre est ferme et que la lame d'un couteau ressort propre.

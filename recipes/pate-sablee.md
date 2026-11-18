@@ -1,8 +1,6 @@
 ---
 title: Pâte sablée
-preparation: 10min
-repos: 20min au frais
-tags: base
+tags: base, tarte
 lang: fr
 ---
 
@@ -10,24 +8,20 @@ lang: fr
 
 ## Étape 1
 
-*Tailler* {{ 125g de beurre ramolli }} en morceaux.
+*Battre* {{ 1 oeuf }} à la fourchette avec {{ 1 pincée de sel }} et {{ 100g de sucre en poudre }} jusqu'à ce que ce soit mousseux.
 
 ## Étape 2
 
-*Crémer* le beurre avec le {{ sucre }} à la cuillère en bois.
+Ajouter d'un coup {{ 200g de farine }} et mélanger grossièrement. *Sabler* la pâte entre les doigts.
 
 ## Étape 3
 
-*Ajouter* {{ 1 oeuf }}. *Mélanger*.
+Incorporer {{ 100g de beurre }} en petits morceaux et *pétrir* jusqu'à ce que la pâte ne colle plus aux mains (ajouter un peu de farine si besoin).
 
 ## Étape 4
 
-*Ajouter* {{ 250g de farine }} et du {{ sel }}.
-
-## Étape 5
-
-*Former* une boule et *laisser* 20min au frais avant utilisation.
+*Foncer* le moule et piquer la pâte à la fourchette.
 
 # Conseils
 
-- Ajouter des zestes d'orange ou de citron avec le beurre.
+Peut aussi se faire au robot ou au Thermomix.
