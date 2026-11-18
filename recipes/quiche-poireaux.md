@@ -1,7 +1,7 @@
 ---
 title: Quiche aux poireaux
 cuisson: 55min
-tags: plat, tarte, végétarien
+tags: plat, tarte, végétarien, favori
 lang: fr
 ---
 
