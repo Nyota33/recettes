@@ -1,7 +1,7 @@
 ---
 title: Cake à la rhubarbe
 cuisson: 40min
-tags: dessert, gâteau
+tags: dessert, gâteau, favori
 lang: fr
 ---
 
