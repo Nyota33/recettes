@@ -1,5 +1,5 @@
 ---
-title: Fondant au chocolat et framboises
+title: Fondant au chocolat
 portions: 10
 preparation: 5min
 cuisson: 30min
