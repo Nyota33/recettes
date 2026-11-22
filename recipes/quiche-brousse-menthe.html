@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Quiche brousse menthe</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,18 +27,22 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" hidden>
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count"></strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="400.0" data-unit="g" data-name="de brousse">400 g de brousse</li><li data-ingredient data-amount="20.0" data-unit="cl" data-name="de crème fraîche">20 cl de crème fraîche</li><li data-ingredient data-amount="4.0" data-unit="" data-name="oeufs">4 oeufs</li><li data-ingredient data-amount="1.0" data-unit="" data-name="bouquet de menthe">1 bouquet de menthe</li><li data-ingredient>sel</li><li data-ingredient>poivre</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pâte brisée">1 pâte brisée</li><li data-ingredient data-amount="1.0" data-unit="" data-name="oignon">1 oignon</li><li data-ingredient>gruyère râpé</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="400.0" data-unit="g" data-name="de brousse">400 g de brousse</li><li data-ingredient data-amount="20.0" data-unit="cl" data-name="de crème fraîche" data-ml="200.0">20 cl de crème fraîche</li><li data-ingredient data-amount="4.0" data-unit="" data-name="oeufs">4 oeufs</li><li data-ingredient data-amount="1.0" data-unit="" data-name="bouquet de menthe">1 bouquet de menthe</li><li data-ingredient>sel</li><li data-ingredient>poivre</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pâte brisée">1 pâte brisée</li><li data-ingredient data-amount="1.0" data-unit="" data-name="oignon">1 oignon</li><li data-ingredient>gruyère râpé</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/quiche-brousse-menthe.jpg" alt="Quiche brousse menthe"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
-<p><em>Mélanger</em> <span data-ingredient data-amount="400.0" data-unit="g" data-name="de brousse">400 g de brousse</span> et <span data-ingredient data-amount="20.0" data-unit="cl" data-name="de crème fraîche">20 cl de crème fraîche</span>. Ajouter <span data-ingredient data-amount="4.0" data-unit="" data-name="oeufs">4 oeufs</span>, <span data-ingredient data-amount="1.0" data-unit="" data-name="bouquet de menthe">1 bouquet de menthe</span> ciselée, du <span data-ingredient>sel</span> et du <span data-ingredient>poivre</span>.</p>
+<p><em>Mélanger</em> <span data-ingredient data-amount="400.0" data-unit="g" data-name="de brousse">400 g de brousse</span> et <span data-ingredient data-amount="20.0" data-unit="cl" data-name="de crème fraîche" data-ml="200.0">20 cl de crème fraîche</span>. Ajouter <span data-ingredient data-amount="4.0" data-unit="" data-name="oeufs">4 oeufs</span>, <span data-ingredient data-amount="1.0" data-unit="" data-name="bouquet de menthe">1 bouquet de menthe</span> ciselée, du <span data-ingredient>sel</span> et du <span data-ingredient>poivre</span>.</p>
 <h2>Étape 2</h2>
 <p>Étaler <span data-ingredient data-amount="1.0" data-unit="" data-name="pâte brisée">1 pâte brisée</span> dans un moule et y répartir <span data-ingredient data-amount="1.0" data-unit="" data-name="oignon">1 oignon</span> émincé. Verser la préparation et <em>saupoudrer</em> de <span data-ingredient>gruyère râpé</span>.</p>
 <h2>Étape 3</h2>

@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Quiche de pommes de terre et poireaux</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,13 +27,17 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" data-portions="4">
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count">4</strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="60.0" data-unit="g" data-name="de gruyère">60 g de gruyère</li><li data-ingredient data-amount="500.0" data-unit="g" data-name="d&#x27;eau">500 g d&#x27;eau</li><li data-ingredient data-amount="0.5" data-unit="c. à c." data-name="de sel">0.5 c. à c. de sel</li><li data-ingredient data-amount="300.0" data-unit="g" data-name="de pommes de terre">300 g de pommes de terre</li><li data-ingredient data-amount="300.0" data-unit="g" data-name="de blancs de poireau">300 g de blancs de poireau</li><li data-ingredient data-amount="3.0" data-unit="" data-name="pincées de sel">3 pincées de sel</li><li data-ingredient data-amount="1.0" data-unit="c. à c." data-name="d&#x27;huile de tournesol">1 c. à c. d&#x27;huile de tournesol</li><li data-ingredient data-amount="35.0" data-unit="g" data-name="d&#x27;échalotes">35 g d&#x27;échalotes</li><li data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de margarine">1 c. à c. de margarine</li><li data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</li><li data-ingredient data-amount="1.0" data-unit="c. à s." data-name="de fécule de maïs">1 c. à s. de fécule de maïs</li><li data-ingredient data-amount="155.0" data-unit="g" data-name="de lait écrémé">155 g de lait écrémé</li><li data-ingredient data-amount="2.0" data-unit="" data-name="pincées de poivre">2 pincées de poivre</li><li data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de muscade">1 c. à c. de muscade</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="60.0" data-unit="g" data-name="de gruyère">60 g de gruyère</li><li data-ingredient data-amount="500.0" data-unit="g" data-name="d&#x27;eau" data-ml="500.0">500 g d&#x27;eau</li><li data-ingredient data-amount="0.5" data-unit="c. à c." data-name="de sel" data-ml="2.5">0.5 c. à c. de sel</li><li data-ingredient data-amount="300.0" data-unit="g" data-name="de pommes de terre">300 g de pommes de terre</li><li data-ingredient data-amount="300.0" data-unit="g" data-name="de blancs de poireau">300 g de blancs de poireau</li><li data-ingredient data-amount="3.0" data-unit="" data-name="pincées de sel">3 pincées de sel</li><li data-ingredient data-amount="1.0" data-unit="c. à c." data-name="d&#x27;huile de tournesol" data-ml="5.0">1 c. à c. d&#x27;huile de tournesol</li><li data-ingredient data-amount="35.0" data-unit="g" data-name="d&#x27;échalotes">35 g d&#x27;échalotes</li><li data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de margarine" data-ml="5.0">1 c. à c. de margarine</li><li data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</li><li data-ingredient data-amount="1.0" data-unit="c. à s." data-name="de fécule de maïs" data-ml="15.0">1 c. à s. de fécule de maïs</li><li data-ingredient data-amount="155.0" data-unit="g" data-name="de lait écrémé" data-ml="150.49">155 g de lait écrémé</li><li data-ingredient data-amount="2.0" data-unit="" data-name="pincées de poivre">2 pincées de poivre</li><li data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de muscade" data-ml="5.0">1 c. à c. de muscade</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/quiche-pommes-de-terre-poireaux.jpg" alt="Quiche de pommes de terre et poireaux"></figure>
         <div class="recipe-content" id="recipe-content"><p>Quiche sans pâte.</p>
@@ -38,14 +45,14 @@
 <h2>Étape 1</h2>
 <p><em>Râper</em> <span data-ingredient data-amount="60.0" data-unit="g" data-name="de gruyère">60 g de gruyère</span> <strong>5 sec/vitesse 10</strong>. Réserver.</p>
 <h2>Étape 2</h2>
-<p>Mettre <span data-ingredient data-amount="500.0" data-unit="g" data-name="d&#x27;eau">500 g d&#x27;eau</span> et <span data-ingredient data-amount="0.5" data-unit="c. à c." data-name="de sel">0.5 c. à c. de sel</span> dans le bol, <span data-ingredient data-amount="300.0" data-unit="g" data-name="de pommes de terre">300 g de pommes de terre</span> en rondelles (1 cm) dans le panier, et <span data-ingredient data-amount="300.0" data-unit="g" data-name="de blancs de poireau">300 g de blancs de poireau</span> émincés avec une pincée des <span data-ingredient data-amount="3.0" data-unit="" data-name="pincées de sel">3 pincées de sel</span> dans le Varoma. <em>Cuire à la vapeur</em> <strong>20 min/Varoma/vitesse 1</strong>. Vider le bol.</p>
+<p>Mettre <span data-ingredient data-amount="500.0" data-unit="g" data-name="d&#x27;eau" data-ml="500.0">500 g d&#x27;eau</span> et <span data-ingredient data-amount="0.5" data-unit="c. à c." data-name="de sel" data-ml="2.5">0.5 c. à c. de sel</span> dans le bol, <span data-ingredient data-amount="300.0" data-unit="g" data-name="de pommes de terre">300 g de pommes de terre</span> en rondelles (1 cm) dans le panier, et <span data-ingredient data-amount="300.0" data-unit="g" data-name="de blancs de poireau">300 g de blancs de poireau</span> émincés avec une pincée des <span data-ingredient data-amount="3.0" data-unit="" data-name="pincées de sel">3 pincées de sel</span> dans le Varoma. <em>Cuire à la vapeur</em> <strong>20 min/Varoma/vitesse 1</strong>. Vider le bol.</p>
 <h2>Étape 3</h2>
-<p>Préchauffer le four à <strong>180ºC</strong>. Huiler un moule à manqué (Ø 22 cm) avec <span data-ingredient data-amount="1.0" data-unit="c. à c." data-name="d&#x27;huile de tournesol">1 c. à c. d&#x27;huile de tournesol</span>.</p>
+<p>Préchauffer le four à <strong>180ºC</strong>. Huiler un moule à manqué (Ø 22 cm) avec <span data-ingredient data-amount="1.0" data-unit="c. à c." data-name="d&#x27;huile de tournesol" data-ml="5.0">1 c. à c. d&#x27;huile de tournesol</span>.</p>
 <h2>Étape 4</h2>
-<p><em>Hacher</em> <span data-ingredient data-amount="35.0" data-unit="g" data-name="d&#x27;échalotes">35 g d&#x27;échalotes</span> <strong>5 sec/vitesse 5</strong>. Ajouter <span data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de margarine">1 c. à c. de margarine</span> et <em>rissoler</em> <strong>3 min/120ºC/vitesse 1</strong>. Ajouter les poireaux et <em>rissoler</em> <strong>5 min/120ºC/vitesse 1</strong>, sans le gobelet.</p>
+<p><em>Hacher</em> <span data-ingredient data-amount="35.0" data-unit="g" data-name="d&#x27;échalotes">35 g d&#x27;échalotes</span> <strong>5 sec/vitesse 5</strong>. Ajouter <span data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de margarine" data-ml="5.0">1 c. à c. de margarine</span> et <em>rissoler</em> <strong>3 min/120ºC/vitesse 1</strong>. Ajouter les poireaux et <em>rissoler</em> <strong>5 min/120ºC/vitesse 1</strong>, sans le gobelet.</p>
 <p>Pendant ce temps, disposer les pommes de terre au fond du moule.</p>
 <h2>Étape 5</h2>
-<p>Ajouter <span data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</span>, <span data-ingredient data-amount="1.0" data-unit="c. à s." data-name="de fécule de maïs">1 c. à s. de fécule de maïs</span>, <span data-ingredient data-amount="155.0" data-unit="g" data-name="de lait écrémé">155 g de lait écrémé</span>, la moitié du gruyère, le reste du sel, <span data-ingredient data-amount="2.0" data-unit="" data-name="pincées de poivre">2 pincées de poivre</span> et <span data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de muscade">1 c. à c. de muscade</span>. Mélanger <strong>20 sec/vitesse 3</strong>.</p>
+<p>Ajouter <span data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</span>, <span data-ingredient data-amount="1.0" data-unit="c. à s." data-name="de fécule de maïs" data-ml="15.0">1 c. à s. de fécule de maïs</span>, <span data-ingredient data-amount="155.0" data-unit="g" data-name="de lait écrémé" data-ml="150.49">155 g de lait écrémé</span>, la moitié du gruyère, le reste du sel, <span data-ingredient data-amount="2.0" data-unit="" data-name="pincées de poivre">2 pincées de poivre</span> et <span data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de muscade" data-ml="5.0">1 c. à c. de muscade</span>. Mélanger <strong>20 sec/vitesse 3</strong>.</p>
 <h2>Étape 6</h2>
 <p>Verser sur les pommes de terre et parsemer du reste de gruyère. <em>Cuire</em> 25min à <strong>180ºC</strong>. Laisser tiédir 10min avant de démouler.</p>
 <h1>Conseils</h1>

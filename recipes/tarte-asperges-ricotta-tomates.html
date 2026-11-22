@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Tarte asperges ricotta tomates séchées</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,22 +27,26 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" hidden>
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count"></strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="1.0" data-unit="" data-name="pâte feuilletée ou brisée">1 pâte feuilletée ou brisée</li><li data-ingredient data-amount="1.0" data-unit="" data-name="oeuf">1 oeuf</li><li data-ingredient data-amount="250.0" data-unit="g" data-name="de ricotta">250 g de ricotta</li><li data-ingredient data-amount="10.0" data-unit="cl" data-name="de lait ou crème liquide">10 cl de lait ou crème liquide</li><li data-ingredient>sel</li><li data-ingredient>poivre</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pincée de piment d&#x27;Espelette">1 pincée de piment d&#x27;Espelette</li><li data-ingredient data-amount="1.0" data-unit="" data-name="oignon">1 oignon</li><li data-ingredient data-amount="1.0" data-unit="" data-name="petit bocal d&#x27;asperges vertes">1 petit bocal d&#x27;asperges vertes</li><li data-ingredient data-amount="12.0" data-unit="" data-name="tomates séchées">12 tomates séchées</li><li data-ingredient data-amount="50.0" data-unit="g" data-name="de fromage râpé">50 g de fromage râpé</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="1.0" data-unit="" data-name="pâte feuilletée ou brisée">1 pâte feuilletée ou brisée</li><li data-ingredient data-amount="1.0" data-unit="" data-name="oeuf">1 oeuf</li><li data-ingredient data-amount="250.0" data-unit="g" data-name="de ricotta">250 g de ricotta</li><li data-ingredient data-amount="10.0" data-unit="cl" data-name="de lait ou crème liquide" data-ml="100.0">10 cl de lait ou crème liquide</li><li data-ingredient>sel</li><li data-ingredient>poivre</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pincée de piment d&#x27;Espelette">1 pincée de piment d&#x27;Espelette</li><li data-ingredient data-amount="1.0" data-unit="" data-name="oignon">1 oignon</li><li data-ingredient data-amount="1.0" data-unit="" data-name="petit bocal d&#x27;asperges vertes">1 petit bocal d&#x27;asperges vertes</li><li data-ingredient data-amount="12.0" data-unit="" data-name="tomates séchées">12 tomates séchées</li><li data-ingredient data-amount="50.0" data-unit="g" data-name="de fromage râpé" data-ml="125.0">50 g de fromage râpé</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/tarte-asperges-ricotta-tomates.jpg" alt="Tarte asperges ricotta tomates séchées"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
 <p>Déposer <span data-ingredient data-amount="1.0" data-unit="" data-name="pâte feuilletée ou brisée">1 pâte feuilletée ou brisée</span> dans un moule avec son papier de cuisson.</p>
 <h2>Étape 2</h2>
-<p><em>Battre</em> <span data-ingredient data-amount="1.0" data-unit="" data-name="oeuf">1 oeuf</span> avec <span data-ingredient data-amount="250.0" data-unit="g" data-name="de ricotta">250 g de ricotta</span>, détendre avec <span data-ingredient data-amount="10.0" data-unit="cl" data-name="de lait ou crème liquide">10 cl de lait ou crème liquide</span> si besoin. Assaisonner de <span data-ingredient>sel</span>, <span data-ingredient>poivre</span> et <span data-ingredient data-amount="1.0" data-unit="" data-name="pincée de piment d&#x27;Espelette">1 pincée de piment d&#x27;Espelette</span>. Ajouter <span data-ingredient data-amount="1.0" data-unit="" data-name="oignon">1 oignon</span> émincé (revenu ou non dans l’huile des tomates).</p>
+<p><em>Battre</em> <span data-ingredient data-amount="1.0" data-unit="" data-name="oeuf">1 oeuf</span> avec <span data-ingredient data-amount="250.0" data-unit="g" data-name="de ricotta">250 g de ricotta</span>, détendre avec <span data-ingredient data-amount="10.0" data-unit="cl" data-name="de lait ou crème liquide" data-ml="100.0">10 cl de lait ou crème liquide</span> si besoin. Assaisonner de <span data-ingredient>sel</span>, <span data-ingredient>poivre</span> et <span data-ingredient data-amount="1.0" data-unit="" data-name="pincée de piment d&#x27;Espelette">1 pincée de piment d&#x27;Espelette</span>. Ajouter <span data-ingredient data-amount="1.0" data-unit="" data-name="oignon">1 oignon</span> émincé (revenu ou non dans l’huile des tomates).</p>
 <h2>Étape 3</h2>
-<p>Verser sur la pâte, <em>garnir</em> de <span data-ingredient data-amount="1.0" data-unit="" data-name="petit bocal d&#x27;asperges vertes">1 petit bocal d&#x27;asperges vertes</span> et de <span data-ingredient data-amount="12.0" data-unit="" data-name="tomates séchées">12 tomates séchées</span> en petits morceaux. <em>Saupoudrer</em> de <span data-ingredient data-amount="50.0" data-unit="g" data-name="de fromage râpé">50 g de fromage râpé</span>.</p>
+<p>Verser sur la pâte, <em>garnir</em> de <span data-ingredient data-amount="1.0" data-unit="" data-name="petit bocal d&#x27;asperges vertes">1 petit bocal d&#x27;asperges vertes</span> et de <span data-ingredient data-amount="12.0" data-unit="" data-name="tomates séchées">12 tomates séchées</span> en petits morceaux. <em>Saupoudrer</em> de <span data-ingredient data-amount="50.0" data-unit="g" data-name="de fromage râpé" data-ml="125.0">50 g de fromage râpé</span>.</p>
 <h2>Étape 4</h2>
 <p><em>Cuire</em> 25min à <strong>180ºC</strong>.</p>
 <h1>Conseils</h1>

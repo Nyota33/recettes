@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Cake pécan vanille</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,22 +27,26 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" hidden>
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count"></strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="310.0" data-unit="g" data-name="de sucre">310 g de sucre</li><li data-ingredient data-amount="17.0" data-unit="cl" data-name="d&#x27;eau">17 cl d&#x27;eau</li><li data-ingredient data-amount="2.0" data-unit="" data-name="gousses de vanille">2 gousses de vanille</li><li data-ingredient data-amount="170.0" data-unit="g" data-name="de beurre tempéré">170 g de beurre tempéré</li><li data-ingredient data-amount="50.0" data-unit="g" data-name="de poudre d&#x27;amande">50 g de poudre d&#x27;amande</li><li data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</li><li data-ingredient data-amount="6.0" data-unit="cl" data-name="de lait">6 cl de lait</li><li data-ingredient data-amount="240.0" data-unit="g" data-name="de farine">240 g de farine</li><li data-ingredient data-amount="6.0" data-unit="g" data-name="de levure chimique">6 g de levure chimique</li><li data-ingredient data-amount="90.0" data-unit="g" data-name="de noix de pécan">90 g de noix de pécan</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="310.0" data-unit="g" data-name="de sucre" data-ml="364.71">310 g de sucre</li><li data-ingredient data-amount="17.0" data-unit="cl" data-name="d&#x27;eau" data-ml="170.0">17 cl d&#x27;eau</li><li data-ingredient data-amount="2.0" data-unit="" data-name="gousses de vanille">2 gousses de vanille</li><li data-ingredient data-amount="170.0" data-unit="g" data-name="de beurre tempéré" data-ml="186.81">170 g de beurre tempéré</li><li data-ingredient data-amount="50.0" data-unit="g" data-name="de poudre d&#x27;amande" data-ml="125.0">50 g de poudre d&#x27;amande</li><li data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</li><li data-ingredient data-amount="6.0" data-unit="cl" data-name="de lait" data-ml="60.0">6 cl de lait</li><li data-ingredient data-amount="240.0" data-unit="g" data-name="de farine" data-ml="436.36">240 g de farine</li><li data-ingredient data-amount="6.0" data-unit="g" data-name="de levure chimique" data-ml="6.67">6 g de levure chimique</li><li data-ingredient data-amount="90.0" data-unit="g" data-name="de noix de pécan" data-ml="200.0">90 g de noix de pécan</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/cake-pecan-vanille.jpg" alt="Cake pécan vanille"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
-<p><em>Préparer le sirop</em> : dans une casserole, verser 100g de sucre (sur <span data-ingredient data-amount="310.0" data-unit="g" data-name="de sucre">310 g de sucre</span>), <span data-ingredient data-amount="17.0" data-unit="cl" data-name="d&#x27;eau">17 cl d&#x27;eau</span> et les graines d’une gousse sur <span data-ingredient data-amount="2.0" data-unit="" data-name="gousses de vanille">2 gousses de vanille</span>. <em>Porter à ébullition</em> puis laisser refroidir.</p>
+<p><em>Préparer le sirop</em> : dans une casserole, verser 100g de sucre (sur <span data-ingredient data-amount="310.0" data-unit="g" data-name="de sucre" data-ml="364.71">310 g de sucre</span>), <span data-ingredient data-amount="17.0" data-unit="cl" data-name="d&#x27;eau" data-ml="170.0">17 cl d&#x27;eau</span> et les graines d’une gousse sur <span data-ingredient data-amount="2.0" data-unit="" data-name="gousses de vanille">2 gousses de vanille</span>. <em>Porter à ébullition</em> puis laisser refroidir.</p>
 <h2>Étape 2</h2>
-<p><em>Lisser</em> <span data-ingredient data-amount="170.0" data-unit="g" data-name="de beurre tempéré">170 g de beurre tempéré</span> avec le reste du sucre (210g) à la spatule. Ajouter <span data-ingredient data-amount="50.0" data-unit="g" data-name="de poudre d&#x27;amande">50 g de poudre d&#x27;amande</span>, les graines de la deuxième gousse, puis progressivement <span data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</span> et <span data-ingredient data-amount="6.0" data-unit="cl" data-name="de lait">6 cl de lait</span>.</p>
+<p><em>Lisser</em> <span data-ingredient data-amount="170.0" data-unit="g" data-name="de beurre tempéré" data-ml="186.81">170 g de beurre tempéré</span> avec le reste du sucre (210g) à la spatule. Ajouter <span data-ingredient data-amount="50.0" data-unit="g" data-name="de poudre d&#x27;amande" data-ml="125.0">50 g de poudre d&#x27;amande</span>, les graines de la deuxième gousse, puis progressivement <span data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</span> et <span data-ingredient data-amount="6.0" data-unit="cl" data-name="de lait" data-ml="60.0">6 cl de lait</span>.</p>
 <h2>Étape 3</h2>
-<p><em>Tamiser</em> <span data-ingredient data-amount="240.0" data-unit="g" data-name="de farine">240 g de farine</span> avec <span data-ingredient data-amount="6.0" data-unit="g" data-name="de levure chimique">6 g de levure chimique</span> (1/2 sachet) et les incorporer. Ajouter <span data-ingredient data-amount="90.0" data-unit="g" data-name="de noix de pécan">90 g de noix de pécan</span> <em>hachées grossièrement</em>.</p>
+<p><em>Tamiser</em> <span data-ingredient data-amount="240.0" data-unit="g" data-name="de farine" data-ml="436.36">240 g de farine</span> avec <span data-ingredient data-amount="6.0" data-unit="g" data-name="de levure chimique" data-ml="6.67">6 g de levure chimique</span> (1/2 sachet) et les incorporer. Ajouter <span data-ingredient data-amount="90.0" data-unit="g" data-name="de noix de pécan" data-ml="200.0">90 g de noix de pécan</span> <em>hachées grossièrement</em>.</p>
 <h2>Étape 4</h2>
 <p><em>Cuire</em> 1h à <strong>160ºC</strong>. Laisser refroidir 15min avant de démouler.</p>
 <h2>Étape 5</h2>

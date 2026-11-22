@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Truffade au saint-nectaire</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,20 +27,24 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" data-portions="4">
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count">4</strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="800.0" data-unit="g" data-name="de pommes de terre">800 g de pommes de terre</li><li data-ingredient data-amount="400.0" data-unit="g" data-name="de saint-nectaire">400 g de saint-nectaire</li><li data-ingredient data-amount="125.0" data-unit="g" data-name="de lardons">125 g de lardons</li><li data-ingredient data-amount="125.0" data-unit="g" data-name="de crème fraîche">125 g de crème fraîche</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="800.0" data-unit="g" data-name="de pommes de terre">800 g de pommes de terre</li><li data-ingredient data-amount="400.0" data-unit="g" data-name="de saint-nectaire">400 g de saint-nectaire</li><li data-ingredient data-amount="125.0" data-unit="g" data-name="de lardons">125 g de lardons</li><li data-ingredient data-amount="125.0" data-unit="g" data-name="de crème fraîche" data-ml="125.0">125 g de crème fraîche</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/truffade-saint-nectaire.jpg" alt="Truffade au saint-nectaire"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
 <p><em>Cuire</em> <span data-ingredient data-amount="800.0" data-unit="g" data-name="de pommes de terre">800 g de pommes de terre</span> sans trop les cuire. <em>Couper</em> <span data-ingredient data-amount="400.0" data-unit="g" data-name="de saint-nectaire">400 g de saint-nectaire</span> en petits rectangles.</p>
 <h2>Étape 2</h2>
-<p>Disposer les pommes de terre dans un plat, puis le fromage et <span data-ingredient data-amount="125.0" data-unit="g" data-name="de lardons">125 g de lardons</span>. Recouvrir de <span data-ingredient data-amount="125.0" data-unit="g" data-name="de crème fraîche">125 g de crème fraîche</span>.</p>
+<p>Disposer les pommes de terre dans un plat, puis le fromage et <span data-ingredient data-amount="125.0" data-unit="g" data-name="de lardons">125 g de lardons</span>. Recouvrir de <span data-ingredient data-amount="125.0" data-unit="g" data-name="de crème fraîche" data-ml="125.0">125 g de crème fraîche</span>.</p>
 <h2>Étape 3</h2>
 <p><em>Cuire</em> 20 à 30min à <strong>210ºC</strong>.</p>
 </div>

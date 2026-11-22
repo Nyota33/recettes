@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Pâte à galette</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,20 +27,24 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" data-portions="6">
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count">6</strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="240.0" data-unit="g" data-name="de farine de sarrasin">240 g de farine de sarrasin</li><li data-ingredient data-amount="1.0" data-unit="" data-name="oeuf">1 oeuf</li><li data-ingredient data-amount="1.0" data-unit="" data-name="à 1,5 cac de sel">1 à 1,5 cac de sel</li><li data-ingredient data-amount="180.0" data-unit="g" data-name="de lait">180 g de lait</li><li data-ingredient data-amount="360.0" data-unit="g" data-name="d&#x27;eau">360 g d&#x27;eau</li><li data-ingredient data-amount="45.0" data-unit="" data-name="à 60g de beurre demi-sel">45 à 60g de beurre demi-sel</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="240.0" data-unit="g" data-name="de farine de sarrasin" data-ml="436.36">240 g de farine de sarrasin</li><li data-ingredient data-amount="1.0" data-unit="" data-name="oeuf">1 oeuf</li><li data-ingredient data-amount="1.0" data-unit="" data-name="à 1,5 cac de sel">1 à 1,5 cac de sel</li><li data-ingredient data-amount="180.0" data-unit="g" data-name="de lait" data-ml="174.76">180 g de lait</li><li data-ingredient data-amount="360.0" data-unit="g" data-name="d&#x27;eau" data-ml="360.0">360 g d&#x27;eau</li><li data-ingredient data-amount="45.0" data-unit="" data-name="à 60g de beurre demi-sel">45 à 60g de beurre demi-sel</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/pate-galettes-thermomix.jpg" alt="Pâte à galette"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
-<p><em>Mixer</em> <span data-ingredient data-amount="240.0" data-unit="g" data-name="de farine de sarrasin">240 g de farine de sarrasin</span>, <span data-ingredient data-amount="1.0" data-unit="" data-name="oeuf">1 oeuf</span>, <span data-ingredient data-amount="1.0" data-unit="" data-name="à 1,5 cac de sel">1 à 1,5 cac de sel</span> et <span data-ingredient data-amount="180.0" data-unit="g" data-name="de lait">180 g de lait</span> <strong>1 min/vitesse 3</strong>.</p>
+<p><em>Mixer</em> <span data-ingredient data-amount="240.0" data-unit="g" data-name="de farine de sarrasin" data-ml="436.36">240 g de farine de sarrasin</span>, <span data-ingredient data-amount="1.0" data-unit="" data-name="oeuf">1 oeuf</span>, <span data-ingredient data-amount="1.0" data-unit="" data-name="à 1,5 cac de sel">1 à 1,5 cac de sel</span> et <span data-ingredient data-amount="180.0" data-unit="g" data-name="de lait" data-ml="174.76">180 g de lait</span> <strong>1 min/vitesse 3</strong>.</p>
 <h2>Étape 2</h2>
-<p>Insérer le fouet, ajouter <span data-ingredient data-amount="360.0" data-unit="g" data-name="d&#x27;eau">360 g d&#x27;eau</span> et <em>fouetter</em> <strong>2 min/vitesse 3</strong>.</p>
+<p>Insérer le fouet, ajouter <span data-ingredient data-amount="360.0" data-unit="g" data-name="d&#x27;eau" data-ml="360.0">360 g d&#x27;eau</span> et <em>fouetter</em> <strong>2 min/vitesse 3</strong>.</p>
 <h2>Étape 3</h2>
 <p>Chauffer une noix de <span data-ingredient data-amount="45.0" data-unit="" data-name="à 60g de beurre demi-sel">45 à 60g de beurre demi-sel</span> dans une grande poêle antiadhésive. Verser une petite louche de pâte et l’<em>étaler</em> en tournant la poêle.</p>
 <p><em>Cuire</em> 2-3 min par face. Recommencer jusqu’à épuisement de la pâte.</p>

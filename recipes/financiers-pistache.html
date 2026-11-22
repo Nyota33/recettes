@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Financiers à la pistache</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,24 +27,28 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" data-portions="16">
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count">16</strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="40.0" data-unit="g" data-name="d&#x27;amandes émondées">40 g d&#x27;amandes émondées</li><li data-ingredient data-amount="50.0" data-unit="g" data-name="de pistaches non salées">50 g de pistaches non salées</li><li data-ingredient data-amount="90.0" data-unit="g" data-name="de beurre demi-sel">90 g de beurre demi-sel</li><li data-ingredient data-amount="30.0" data-unit="g" data-name="de farine">30 g de farine</li><li data-ingredient data-amount="110.0" data-unit="g" data-name="de sucre">110 g de sucre</li><li data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de pâte de pistache">1 c. à c. de pâte de pistache</li><li data-ingredient data-amount="3.0" data-unit="" data-name="blancs d&#x27;oeufs">3 blancs d&#x27;oeufs</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="40.0" data-unit="g" data-name="d&#x27;amandes émondées" data-ml="88.89">40 g d&#x27;amandes émondées</li><li data-ingredient data-amount="50.0" data-unit="g" data-name="de pistaches non salées">50 g de pistaches non salées</li><li data-ingredient data-amount="90.0" data-unit="g" data-name="de beurre demi-sel" data-ml="98.9">90 g de beurre demi-sel</li><li data-ingredient data-amount="30.0" data-unit="g" data-name="de farine" data-ml="54.55">30 g de farine</li><li data-ingredient data-amount="110.0" data-unit="g" data-name="de sucre" data-ml="129.41">110 g de sucre</li><li data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de pâte de pistache" data-ml="5.0">1 c. à c. de pâte de pistache</li><li data-ingredient data-amount="3.0" data-unit="" data-name="blancs d&#x27;oeufs">3 blancs d&#x27;oeufs</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/financiers-pistache.jpg" alt="Financiers à la pistache"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
 <p><em>Préchauffer</em> le four à <strong>180ºC</strong>. Beurrer des moules à financiers.</p>
 <h2>Étape 2</h2>
-<p>Mettre <span data-ingredient data-amount="40.0" data-unit="g" data-name="d&#x27;amandes émondées">40 g d&#x27;amandes émondées</span> et <span data-ingredient data-amount="50.0" data-unit="g" data-name="de pistaches non salées">50 g de pistaches non salées</span> dans le bol et <em>hacher</em> <strong>10 sec/vitesse 9</strong>. Réserver.</p>
+<p>Mettre <span data-ingredient data-amount="40.0" data-unit="g" data-name="d&#x27;amandes émondées" data-ml="88.89">40 g d&#x27;amandes émondées</span> et <span data-ingredient data-amount="50.0" data-unit="g" data-name="de pistaches non salées">50 g de pistaches non salées</span> dans le bol et <em>hacher</em> <strong>10 sec/vitesse 9</strong>. Réserver.</p>
 <h2>Étape 3</h2>
-<p><em>Fondre</em> <span data-ingredient data-amount="90.0" data-unit="g" data-name="de beurre demi-sel">90 g de beurre demi-sel</span> <strong>5 min/120ºC/vitesse 1</strong> sans le gobelet. Réserver.</p>
+<p><em>Fondre</em> <span data-ingredient data-amount="90.0" data-unit="g" data-name="de beurre demi-sel" data-ml="98.9">90 g de beurre demi-sel</span> <strong>5 min/120ºC/vitesse 1</strong> sans le gobelet. Réserver.</p>
 <h2>Étape 4</h2>
-<p>Insérer le fouet. Mettre <span data-ingredient data-amount="30.0" data-unit="g" data-name="de farine">30 g de farine</span>, <span data-ingredient data-amount="110.0" data-unit="g" data-name="de sucre">110 g de sucre</span>, <span data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de pâte de pistache">1 c. à c. de pâte de pistache</span> (optionnel) et la poudre amande-pistache, <em>mélanger</em> <strong>10 sec/vitesse 2</strong>.</p>
+<p>Insérer le fouet. Mettre <span data-ingredient data-amount="30.0" data-unit="g" data-name="de farine" data-ml="54.55">30 g de farine</span>, <span data-ingredient data-amount="110.0" data-unit="g" data-name="de sucre" data-ml="129.41">110 g de sucre</span>, <span data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de pâte de pistache" data-ml="5.0">1 c. à c. de pâte de pistache</span> (optionnel) et la poudre amande-pistache, <em>mélanger</em> <strong>10 sec/vitesse 2</strong>.</p>
 <h2>Étape 5</h2>
 <p>Ajouter <span data-ingredient data-amount="3.0" data-unit="" data-name="blancs d&#x27;oeufs">3 blancs d&#x27;oeufs</span> et <em>fouetter</em> <strong>1 min/vitesse 3</strong>, puis <strong>3 min/60ºC/vitesse 2</strong>. Ajouter le beurre fondu et <em>mélanger</em> <strong>40 sec/vitesse 3</strong> : la pâte doit être lisse.</p>
 <h2>Étape 6</h2>

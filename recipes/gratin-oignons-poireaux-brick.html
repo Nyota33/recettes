@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Gratin d&#x27;oignons et de poireaux en brick</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,24 +27,28 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" data-portions="4">
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count">4</strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="50.0" data-unit="g" data-name="de comté">50 g de comté</li><li data-ingredient data-amount="25.0" data-unit="g" data-name="de beurre demi-sel">25 g de beurre demi-sel</li><li data-ingredient data-amount="300.0" data-unit="g" data-name="d&#x27;oignons">300 g d&#x27;oignons</li><li data-ingredient data-amount="200.0" data-unit="g" data-name="de poireau">200 g de poireau</li><li data-ingredient data-amount="150.0" data-unit="g" data-name="de lait écrémé">150 g de lait écrémé</li><li data-ingredient data-amount="2.0" data-unit="" data-name="oeufs">2 oeufs</li><li data-ingredient>sel</li><li data-ingredient>poivre</li><li data-ingredient data-amount="4.0" data-unit="" data-name="feuilles de brick">4 feuilles de brick</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="50.0" data-unit="g" data-name="de comté">50 g de comté</li><li data-ingredient data-amount="25.0" data-unit="g" data-name="de beurre demi-sel" data-ml="27.47">25 g de beurre demi-sel</li><li data-ingredient data-amount="300.0" data-unit="g" data-name="d&#x27;oignons">300 g d&#x27;oignons</li><li data-ingredient data-amount="200.0" data-unit="g" data-name="de poireau">200 g de poireau</li><li data-ingredient data-amount="150.0" data-unit="g" data-name="de lait écrémé" data-ml="145.63">150 g de lait écrémé</li><li data-ingredient data-amount="2.0" data-unit="" data-name="oeufs">2 oeufs</li><li data-ingredient>sel</li><li data-ingredient>poivre</li><li data-ingredient data-amount="4.0" data-unit="" data-name="feuilles de brick">4 feuilles de brick</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/gratin-oignons-poireaux-brick.jpg" alt="Gratin d&#x27;oignons et de poireaux en brick"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
 <p>Mettre <span data-ingredient data-amount="50.0" data-unit="g" data-name="de comté">50 g de comté</span> en cubes dans le bol et <em>râper</em> <strong>5 sec/vitesse 6</strong>. Réserver.</p>
 <h2>Étape 2</h2>
-<p><em>Fondre</em> <span data-ingredient data-amount="25.0" data-unit="g" data-name="de beurre demi-sel">25 g de beurre demi-sel</span> <strong>1 min/90ºC/vitesse 1</strong>. Réserver.</p>
+<p><em>Fondre</em> <span data-ingredient data-amount="25.0" data-unit="g" data-name="de beurre demi-sel" data-ml="27.47">25 g de beurre demi-sel</span> <strong>1 min/90ºC/vitesse 1</strong>. Réserver.</p>
 <h2>Étape 3</h2>
 <p>Mettre <span data-ingredient data-amount="300.0" data-unit="g" data-name="d&#x27;oignons">300 g d&#x27;oignons</span> et <span data-ingredient data-amount="200.0" data-unit="g" data-name="de poireau">200 g de poireau</span> dans le bol, <em>mixer</em> <strong>7 sec/vitesse 5</strong>, puis <em>cuire</em> <strong>12 min/100ºC/vitesse 1</strong>.</p>
 <h2>Étape 4</h2>
-<p><em>Préchauffer</em> le four à <strong>190ºC</strong>. Ajouter <span data-ingredient data-amount="150.0" data-unit="g" data-name="de lait écrémé">150 g de lait écrémé</span>, <span data-ingredient data-amount="2.0" data-unit="" data-name="oeufs">2 oeufs</span>, <span data-ingredient>sel</span> et <span data-ingredient>poivre</span>, <em>mélanger</em> <strong>5 sec/vitesse 4</strong>.</p>
+<p><em>Préchauffer</em> le four à <strong>190ºC</strong>. Ajouter <span data-ingredient data-amount="150.0" data-unit="g" data-name="de lait écrémé" data-ml="145.63">150 g de lait écrémé</span>, <span data-ingredient data-amount="2.0" data-unit="" data-name="oeufs">2 oeufs</span>, <span data-ingredient>sel</span> et <span data-ingredient>poivre</span>, <em>mélanger</em> <strong>5 sec/vitesse 4</strong>.</p>
 <h2>Étape 5</h2>
 <p>Badigeonner <span data-ingredient data-amount="4.0" data-unit="" data-name="feuilles de brick">4 feuilles de brick</span> de beurre fondu et en <em>tapisser</em> un plat à gratin en les faisant dépasser. Verser la préparation, parsemer de comté et <em>cuire</em> 35min.</p>
 <h1>Conseils</h1>

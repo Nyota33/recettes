@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Ratatouille</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,20 +27,24 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" data-portions="4">
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count">4</strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="120.0" data-unit="g" data-name="d&#x27;oignons">120 g d&#x27;oignons</li><li data-ingredient data-amount="2.0" data-unit="" data-name="gousses d&#x27;ail">2 gousses d&#x27;ail</li><li data-ingredient data-amount="20.0" data-unit="g" data-name="d&#x27;huile d&#x27;olive">20 g d&#x27;huile d&#x27;olive</li><li data-ingredient data-amount="300.0" data-unit="g" data-name="de tomates">300 g de tomates</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="de poivron rouge">100 g de poivron rouge</li><li data-ingredient data-amount="1.0" data-unit="c. à s." data-name="d&#x27;herbes fraîches">1 c. à s. d&#x27;herbes fraîches</li><li data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de sel">1 c. à c. de sel</li><li data-ingredient data-amount="2.0" data-unit="" data-name="pincées de poivre">2 pincées de poivre</li><li data-ingredient data-amount="300.0" data-unit="g" data-name="d&#x27;aubergine">300 g d&#x27;aubergine</li><li data-ingredient data-amount="300.0" data-unit="g" data-name="de courgettes">300 g de courgettes</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="120.0" data-unit="g" data-name="d&#x27;oignons">120 g d&#x27;oignons</li><li data-ingredient data-amount="2.0" data-unit="" data-name="gousses d&#x27;ail">2 gousses d&#x27;ail</li><li data-ingredient data-amount="20.0" data-unit="g" data-name="d&#x27;huile d&#x27;olive" data-ml="21.74">20 g d&#x27;huile d&#x27;olive</li><li data-ingredient data-amount="300.0" data-unit="g" data-name="de tomates">300 g de tomates</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="de poivron rouge">100 g de poivron rouge</li><li data-ingredient data-amount="1.0" data-unit="c. à s." data-name="d&#x27;herbes fraîches" data-ml="15.0">1 c. à s. d&#x27;herbes fraîches</li><li data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de sel" data-ml="5.0">1 c. à c. de sel</li><li data-ingredient data-amount="2.0" data-unit="" data-name="pincées de poivre">2 pincées de poivre</li><li data-ingredient data-amount="300.0" data-unit="g" data-name="d&#x27;aubergine">300 g d&#x27;aubergine</li><li data-ingredient data-amount="300.0" data-unit="g" data-name="de courgettes">300 g de courgettes</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/ratatouille.jpg" alt="Ratatouille"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
-<p><em>Mixer</em> <span data-ingredient data-amount="120.0" data-unit="g" data-name="d&#x27;oignons">120 g d&#x27;oignons</span>, <span data-ingredient data-amount="2.0" data-unit="" data-name="gousses d&#x27;ail">2 gousses d&#x27;ail</span> et <span data-ingredient data-amount="20.0" data-unit="g" data-name="d&#x27;huile d&#x27;olive">20 g d&#x27;huile d&#x27;olive</span> <strong>4 sec/vitesse 5</strong>. <em>Rissoler</em> <strong>5 min/120ºC/sens inverse/vitesse mijotage</strong>.</p>
+<p><em>Mixer</em> <span data-ingredient data-amount="120.0" data-unit="g" data-name="d&#x27;oignons">120 g d&#x27;oignons</span>, <span data-ingredient data-amount="2.0" data-unit="" data-name="gousses d&#x27;ail">2 gousses d&#x27;ail</span> et <span data-ingredient data-amount="20.0" data-unit="g" data-name="d&#x27;huile d&#x27;olive" data-ml="21.74">20 g d&#x27;huile d&#x27;olive</span> <strong>4 sec/vitesse 5</strong>. <em>Rissoler</em> <strong>5 min/120ºC/sens inverse/vitesse mijotage</strong>.</p>
 <h2>Étape 2</h2>
-<p>Ajouter <span data-ingredient data-amount="300.0" data-unit="g" data-name="de tomates">300 g de tomates</span> et <span data-ingredient data-amount="100.0" data-unit="g" data-name="de poivron rouge">100 g de poivron rouge</span> en morceaux, <span data-ingredient data-amount="1.0" data-unit="c. à s." data-name="d&#x27;herbes fraîches">1 c. à s. d&#x27;herbes fraîches</span> (thym, romarin, basilic…), <span data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de sel">1 c. à c. de sel</span> et <span data-ingredient data-amount="2.0" data-unit="" data-name="pincées de poivre">2 pincées de poivre</span>. <em>Cuire</em> <strong>12 min/100ºC/sens inverse/vitesse mijotage</strong>.</p>
+<p>Ajouter <span data-ingredient data-amount="300.0" data-unit="g" data-name="de tomates">300 g de tomates</span> et <span data-ingredient data-amount="100.0" data-unit="g" data-name="de poivron rouge">100 g de poivron rouge</span> en morceaux, <span data-ingredient data-amount="1.0" data-unit="c. à s." data-name="d&#x27;herbes fraîches" data-ml="15.0">1 c. à s. d&#x27;herbes fraîches</span> (thym, romarin, basilic…), <span data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de sel" data-ml="5.0">1 c. à c. de sel</span> et <span data-ingredient data-amount="2.0" data-unit="" data-name="pincées de poivre">2 pincées de poivre</span>. <em>Cuire</em> <strong>12 min/100ºC/sens inverse/vitesse mijotage</strong>.</p>
 <h2>Étape 3</h2>
 <p>Ajouter <span data-ingredient data-amount="300.0" data-unit="g" data-name="d&#x27;aubergine">300 g d&#x27;aubergine</span> et <span data-ingredient data-amount="300.0" data-unit="g" data-name="de courgettes">300 g de courgettes</span> en morceaux (2-3 cm). <em>Cuire</em> <strong>12 min/100ºC/sens inverse/vitesse mijotage</strong>.</p>
 <h1>Conseils</h1>

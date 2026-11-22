@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Tatin de tomates</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,13 +27,17 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" hidden>
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count"></strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="12.0" data-unit="" data-name="à 14 tomates">12 à 14 tomates</li><li data-ingredient data-amount="2.0" data-unit="" data-name="filets d&#x27;huile d&#x27;olive">2 filets d&#x27;huile d&#x27;olive</li><li data-ingredient>sel</li><li data-ingredient>poivre</li><li data-ingredient data-amount="2.0" data-unit="" data-name="mozzarellas">2 mozzarellas</li><li data-ingredient data-amount="10.0" data-unit="" data-name="feuilles de basilic">10 feuilles de basilic</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pâte feuilletée">1 pâte feuilletée</li><li data-ingredient data-amount="2.0" data-unit="c. à s." data-name="de moutarde">2 c. à s. de moutarde</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="12.0" data-unit="" data-name="à 14 tomates">12 à 14 tomates</li><li data-ingredient data-amount="2.0" data-unit="" data-name="filets d&#x27;huile d&#x27;olive">2 filets d&#x27;huile d&#x27;olive</li><li data-ingredient>sel</li><li data-ingredient>poivre</li><li data-ingredient data-amount="2.0" data-unit="" data-name="mozzarellas">2 mozzarellas</li><li data-ingredient data-amount="10.0" data-unit="" data-name="feuilles de basilic">10 feuilles de basilic</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pâte feuilletée">1 pâte feuilletée</li><li data-ingredient data-amount="2.0" data-unit="c. à s." data-name="de moutarde" data-ml="30.0">2 c. à s. de moutarde</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/tatin-tomates.jpg" alt="Tatin de tomates"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
@@ -43,7 +50,7 @@
 <h2>Étape 4</h2>
 <p>Disposer les tomates au fond du moule, côté bombé contre le fond, en laissant un espace au bord. Parsemer de basilic et couvrir de mozzarella.</p>
 <h2>Étape 5</h2>
-<p><em>Badigeonner</em> <span data-ingredient data-amount="1.0" data-unit="" data-name="pâte feuilletée">1 pâte feuilletée</span> de <span data-ingredient data-amount="2.0" data-unit="c. à s." data-name="de moutarde">2 c. à s. de moutarde</span> et la poser sur la mozzarella, côté moutarde. Rentrer les bords et <em>cuire</em> 35min à <strong>210ºC</strong>.</p>
+<p><em>Badigeonner</em> <span data-ingredient data-amount="1.0" data-unit="" data-name="pâte feuilletée">1 pâte feuilletée</span> de <span data-ingredient data-amount="2.0" data-unit="c. à s." data-name="de moutarde" data-ml="30.0">2 c. à s. de moutarde</span> et la poser sur la mozzarella, côté moutarde. Rentrer les bords et <em>cuire</em> 35min à <strong>210ºC</strong>.</p>
 <h2>Étape 6</h2>
 <p>Attendre 30sec puis <em>démouler</em> en retournant sur un plat.</p>
 </div>

@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Taboulé</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,23 +27,27 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" data-portions="8">
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count">8</strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="50.0" data-unit="g" data-name="d&#x27;eau">50 g d&#x27;eau</li><li data-ingredient data-amount="300.0" data-unit="g" data-name="de semoule moyenne">300 g de semoule moyenne</li><li data-ingredient data-amount="30.0" data-unit="g" data-name="d&#x27;huile d&#x27;olive">30 g d&#x27;huile d&#x27;olive</li><li data-ingredient data-amount="4.0" data-unit="c. à s." data-name="de jus de citron">4 c. à s. de jus de citron</li><li data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de sel">1 c. à c. de sel</li><li data-ingredient data-amount="2.0" data-unit="" data-name="pincées de poivre">2 pincées de poivre</li><li data-ingredient data-amount="10.0" data-unit="" data-name="feuilles de menthe">10 feuilles de menthe</li><li data-ingredient data-amount="5.0" data-unit="" data-name="brins de persil">5 brins de persil</li><li data-ingredient data-amount="80.0" data-unit="g" data-name="d&#x27;oignons doux">80 g d&#x27;oignons doux</li><li data-ingredient data-amount="500.0" data-unit="g" data-name="de tomates">500 g de tomates</li><li data-ingredient data-amount="200.0" data-unit="g" data-name="de concombre">200 g de concombre</li><li data-ingredient data-amount="160.0" data-unit="g" data-name="de poivron">160 g de poivron</li><li data-ingredient data-amount="20.0" data-unit="g" data-name="de raisins secs">20 g de raisins secs</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="de pois chiches">100 g de pois chiches</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="50.0" data-unit="g" data-name="d&#x27;eau" data-ml="50.0">50 g d&#x27;eau</li><li data-ingredient data-amount="300.0" data-unit="g" data-name="de semoule moyenne" data-ml="461.54">300 g de semoule moyenne</li><li data-ingredient data-amount="30.0" data-unit="g" data-name="d&#x27;huile d&#x27;olive" data-ml="32.61">30 g d&#x27;huile d&#x27;olive</li><li data-ingredient data-amount="4.0" data-unit="c. à s." data-name="de jus de citron" data-ml="60.0">4 c. à s. de jus de citron</li><li data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de sel" data-ml="5.0">1 c. à c. de sel</li><li data-ingredient data-amount="2.0" data-unit="" data-name="pincées de poivre">2 pincées de poivre</li><li data-ingredient data-amount="10.0" data-unit="" data-name="feuilles de menthe">10 feuilles de menthe</li><li data-ingredient data-amount="5.0" data-unit="" data-name="brins de persil">5 brins de persil</li><li data-ingredient data-amount="80.0" data-unit="g" data-name="d&#x27;oignons doux">80 g d&#x27;oignons doux</li><li data-ingredient data-amount="500.0" data-unit="g" data-name="de tomates">500 g de tomates</li><li data-ingredient data-amount="200.0" data-unit="g" data-name="de concombre">200 g de concombre</li><li data-ingredient data-amount="160.0" data-unit="g" data-name="de poivron">160 g de poivron</li><li data-ingredient data-amount="20.0" data-unit="g" data-name="de raisins secs" data-ml="30.77">20 g de raisins secs</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="de pois chiches">100 g de pois chiches</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/taboule-thermomix.jpg" alt="Taboulé"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
-<p><em>Mélanger</em> <span data-ingredient data-amount="50.0" data-unit="g" data-name="d&#x27;eau">50 g d&#x27;eau</span>, <span data-ingredient data-amount="300.0" data-unit="g" data-name="de semoule moyenne">300 g de semoule moyenne</span>, <span data-ingredient data-amount="30.0" data-unit="g" data-name="d&#x27;huile d&#x27;olive">30 g d&#x27;huile d&#x27;olive</span>, <span data-ingredient data-amount="4.0" data-unit="c. à s." data-name="de jus de citron">4 c. à s. de jus de citron</span>, <span data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de sel">1 c. à c. de sel</span> et <span data-ingredient data-amount="2.0" data-unit="" data-name="pincées de poivre">2 pincées de poivre</span> <strong>15 sec/sens inverse/vitesse 3.5</strong>. Réserver dans un saladier.</p>
+<p><em>Mélanger</em> <span data-ingredient data-amount="50.0" data-unit="g" data-name="d&#x27;eau" data-ml="50.0">50 g d&#x27;eau</span>, <span data-ingredient data-amount="300.0" data-unit="g" data-name="de semoule moyenne" data-ml="461.54">300 g de semoule moyenne</span>, <span data-ingredient data-amount="30.0" data-unit="g" data-name="d&#x27;huile d&#x27;olive" data-ml="32.61">30 g d&#x27;huile d&#x27;olive</span>, <span data-ingredient data-amount="4.0" data-unit="c. à s." data-name="de jus de citron" data-ml="60.0">4 c. à s. de jus de citron</span>, <span data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de sel" data-ml="5.0">1 c. à c. de sel</span> et <span data-ingredient data-amount="2.0" data-unit="" data-name="pincées de poivre">2 pincées de poivre</span> <strong>15 sec/sens inverse/vitesse 3.5</strong>. Réserver dans un saladier.</p>
 <h2>Étape 2</h2>
 <p><em>Hacher</em> <span data-ingredient data-amount="10.0" data-unit="" data-name="feuilles de menthe">10 feuilles de menthe</span>, <span data-ingredient data-amount="5.0" data-unit="" data-name="brins de persil">5 brins de persil</span> et <span data-ingredient data-amount="80.0" data-unit="g" data-name="d&#x27;oignons doux">80 g d&#x27;oignons doux</span> <strong>5 sec/vitesse 5</strong>.</p>
 <h2>Étape 3</h2>
 <p>Ajouter <span data-ingredient data-amount="500.0" data-unit="g" data-name="de tomates">500 g de tomates</span>, <span data-ingredient data-amount="200.0" data-unit="g" data-name="de concombre">200 g de concombre</span> et <span data-ingredient data-amount="160.0" data-unit="g" data-name="de poivron">160 g de poivron</span> en morceaux, <em>mixer</em> <strong>5 sec/vitesse 4</strong>.</p>
-<p>Verser sur la semoule avec <span data-ingredient data-amount="20.0" data-unit="g" data-name="de raisins secs">20 g de raisins secs</span> et <span data-ingredient data-amount="100.0" data-unit="g" data-name="de pois chiches">100 g de pois chiches</span> égouttés, mélanger.</p>
+<p>Verser sur la semoule avec <span data-ingredient data-amount="20.0" data-unit="g" data-name="de raisins secs" data-ml="30.77">20 g de raisins secs</span> et <span data-ingredient data-amount="100.0" data-unit="g" data-name="de pois chiches">100 g de pois chiches</span> égouttés, mélanger.</p>
 <h2>Étape 4</h2>
 <p><em>Laisser reposer 30min</em> au réfrigérateur. Égrainer à la fourchette avant de servir.</p>
 </div>

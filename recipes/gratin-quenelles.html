@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Gratin de quenelles</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,22 +27,26 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" data-portions="4">
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count">4</strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="8.0" data-unit="" data-name="grosses quenelles fraîches">8 grosses quenelles fraîches</li><li data-ingredient data-amount="200.0" data-unit="g" data-name="de champignons">200 g de champignons</li><li data-ingredient data-amount="4.0" data-unit="" data-name="tranches de jambon">4 tranches de jambon</li><li data-ingredient data-amount="4.0" data-unit="c. à c." data-name="de moutarde">4 c. à c. de moutarde</li><li data-ingredient>béchamel (50cl de lait)</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="de gruyère râpé">100 g de gruyère râpé</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="8.0" data-unit="" data-name="grosses quenelles fraîches">8 grosses quenelles fraîches</li><li data-ingredient data-amount="200.0" data-unit="g" data-name="de champignons">200 g de champignons</li><li data-ingredient data-amount="4.0" data-unit="" data-name="tranches de jambon">4 tranches de jambon</li><li data-ingredient data-amount="4.0" data-unit="c. à c." data-name="de moutarde" data-ml="20.0">4 c. à c. de moutarde</li><li data-ingredient>béchamel (50cl de lait)</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="de gruyère râpé" data-ml="250.0">100 g de gruyère râpé</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/gratin-quenelles.jpg" alt="Gratin de quenelles"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
 <p>Mettre <span data-ingredient data-amount="8.0" data-unit="" data-name="grosses quenelles fraîches">8 grosses quenelles fraîches</span> dans un plat à gratin. Parsemer de <span data-ingredient data-amount="200.0" data-unit="g" data-name="de champignons">200 g de champignons</span> et <span data-ingredient data-amount="4.0" data-unit="" data-name="tranches de jambon">4 tranches de jambon</span> <em>émincés</em> en fines lamelles.</p>
 <h2>Étape 2</h2>
-<p><em>Mélanger</em> <span data-ingredient data-amount="4.0" data-unit="c. à c." data-name="de moutarde">4 c. à c. de moutarde</span> à la <span data-ingredient>béchamel (50cl de lait)</span> et la verser sur les quenelles.</p>
+<p><em>Mélanger</em> <span data-ingredient data-amount="4.0" data-unit="c. à c." data-name="de moutarde" data-ml="20.0">4 c. à c. de moutarde</span> à la <span data-ingredient>béchamel (50cl de lait)</span> et la verser sur les quenelles.</p>
 <h2>Étape 3</h2>
-<p>Recouvrir de <span data-ingredient data-amount="100.0" data-unit="g" data-name="de gruyère râpé">100 g de gruyère râpé</span> et <em>gratiner</em> 30 à 35min à <strong>200ºC</strong>, le temps que les quenelles gonflent.</p>
+<p>Recouvrir de <span data-ingredient data-amount="100.0" data-unit="g" data-name="de gruyère râpé" data-ml="250.0">100 g de gruyère râpé</span> et <em>gratiner</em> 30 à 35min à <strong>200ºC</strong>, le temps que les quenelles gonflent.</p>
 </div>
         <div class="recipe-gallery" id="recipe-gallery"></div>
       </article>

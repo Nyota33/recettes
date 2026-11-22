@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Filet mignon en croûte</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,13 +27,17 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" data-portions="4">
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count">4</strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="1.0" data-unit="" data-name="oignon">1 oignon</li><li data-ingredient>beurre</li><li data-ingredient data-amount="1.0" data-unit="" data-name="filet mignon">1 filet mignon</li><li data-ingredient>sel</li><li data-ingredient>poivre</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pâte feuilletée">1 pâte feuilletée</li><li data-ingredient data-amount="2.0" data-unit="" data-name="tranches de jambon">2 tranches de jambon</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="de gruyère râpé">100 g de gruyère râpé</li><li data-ingredient data-amount="1.0" data-unit="" data-name="jaune d&#x27;oeuf">1 jaune d&#x27;oeuf</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="1.0" data-unit="" data-name="oignon">1 oignon</li><li data-ingredient>beurre</li><li data-ingredient data-amount="1.0" data-unit="" data-name="filet mignon">1 filet mignon</li><li data-ingredient>sel</li><li data-ingredient>poivre</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pâte feuilletée">1 pâte feuilletée</li><li data-ingredient data-amount="2.0" data-unit="" data-name="tranches de jambon">2 tranches de jambon</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="de gruyère râpé" data-ml="250.0">100 g de gruyère râpé</li><li data-ingredient data-amount="1.0" data-unit="" data-name="jaune d&#x27;oeuf">1 jaune d&#x27;oeuf</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/filet-mignon-croute.jpg" alt="Filet mignon en croûte"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
@@ -39,7 +46,7 @@
 <h2>Étape 2</h2>
 <p><em>Saisir</em> <span data-ingredient data-amount="1.0" data-unit="" data-name="filet mignon">1 filet mignon</span> de chaque côté, puis <em>cuire</em> 10min à <strong>feu doux</strong>. Ajouter les oignons 5min. Ajouter du <span data-ingredient>sel</span> et du <span data-ingredient>poivre</span>.</p>
 <h2>Étape 3</h2>
-<p>Dérouler <span data-ingredient data-amount="1.0" data-unit="" data-name="pâte feuilletée">1 pâte feuilletée</span>, y poser <span data-ingredient data-amount="2.0" data-unit="" data-name="tranches de jambon">2 tranches de jambon</span> et <span data-ingredient data-amount="100.0" data-unit="g" data-name="de gruyère râpé">100 g de gruyère râpé</span>. Saler, poivrer, puis déposer le filet et sa sauce aux oignons.</p>
+<p>Dérouler <span data-ingredient data-amount="1.0" data-unit="" data-name="pâte feuilletée">1 pâte feuilletée</span>, y poser <span data-ingredient data-amount="2.0" data-unit="" data-name="tranches de jambon">2 tranches de jambon</span> et <span data-ingredient data-amount="100.0" data-unit="g" data-name="de gruyère râpé" data-ml="250.0">100 g de gruyère râpé</span>. Saler, poivrer, puis déposer le filet et sa sauce aux oignons.</p>
 <h2>Étape 4</h2>
 <p><em>Refermer</em> la pâte autour de la viande et souder au pinceau avec <span data-ingredient data-amount="1.0" data-unit="" data-name="jaune d&#x27;oeuf">1 jaune d&#x27;oeuf</span>.</p>
 <h2>Étape 5</h2>

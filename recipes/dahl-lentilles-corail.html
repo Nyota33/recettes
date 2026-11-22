@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Dahl de lentilles corail</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,22 +27,26 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" data-portions="4">
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count">4</strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="300.0" data-unit="g" data-name="de lentilles corail">300 g de lentilles corail</li><li data-ingredient data-amount="2.0" data-unit="" data-name="oignons jaunes">2 oignons jaunes</li><li data-ingredient data-amount="2.0" data-unit="" data-name="gousses d&#x27;ail">2 gousses d&#x27;ail</li><li data-ingredient data-amount="1.0" data-unit="c. à s." data-name="d&#x27;huile d&#x27;olive">1 c. à s. d&#x27;huile d&#x27;olive</li><li data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de cumin">1 c. à c. de cumin</li><li data-ingredient data-amount="2.0" data-unit="c. à c." data-name="de curcuma">2 c. à c. de curcuma</li><li data-ingredient data-amount="400.0" data-unit="g" data-name="de tomates concassées">400 g de tomates concassées</li><li data-ingredient data-amount="50.0" data-unit="cl" data-name="de lait de coco">50 cl de lait de coco</li><li data-ingredient data-amount="50.0" data-unit="cl" data-name="de bouillon">50 cl de bouillon</li><li data-ingredient data-amount="1.0" data-unit="" data-name="citron jaune">1 citron jaune</li><li data-ingredient data-amount="200.0" data-unit="g" data-name="de pousses d&#x27;épinards">200 g de pousses d&#x27;épinards</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="300.0" data-unit="g" data-name="de lentilles corail" data-ml="352.94">300 g de lentilles corail</li><li data-ingredient data-amount="2.0" data-unit="" data-name="oignons jaunes">2 oignons jaunes</li><li data-ingredient data-amount="2.0" data-unit="" data-name="gousses d&#x27;ail">2 gousses d&#x27;ail</li><li data-ingredient data-amount="1.0" data-unit="c. à s." data-name="d&#x27;huile d&#x27;olive" data-ml="15.0">1 c. à s. d&#x27;huile d&#x27;olive</li><li data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de cumin" data-ml="5.0">1 c. à c. de cumin</li><li data-ingredient data-amount="2.0" data-unit="c. à c." data-name="de curcuma" data-ml="10.0">2 c. à c. de curcuma</li><li data-ingredient data-amount="400.0" data-unit="g" data-name="de tomates concassées">400 g de tomates concassées</li><li data-ingredient data-amount="50.0" data-unit="cl" data-name="de lait de coco" data-ml="500.0">50 cl de lait de coco</li><li data-ingredient data-amount="50.0" data-unit="cl" data-name="de bouillon" data-ml="500.0">50 cl de bouillon</li><li data-ingredient data-amount="1.0" data-unit="" data-name="citron jaune">1 citron jaune</li><li data-ingredient data-amount="200.0" data-unit="g" data-name="de pousses d&#x27;épinards">200 g de pousses d&#x27;épinards</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/dahl-lentilles-corail.jpg" alt="Dahl de lentilles corail"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
-<p><em>Rincer</em> <span data-ingredient data-amount="300.0" data-unit="g" data-name="de lentilles corail">300 g de lentilles corail</span>. <em>Ciseler</em> <span data-ingredient data-amount="2.0" data-unit="" data-name="oignons jaunes">2 oignons jaunes</span>. Peler, dégermer et presser <span data-ingredient data-amount="2.0" data-unit="" data-name="gousses d&#x27;ail">2 gousses d&#x27;ail</span>.</p>
+<p><em>Rincer</em> <span data-ingredient data-amount="300.0" data-unit="g" data-name="de lentilles corail" data-ml="352.94">300 g de lentilles corail</span>. <em>Ciseler</em> <span data-ingredient data-amount="2.0" data-unit="" data-name="oignons jaunes">2 oignons jaunes</span>. Peler, dégermer et presser <span data-ingredient data-amount="2.0" data-unit="" data-name="gousses d&#x27;ail">2 gousses d&#x27;ail</span>.</p>
 <h2>Étape 2</h2>
-<p><em>Rissoler</em> les oignons dans <span data-ingredient data-amount="1.0" data-unit="c. à s." data-name="d&#x27;huile d&#x27;olive">1 c. à s. d&#x27;huile d&#x27;olive</span>. Ajouter l’ail, <span data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de cumin">1 c. à c. de cumin</span> et <span data-ingredient data-amount="2.0" data-unit="c. à c." data-name="de curcuma">2 c. à c. de curcuma</span>, cuire quelques instants.</p>
+<p><em>Rissoler</em> les oignons dans <span data-ingredient data-amount="1.0" data-unit="c. à s." data-name="d&#x27;huile d&#x27;olive" data-ml="15.0">1 c. à s. d&#x27;huile d&#x27;olive</span>. Ajouter l’ail, <span data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de cumin" data-ml="5.0">1 c. à c. de cumin</span> et <span data-ingredient data-amount="2.0" data-unit="c. à c." data-name="de curcuma" data-ml="10.0">2 c. à c. de curcuma</span>, cuire quelques instants.</p>
 <h2>Étape 3</h2>
-<p>Ajouter les lentilles, <span data-ingredient data-amount="400.0" data-unit="g" data-name="de tomates concassées">400 g de tomates concassées</span>, <span data-ingredient data-amount="50.0" data-unit="cl" data-name="de lait de coco">50 cl de lait de coco</span> et <span data-ingredient data-amount="50.0" data-unit="cl" data-name="de bouillon">50 cl de bouillon</span>. <em>Laisser mijoter</em> 20min en remuant.</p>
+<p>Ajouter les lentilles, <span data-ingredient data-amount="400.0" data-unit="g" data-name="de tomates concassées">400 g de tomates concassées</span>, <span data-ingredient data-amount="50.0" data-unit="cl" data-name="de lait de coco" data-ml="500.0">50 cl de lait de coco</span> et <span data-ingredient data-amount="50.0" data-unit="cl" data-name="de bouillon" data-ml="500.0">50 cl de bouillon</span>. <em>Laisser mijoter</em> 20min en remuant.</p>
 <h2>Étape 4</h2>
 <p>En fin de cuisson, ajouter le jus d’<span data-ingredient data-amount="1.0" data-unit="" data-name="citron jaune">1 citron jaune</span> et <span data-ingredient data-amount="200.0" data-unit="g" data-name="de pousses d&#x27;épinards">200 g de pousses d&#x27;épinards</span>. Servir avec du riz basmati.</p>
 </div>

@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Tarte brocolis lardons</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,13 +27,17 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" hidden>
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count"></strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="750.0" data-unit="g" data-name="de brocolis">750 g de brocolis</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="de jambon cru">100 g de jambon cru</li><li data-ingredient data-amount="2.0" data-unit="" data-name="oeufs">2 oeufs</li><li data-ingredient data-amount="15.0" data-unit="cl" data-name="de crème">15 cl de crème</li><li data-ingredient data-amount="75.0" data-unit="g" data-name="de gruyère râpé">75 g de gruyère râpé</li><li data-ingredient data-amount="0.5" data-unit="c. à c." data-name="de sel">0.5 c. à c. de sel</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pincée de poivre">1 pincée de poivre</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pincée de muscade">1 pincée de muscade</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pâte brisée">1 pâte brisée</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="750.0" data-unit="g" data-name="de brocolis">750 g de brocolis</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="de jambon cru">100 g de jambon cru</li><li data-ingredient data-amount="2.0" data-unit="" data-name="oeufs">2 oeufs</li><li data-ingredient data-amount="15.0" data-unit="cl" data-name="de crème" data-ml="150.0">15 cl de crème</li><li data-ingredient data-amount="75.0" data-unit="g" data-name="de gruyère râpé" data-ml="187.5">75 g de gruyère râpé</li><li data-ingredient data-amount="0.5" data-unit="c. à c." data-name="de sel" data-ml="2.5">0.5 c. à c. de sel</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pincée de poivre">1 pincée de poivre</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pincée de muscade">1 pincée de muscade</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pâte brisée">1 pâte brisée</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/tarte-brocolis-lardons.jpg" alt="Tarte brocolis lardons"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
@@ -39,7 +46,7 @@
 <h2>Étape 2</h2>
 <p>Dégraisser <span data-ingredient data-amount="100.0" data-unit="g" data-name="de jambon cru">100 g de jambon cru</span> et le <em>tailler en lanières</em>.</p>
 <h2>Étape 3</h2>
-<p><em>Battre</em> <span data-ingredient data-amount="2.0" data-unit="" data-name="oeufs">2 oeufs</span> avec <span data-ingredient data-amount="15.0" data-unit="cl" data-name="de crème">15 cl de crème</span>, puis incorporer les 2/3 de <span data-ingredient data-amount="75.0" data-unit="g" data-name="de gruyère râpé">75 g de gruyère râpé</span>, <span data-ingredient data-amount="0.5" data-unit="c. à c." data-name="de sel">0.5 c. à c. de sel</span>, <span data-ingredient data-amount="1.0" data-unit="" data-name="pincée de poivre">1 pincée de poivre</span> et <span data-ingredient data-amount="1.0" data-unit="" data-name="pincée de muscade">1 pincée de muscade</span>.</p>
+<p><em>Battre</em> <span data-ingredient data-amount="2.0" data-unit="" data-name="oeufs">2 oeufs</span> avec <span data-ingredient data-amount="15.0" data-unit="cl" data-name="de crème" data-ml="150.0">15 cl de crème</span>, puis incorporer les 2/3 de <span data-ingredient data-amount="75.0" data-unit="g" data-name="de gruyère râpé" data-ml="187.5">75 g de gruyère râpé</span>, <span data-ingredient data-amount="0.5" data-unit="c. à c." data-name="de sel" data-ml="2.5">0.5 c. à c. de sel</span>, <span data-ingredient data-amount="1.0" data-unit="" data-name="pincée de poivre">1 pincée de poivre</span> et <span data-ingredient data-amount="1.0" data-unit="" data-name="pincée de muscade">1 pincée de muscade</span>.</p>
 <h2>Étape 4</h2>
 <p>Piquer <span data-ingredient data-amount="1.0" data-unit="" data-name="pâte brisée">1 pâte brisée</span>, y étaler les brocolis et le jambon, puis <em>napper</em> de la préparation. Parsemer le reste du gruyère et <em>cuire</em> 30min à mi-hauteur.</p>
 <h1>Conseils</h1>

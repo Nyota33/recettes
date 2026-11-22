@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Riz cantonais</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,22 +27,26 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" data-portions="6">
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count">6</strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="100.0" data-unit="g" data-name="d&#x27;oignon">100 g d&#x27;oignon</li><li data-ingredient data-amount="1.0" data-unit="" data-name="gousse d&#x27;ail">1 gousse d&#x27;ail</li><li data-ingredient data-amount="15.0" data-unit="g" data-name="d&#x27;huile d&#x27;olive">15 g d&#x27;huile d&#x27;olive</li><li data-ingredient data-amount="600.0" data-unit="g" data-name="d&#x27;eau">600 g d&#x27;eau</li><li data-ingredient data-amount="250.0" data-unit="g" data-name="de riz">250 g de riz</li><li data-ingredient data-amount="200.0" data-unit="g" data-name="de petits pois frais">200 g de petits pois frais</li><li data-ingredient data-amount="200.0" data-unit="g" data-name="de jambon fumé en dés">200 g de jambon fumé en dés</li><li data-ingredient data-amount="20.0" data-unit="g" data-name="de sauce soja">20 g de sauce soja</li><li data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</li><li data-ingredient data-amount="2.0" data-unit="" data-name="pincées de sel">2 pincées de sel</li><li data-ingredient data-amount="2.0" data-unit="" data-name="pincées de poivre">2 pincées de poivre</li><li data-ingredient>beurre</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="100.0" data-unit="g" data-name="d&#x27;oignon">100 g d&#x27;oignon</li><li data-ingredient data-amount="1.0" data-unit="" data-name="gousse d&#x27;ail">1 gousse d&#x27;ail</li><li data-ingredient data-amount="15.0" data-unit="g" data-name="d&#x27;huile d&#x27;olive" data-ml="16.3">15 g d&#x27;huile d&#x27;olive</li><li data-ingredient data-amount="600.0" data-unit="g" data-name="d&#x27;eau" data-ml="600.0">600 g d&#x27;eau</li><li data-ingredient data-amount="250.0" data-unit="g" data-name="de riz" data-ml="294.12">250 g de riz</li><li data-ingredient data-amount="200.0" data-unit="g" data-name="de petits pois frais">200 g de petits pois frais</li><li data-ingredient data-amount="200.0" data-unit="g" data-name="de jambon fumé en dés">200 g de jambon fumé en dés</li><li data-ingredient data-amount="20.0" data-unit="g" data-name="de sauce soja">20 g de sauce soja</li><li data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</li><li data-ingredient data-amount="2.0" data-unit="" data-name="pincées de sel">2 pincées de sel</li><li data-ingredient data-amount="2.0" data-unit="" data-name="pincées de poivre">2 pincées de poivre</li><li data-ingredient>beurre</li></ul>
         </section>
         
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
 <p>Mettre <span data-ingredient data-amount="100.0" data-unit="g" data-name="d&#x27;oignon">100 g d&#x27;oignon</span> coupé en 2 et <span data-ingredient data-amount="1.0" data-unit="" data-name="gousse d&#x27;ail">1 gousse d&#x27;ail</span> dans le bol, puis <em>hacher</em> <strong>5 sec/vitesse 5</strong>.</p>
 <h2>Étape 2</h2>
-<p>Ajouter <span data-ingredient data-amount="15.0" data-unit="g" data-name="d&#x27;huile d&#x27;olive">15 g d&#x27;huile d&#x27;olive</span> et <em>rissoler</em> <strong>4 min/120ºC/vitesse spatule</strong>, sans le gobelet.</p>
+<p>Ajouter <span data-ingredient data-amount="15.0" data-unit="g" data-name="d&#x27;huile d&#x27;olive" data-ml="16.3">15 g d&#x27;huile d&#x27;olive</span> et <em>rissoler</em> <strong>4 min/120ºC/vitesse spatule</strong>, sans le gobelet.</p>
 <h2>Étape 3</h2>
-<p>Ajouter <span data-ingredient data-amount="600.0" data-unit="g" data-name="d&#x27;eau">600 g d&#x27;eau</span>, <span data-ingredient data-amount="250.0" data-unit="g" data-name="de riz">250 g de riz</span> rincé, <span data-ingredient data-amount="200.0" data-unit="g" data-name="de petits pois frais">200 g de petits pois frais</span>, <span data-ingredient data-amount="200.0" data-unit="g" data-name="de jambon fumé en dés">200 g de jambon fumé en dés</span> et <span data-ingredient data-amount="20.0" data-unit="g" data-name="de sauce soja">20 g de sauce soja</span>. <em>Cuire</em> en mode <strong>Rice cooker</strong>.</p>
+<p>Ajouter <span data-ingredient data-amount="600.0" data-unit="g" data-name="d&#x27;eau" data-ml="600.0">600 g d&#x27;eau</span>, <span data-ingredient data-amount="250.0" data-unit="g" data-name="de riz" data-ml="294.12">250 g de riz</span> rincé, <span data-ingredient data-amount="200.0" data-unit="g" data-name="de petits pois frais">200 g de petits pois frais</span>, <span data-ingredient data-amount="200.0" data-unit="g" data-name="de jambon fumé en dés">200 g de jambon fumé en dés</span> et <span data-ingredient data-amount="20.0" data-unit="g" data-name="de sauce soja">20 g de sauce soja</span>. <em>Cuire</em> en mode <strong>Rice cooker</strong>.</p>
 <h2>Étape 4</h2>
 <p>Pendant ce temps, <em>battre</em> <span data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</span> avec <span data-ingredient data-amount="2.0" data-unit="" data-name="pincées de sel">2 pincées de sel</span> et <span data-ingredient data-amount="2.0" data-unit="" data-name="pincées de poivre">2 pincées de poivre</span>. <em>Cuire</em> en 2 omelettes à <strong>feu vif</strong> avec un peu de <span data-ingredient>beurre</span>, puis les détailler en petits morceaux.</p>
 <h2>Étape 5</h2>

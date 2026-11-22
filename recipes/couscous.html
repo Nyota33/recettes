@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Couscous</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,18 +27,22 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" data-portions="6">
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count">6</strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="3.0" data-unit="" data-name="cuisses de poulet">3 cuisses de poulet</li><li data-ingredient data-amount="6.0" data-unit="" data-name="merguez">6 merguez</li><li data-ingredient data-amount="6.0" data-unit="" data-name="boulettes">6 boulettes</li><li data-ingredient data-amount="15.0" data-unit="cl" data-name="d&#x27;huile d&#x27;olive">15 cl d&#x27;huile d&#x27;olive</li><li data-ingredient data-amount="1.0" data-unit="" data-name="oignon">1 oignon</li><li data-ingredient data-amount="2.0" data-unit="" data-name="gousses d&#x27;ail">2 gousses d&#x27;ail</li><li data-ingredient data-amount="1.0" data-unit="c. à s." data-name="de ras el hanout">1 c. à s. de ras el hanout</li><li data-ingredient data-amount="1.0" data-unit="" data-name="petite boîte de tomates pelées">1 petite boîte de tomates pelées</li><li data-ingredient data-amount="2.0" data-unit="" data-name="carottes">2 carottes</li><li data-ingredient data-amount="1.0" data-unit="" data-name="poivron">1 poivron</li><li data-ingredient data-amount="2.0" data-unit="" data-name="courgettes">2 courgettes</li><li data-ingredient data-amount="0.5" data-unit="" data-name="boîte de pois chiches">0.5 boîte de pois chiches</li><li data-ingredient>semoule de couscous</li><li data-ingredient data-amount="1.0" data-unit="c. à s." data-name="de harissa">1 c. à s. de harissa</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="3.0" data-unit="" data-name="cuisses de poulet">3 cuisses de poulet</li><li data-ingredient data-amount="6.0" data-unit="" data-name="merguez">6 merguez</li><li data-ingredient data-amount="6.0" data-unit="" data-name="boulettes">6 boulettes</li><li data-ingredient data-amount="15.0" data-unit="cl" data-name="d&#x27;huile d&#x27;olive" data-ml="150.0">15 cl d&#x27;huile d&#x27;olive</li><li data-ingredient data-amount="1.0" data-unit="" data-name="oignon">1 oignon</li><li data-ingredient data-amount="2.0" data-unit="" data-name="gousses d&#x27;ail">2 gousses d&#x27;ail</li><li data-ingredient data-amount="1.0" data-unit="c. à s." data-name="de ras el hanout" data-ml="15.0">1 c. à s. de ras el hanout</li><li data-ingredient data-amount="1.0" data-unit="" data-name="petite boîte de tomates pelées">1 petite boîte de tomates pelées</li><li data-ingredient data-amount="2.0" data-unit="" data-name="carottes">2 carottes</li><li data-ingredient data-amount="1.0" data-unit="" data-name="poivron">1 poivron</li><li data-ingredient data-amount="2.0" data-unit="" data-name="courgettes">2 courgettes</li><li data-ingredient data-amount="0.5" data-unit="" data-name="boîte de pois chiches">0.5 boîte de pois chiches</li><li data-ingredient>semoule de couscous</li><li data-ingredient data-amount="1.0" data-unit="c. à s." data-name="de harissa" data-ml="15.0">1 c. à s. de harissa</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/couscous.jpg" alt="Couscous"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
-<p>Dans la cocotte-minute, <em>rissoler</em> <span data-ingredient data-amount="3.0" data-unit="" data-name="cuisses de poulet">3 cuisses de poulet</span> coupées en deux, <span data-ingredient data-amount="6.0" data-unit="" data-name="merguez">6 merguez</span> et <span data-ingredient data-amount="6.0" data-unit="" data-name="boulettes">6 boulettes</span> dans 3 cas des <span data-ingredient data-amount="15.0" data-unit="cl" data-name="d&#x27;huile d&#x27;olive">15 cl d&#x27;huile d&#x27;olive</span>. Ajouter <span data-ingredient data-amount="1.0" data-unit="" data-name="oignon">1 oignon</span> et <span data-ingredient data-amount="2.0" data-unit="" data-name="gousses d&#x27;ail">2 gousses d&#x27;ail</span>, puis saupoudrer d’<span data-ingredient data-amount="1.0" data-unit="c. à s." data-name="de ras el hanout">1 c. à s. de ras el hanout</span>.</p>
+<p>Dans la cocotte-minute, <em>rissoler</em> <span data-ingredient data-amount="3.0" data-unit="" data-name="cuisses de poulet">3 cuisses de poulet</span> coupées en deux, <span data-ingredient data-amount="6.0" data-unit="" data-name="merguez">6 merguez</span> et <span data-ingredient data-amount="6.0" data-unit="" data-name="boulettes">6 boulettes</span> dans 3 cas des <span data-ingredient data-amount="15.0" data-unit="cl" data-name="d&#x27;huile d&#x27;olive" data-ml="150.0">15 cl d&#x27;huile d&#x27;olive</span>. Ajouter <span data-ingredient data-amount="1.0" data-unit="" data-name="oignon">1 oignon</span> et <span data-ingredient data-amount="2.0" data-unit="" data-name="gousses d&#x27;ail">2 gousses d&#x27;ail</span>, puis saupoudrer d’<span data-ingredient data-amount="1.0" data-unit="c. à s." data-name="de ras el hanout" data-ml="15.0">1 c. à s. de ras el hanout</span>.</p>
 <h2>Étape 2</h2>
 <p>Verser <span data-ingredient data-amount="1.0" data-unit="" data-name="petite boîte de tomates pelées">1 petite boîte de tomates pelées</span> avec leur jus, ajouter <span data-ingredient data-amount="2.0" data-unit="" data-name="carottes">2 carottes</span> en tronçons, <span data-ingredient data-amount="1.0" data-unit="" data-name="poivron">1 poivron</span> émincé et 1L d’eau. Assaisonner.</p>
 <h2>Étape 3</h2>
@@ -45,7 +52,7 @@
 <h2>Étape 5</h2>
 <p>Mélanger la <span data-ingredient>semoule de couscous</span> avec 5 cas d’huile d’olive. Verser dessus 2 louches de bouillon bouillant, <em>laisser gonfler 5min</em> puis <em>égrener</em> à la fourchette.</p>
 <h2>Étape 6</h2>
-<p>Pour la sauce forte, <em>mélanger</em> 1 louche de bouillon avec <span data-ingredient data-amount="1.0" data-unit="c. à s." data-name="de harissa">1 c. à s. de harissa</span>.</p>
+<p>Pour la sauce forte, <em>mélanger</em> 1 louche de bouillon avec <span data-ingredient data-amount="1.0" data-unit="c. à s." data-name="de harissa" data-ml="15.0">1 c. à s. de harissa</span>.</p>
 <h1>Conseils</h1>
 <ul>
 <li>La recette d’origine indique 1 cac de harissa pour la sauce, à doser selon le goût.</li>

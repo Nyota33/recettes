@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Tarte champignons reblochon</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,13 +27,17 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" hidden>
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count"></strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="1.0" data-unit="" data-name="pâte brisée">1 pâte brisée</li><li data-ingredient data-amount="500.0" data-unit="g" data-name="de champignons forestiers">500 g de champignons forestiers</li><li data-ingredient data-amount="4.0" data-unit="" data-name="oignons">4 oignons</li><li data-ingredient data-amount="1.0" data-unit="" data-name="gousse d&#x27;ail">1 gousse d&#x27;ail</li><li data-ingredient>sel</li><li data-ingredient>poivre</li><li data-ingredient>persil</li><li data-ingredient data-amount="0.5" data-unit="" data-name="reblochon">0.5 reblochon</li><li data-ingredient data-amount="2.0" data-unit="" data-name="oeufs">2 oeufs</li><li data-ingredient data-amount="25.0" data-unit="cl" data-name="de crème">25 cl de crème</li><li data-ingredient>cumin</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="1.0" data-unit="" data-name="pâte brisée">1 pâte brisée</li><li data-ingredient data-amount="500.0" data-unit="g" data-name="de champignons forestiers">500 g de champignons forestiers</li><li data-ingredient data-amount="4.0" data-unit="" data-name="oignons">4 oignons</li><li data-ingredient data-amount="1.0" data-unit="" data-name="gousse d&#x27;ail">1 gousse d&#x27;ail</li><li data-ingredient>sel</li><li data-ingredient>poivre</li><li data-ingredient>persil</li><li data-ingredient data-amount="0.5" data-unit="" data-name="reblochon">0.5 reblochon</li><li data-ingredient data-amount="2.0" data-unit="" data-name="oeufs">2 oeufs</li><li data-ingredient data-amount="25.0" data-unit="cl" data-name="de crème" data-ml="250.0">25 cl de crème</li><li data-ingredient>cumin</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/tarte-champignons.jpg" alt="Tarte champignons reblochon"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
@@ -41,7 +48,7 @@
 <h2>Étape 3</h2>
 <p>Gratter la croûte de <span data-ingredient data-amount="0.5" data-unit="" data-name="reblochon">0.5 reblochon</span> et le <em>couper en cubes</em>.</p>
 <h2>Étape 4</h2>
-<p><em>Battre</em> <span data-ingredient data-amount="2.0" data-unit="" data-name="oeufs">2 oeufs</span> avec <span data-ingredient data-amount="25.0" data-unit="cl" data-name="de crème">25 cl de crème</span>, du sel, du poivre et une belle poignée de <span data-ingredient>cumin</span>.</p>
+<p><em>Battre</em> <span data-ingredient data-amount="2.0" data-unit="" data-name="oeufs">2 oeufs</span> avec <span data-ingredient data-amount="25.0" data-unit="cl" data-name="de crème" data-ml="250.0">25 cl de crème</span>, du sel, du poivre et une belle poignée de <span data-ingredient>cumin</span>.</p>
 <h2>Étape 5</h2>
 <p>Garnir le fond de tarte avec les légumes, verser l’appareil et terminer par le reblochon. <em>Cuire</em> 25min à <strong>180ºC</strong>.</p>
 </div>

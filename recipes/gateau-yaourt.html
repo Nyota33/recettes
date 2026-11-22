@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Gâteau au yaourt</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,18 +27,22 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" data-portions="6">
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count">6</strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="20.0" data-unit="g" data-name="de beurre">20 g de beurre</li><li data-ingredient data-amount="1.0" data-unit="" data-name="yaourt">1 yaourt</li><li data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</li><li data-ingredient data-amount="2.0" data-unit="" data-name="pots de sucre">2 pots de sucre</li><li data-ingredient data-amount="3.0" data-unit="" data-name="pots de farine">3 pots de farine</li><li data-ingredient data-amount="1.0" data-unit="" data-name="sachet de levure">1 sachet de levure</li><li data-ingredient data-amount="1.0" data-unit="" data-name="gousse de vanille">1 gousse de vanille</li><li data-ingredient data-amount="1.0" data-unit="" data-name="sachet de sucre vanillé">1 sachet de sucre vanillé</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pot d&#x27;huile d&#x27;arachide ou de tournesol">1 pot d&#x27;huile d&#x27;arachide ou de tournesol</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="20.0" data-unit="g" data-name="de beurre" data-ml="21.98">20 g de beurre</li><li data-ingredient data-amount="1.0" data-unit="" data-name="yaourt">1 yaourt</li><li data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</li><li data-ingredient data-amount="2.0" data-unit="" data-name="pots de sucre">2 pots de sucre</li><li data-ingredient data-amount="3.0" data-unit="" data-name="pots de farine">3 pots de farine</li><li data-ingredient data-amount="1.0" data-unit="" data-name="sachet de levure">1 sachet de levure</li><li data-ingredient data-amount="1.0" data-unit="" data-name="gousse de vanille">1 gousse de vanille</li><li data-ingredient data-amount="1.0" data-unit="" data-name="sachet de sucre vanillé">1 sachet de sucre vanillé</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pot d&#x27;huile d&#x27;arachide ou de tournesol">1 pot d&#x27;huile d&#x27;arachide ou de tournesol</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/gateau-yaourt.jpg" alt="Gâteau au yaourt"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
-<p><em>Préchauffer</em> le four à <strong>180ºC</strong>. Beurrer un moule à manqué avec <span data-ingredient data-amount="20.0" data-unit="g" data-name="de beurre">20 g de beurre</span>.</p>
+<p><em>Préchauffer</em> le four à <strong>180ºC</strong>. Beurrer un moule à manqué avec <span data-ingredient data-amount="20.0" data-unit="g" data-name="de beurre" data-ml="21.98">20 g de beurre</span>.</p>
 <h2>Étape 2</h2>
 <p>Verser <span data-ingredient data-amount="1.0" data-unit="" data-name="yaourt">1 yaourt</span> dans un saladier ; le pot sert de mesure.</p>
 <h2>Étape 3</h2>

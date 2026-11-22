@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Millefeuilles betterave ricotta</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,20 +27,24 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" data-portions="4">
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count">4</strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="40.0" data-unit="g" data-name="de beurre mou">40 g de beurre mou</li><li data-ingredient data-amount="400.0" data-unit="g" data-name="de ricotta">400 g de ricotta</li><li data-ingredient>sel</li><li data-ingredient>poivre</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pincée d&#x27;herbes de Provence">1 pincée d&#x27;herbes de Provence</li><li data-ingredient data-amount="4.0" data-unit="c. à s." data-name="de miel liquide">4 c. à s. de miel liquide</li><li data-ingredient data-amount="2.0" data-unit="c. à s." data-name="de vinaigre balsamique">2 c. à s. de vinaigre balsamique</li><li data-ingredient data-amount="4.0" data-unit="" data-name="betteraves cuites">4 betteraves cuites</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="40.0" data-unit="g" data-name="de beurre mou" data-ml="43.96">40 g de beurre mou</li><li data-ingredient data-amount="400.0" data-unit="g" data-name="de ricotta">400 g de ricotta</li><li data-ingredient>sel</li><li data-ingredient>poivre</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pincée d&#x27;herbes de Provence">1 pincée d&#x27;herbes de Provence</li><li data-ingredient data-amount="4.0" data-unit="c. à s." data-name="de miel liquide" data-ml="60.0">4 c. à s. de miel liquide</li><li data-ingredient data-amount="2.0" data-unit="c. à s." data-name="de vinaigre balsamique" data-ml="30.0">2 c. à s. de vinaigre balsamique</li><li data-ingredient data-amount="4.0" data-unit="" data-name="betteraves cuites">4 betteraves cuites</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/millefeuilles-betterave-ricotta.jpg" alt="Millefeuilles betterave ricotta"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
-<p><em>Écraser</em> <span data-ingredient data-amount="40.0" data-unit="g" data-name="de beurre mou">40 g de beurre mou</span> avec <span data-ingredient data-amount="400.0" data-unit="g" data-name="de ricotta">400 g de ricotta</span>, <span data-ingredient>sel</span>, <span data-ingredient>poivre</span> et <span data-ingredient data-amount="1.0" data-unit="" data-name="pincée d&#x27;herbes de Provence">1 pincée d&#x27;herbes de Provence</span>.</p>
+<p><em>Écraser</em> <span data-ingredient data-amount="40.0" data-unit="g" data-name="de beurre mou" data-ml="43.96">40 g de beurre mou</span> avec <span data-ingredient data-amount="400.0" data-unit="g" data-name="de ricotta">400 g de ricotta</span>, <span data-ingredient>sel</span>, <span data-ingredient>poivre</span> et <span data-ingredient data-amount="1.0" data-unit="" data-name="pincée d&#x27;herbes de Provence">1 pincée d&#x27;herbes de Provence</span>.</p>
 <h2>Étape 2</h2>
-<p><em>Émulsionner</em> à la fourchette <span data-ingredient data-amount="4.0" data-unit="c. à s." data-name="de miel liquide">4 c. à s. de miel liquide</span> et <span data-ingredient data-amount="2.0" data-unit="c. à s." data-name="de vinaigre balsamique">2 c. à s. de vinaigre balsamique</span>.</p>
+<p><em>Émulsionner</em> à la fourchette <span data-ingredient data-amount="4.0" data-unit="c. à s." data-name="de miel liquide" data-ml="60.0">4 c. à s. de miel liquide</span> et <span data-ingredient data-amount="2.0" data-unit="c. à s." data-name="de vinaigre balsamique" data-ml="30.0">2 c. à s. de vinaigre balsamique</span>.</p>
 <h2>Étape 3</h2>
 <p><em>Peler</em> <span data-ingredient data-amount="4.0" data-unit="" data-name="betteraves cuites">4 betteraves cuites</span> et les <em>couper en fines tranches</em> de 3-4mm.</p>
 <h2>Étape 4</h2>

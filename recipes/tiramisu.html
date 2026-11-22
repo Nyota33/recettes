@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Tiramisu</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,24 +27,28 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" data-portions="4">
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count">4</strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="de sucre">100 g de sucre</li><li data-ingredient data-amount="1.0" data-unit="" data-name="sachet de sucre vanillé">1 sachet de sucre vanillé</li><li data-ingredient data-amount="250.0" data-unit="g" data-name="de mascarpone">250 g de mascarpone</li><li data-ingredient data-amount="1.0" data-unit="" data-name="paquet de Roudor ou boudoirs">1 paquet de Roudor ou boudoirs</li><li data-ingredient data-amount="1.0" data-unit="" data-name="double café">1 double café</li><li data-ingredient data-amount="30.0" data-unit="g" data-name="de cacao amer">30 g de cacao amer</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="de sucre" data-ml="117.65">100 g de sucre</li><li data-ingredient data-amount="1.0" data-unit="" data-name="sachet de sucre vanillé">1 sachet de sucre vanillé</li><li data-ingredient data-amount="250.0" data-unit="g" data-name="de mascarpone">250 g de mascarpone</li><li data-ingredient data-amount="1.0" data-unit="" data-name="paquet de Roudor ou boudoirs">1 paquet de Roudor ou boudoirs</li><li data-ingredient data-amount="1.0" data-unit="" data-name="double café">1 double café</li><li data-ingredient data-amount="30.0" data-unit="g" data-name="de cacao amer" data-ml="66.67">30 g de cacao amer</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/tiramisu.jpg" alt="Tiramisu"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
-<p><em>Séparer les blancs des jaunes</em> de <span data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</span>. <em>Fouetter</em> les jaunes avec 2 cas de <span data-ingredient data-amount="100.0" data-unit="g" data-name="de sucre">100 g de sucre</span> et <span data-ingredient data-amount="1.0" data-unit="" data-name="sachet de sucre vanillé">1 sachet de sucre vanillé</span> jusqu’à blanchiment. <em>Monter les blancs en neige</em>.</p>
+<p><em>Séparer les blancs des jaunes</em> de <span data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</span>. <em>Fouetter</em> les jaunes avec 2 cas de <span data-ingredient data-amount="100.0" data-unit="g" data-name="de sucre" data-ml="117.65">100 g de sucre</span> et <span data-ingredient data-amount="1.0" data-unit="" data-name="sachet de sucre vanillé">1 sachet de sucre vanillé</span> jusqu’à blanchiment. <em>Monter les blancs en neige</em>.</p>
 <h2>Étape 2</h2>
 <p>Ajouter <span data-ingredient data-amount="250.0" data-unit="g" data-name="de mascarpone">250 g de mascarpone</span> aux jaunes jusqu’à obtenir une crème lisse, puis <em>incorporer</em> délicatement les blancs.</p>
 <h2>Étape 3</h2>
 <p><em>Alterner</em> les couches : <span data-ingredient data-amount="1.0" data-unit="" data-name="paquet de Roudor ou boudoirs">1 paquet de Roudor ou boudoirs</span> trempés dans <span data-ingredient data-amount="1.0" data-unit="" data-name="double café">1 double café</span>, puis crème au mascarpone. <em>Laisser reposer 3h</em> au frais.</p>
 <h2>Étape 4</h2>
-<p><em>Saupoudrer</em> de <span data-ingredient data-amount="30.0" data-unit="g" data-name="de cacao amer">30 g de cacao amer</span> avant de servir.</p>
+<p><em>Saupoudrer</em> de <span data-ingredient data-amount="30.0" data-unit="g" data-name="de cacao amer" data-ml="66.67">30 g de cacao amer</span> avant de servir.</p>
 <h1>Conseils</h1>
 <p>Version framboises : remplacer le café par 200g de framboises sucrées avec 35g de sucre ; ne pas tremper les biscuits et ajouter une cuillère de framboises sur chaque couche.</p>
 </div>

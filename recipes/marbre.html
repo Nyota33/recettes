@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Marbré</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,22 +27,26 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" hidden>
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count"></strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</li><li data-ingredient data-amount="125.0" data-unit="g" data-name="de sucre">125 g de sucre</li><li data-ingredient data-amount="125.0" data-unit="g" data-name="de beurre">125 g de beurre</li><li data-ingredient data-amount="125.0" data-unit="g" data-name="de farine">125 g de farine</li><li data-ingredient data-amount="1.0" data-unit="" data-name="sachet de levure chimique">1 sachet de levure chimique</li><li data-ingredient data-amount="70.0" data-unit="g" data-name="de chocolat">70 g de chocolat</li><li data-ingredient data-amount="1.0" data-unit="" data-name="gousse de vanille">1 gousse de vanille</li><li data-ingredient data-amount="10.0" data-unit="cl" data-name="de lait">10 cl de lait</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</li><li data-ingredient data-amount="125.0" data-unit="g" data-name="de sucre" data-ml="147.06">125 g de sucre</li><li data-ingredient data-amount="125.0" data-unit="g" data-name="de beurre" data-ml="137.36">125 g de beurre</li><li data-ingredient data-amount="125.0" data-unit="g" data-name="de farine" data-ml="227.27">125 g de farine</li><li data-ingredient data-amount="1.0" data-unit="" data-name="sachet de levure chimique">1 sachet de levure chimique</li><li data-ingredient data-amount="70.0" data-unit="g" data-name="de chocolat">70 g de chocolat</li><li data-ingredient data-amount="1.0" data-unit="" data-name="gousse de vanille">1 gousse de vanille</li><li data-ingredient data-amount="10.0" data-unit="cl" data-name="de lait" data-ml="100.0">10 cl de lait</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/marbre.jpg" alt="Marbré"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
-<p><em>Fouetter</em> <span data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</span> avec <span data-ingredient data-amount="125.0" data-unit="g" data-name="de sucre">125 g de sucre</span> jusqu’à blanchiment. Ajouter <span data-ingredient data-amount="125.0" data-unit="g" data-name="de beurre">125 g de beurre</span> fondu, puis <span data-ingredient data-amount="125.0" data-unit="g" data-name="de farine">125 g de farine</span> tamisée avec <span data-ingredient data-amount="1.0" data-unit="" data-name="sachet de levure chimique">1 sachet de levure chimique</span>.</p>
+<p><em>Fouetter</em> <span data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</span> avec <span data-ingredient data-amount="125.0" data-unit="g" data-name="de sucre" data-ml="147.06">125 g de sucre</span> jusqu’à blanchiment. Ajouter <span data-ingredient data-amount="125.0" data-unit="g" data-name="de beurre" data-ml="137.36">125 g de beurre</span> fondu, puis <span data-ingredient data-amount="125.0" data-unit="g" data-name="de farine" data-ml="227.27">125 g de farine</span> tamisée avec <span data-ingredient data-amount="1.0" data-unit="" data-name="sachet de levure chimique">1 sachet de levure chimique</span>.</p>
 <h2>Étape 2</h2>
 <p><em>Diviser la pâte</em> en deux. Dans l’une, ajouter <span data-ingredient data-amount="70.0" data-unit="g" data-name="de chocolat">70 g de chocolat</span> fondu bien lisse ; dans l’autre, <span data-ingredient data-amount="1.0" data-unit="" data-name="gousse de vanille">1 gousse de vanille</span> (ou 1 sachet de sucre vanillé).</p>
 <h2>Étape 3</h2>
-<p>Ajouter <span data-ingredient data-amount="10.0" data-unit="cl" data-name="de lait">10 cl de lait</span> petit à petit dans chacune pour que les deux pâtes aient la même consistance, sans être trop liquides.</p>
+<p>Ajouter <span data-ingredient data-amount="10.0" data-unit="cl" data-name="de lait" data-ml="100.0">10 cl de lait</span> petit à petit dans chacune pour que les deux pâtes aient la même consistance, sans être trop liquides.</p>
 <h2>Étape 4</h2>
 <p><em>Cuire</em> environ 30min à <strong>180ºC</strong> (th. 6), jusqu’à ce que la lame d’un couteau ressorte sèche.</p>
 </div>

@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Pesto classique au basilic</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,20 +27,24 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" data-portions="1">
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count">1</strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="1.0" data-unit="" data-name="gousse d&#x27;ail">1 gousse d&#x27;ail</li><li data-ingredient data-amount="30.0" data-unit="g" data-name="de parmesan">30 g de parmesan</li><li data-ingredient data-amount="35.0" data-unit="g" data-name="de pignons de pin">35 g de pignons de pin</li><li data-ingredient data-amount="50.0" data-unit="g" data-name="de basilic frais">50 g de basilic frais</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="d&#x27;huile d&#x27;olive">100 g d&#x27;huile d&#x27;olive</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="1.0" data-unit="" data-name="gousse d&#x27;ail">1 gousse d&#x27;ail</li><li data-ingredient data-amount="30.0" data-unit="g" data-name="de parmesan">30 g de parmesan</li><li data-ingredient data-amount="35.0" data-unit="g" data-name="de pignons de pin">35 g de pignons de pin</li><li data-ingredient data-amount="50.0" data-unit="g" data-name="de basilic frais">50 g de basilic frais</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="d&#x27;huile d&#x27;olive" data-ml="108.7">100 g d&#x27;huile d&#x27;olive</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/pesto-basilic.jpg" alt="Pesto classique au basilic"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
 <p><em>Mixer</em> <span data-ingredient data-amount="1.0" data-unit="" data-name="gousse d&#x27;ail">1 gousse d&#x27;ail</span> dégermée et <span data-ingredient data-amount="30.0" data-unit="g" data-name="de parmesan">30 g de parmesan</span> en dés <strong>Turbo/2 sec</strong>, racler, puis à nouveau <strong>Turbo/2 sec</strong>.</p>
 <h2>Étape 2</h2>
-<p>Ajouter <span data-ingredient data-amount="35.0" data-unit="g" data-name="de pignons de pin">35 g de pignons de pin</span>, <span data-ingredient data-amount="50.0" data-unit="g" data-name="de basilic frais">50 g de basilic frais</span> et la moitié de <span data-ingredient data-amount="100.0" data-unit="g" data-name="d&#x27;huile d&#x27;olive">100 g d&#x27;huile d&#x27;olive</span>. <em>Mixer</em> <strong>3 sec/vitesse 8</strong> deux fois, en raclant entre les deux.</p>
+<p>Ajouter <span data-ingredient data-amount="35.0" data-unit="g" data-name="de pignons de pin">35 g de pignons de pin</span>, <span data-ingredient data-amount="50.0" data-unit="g" data-name="de basilic frais">50 g de basilic frais</span> et la moitié de <span data-ingredient data-amount="100.0" data-unit="g" data-name="d&#x27;huile d&#x27;olive" data-ml="108.7">100 g d&#x27;huile d&#x27;olive</span>. <em>Mixer</em> <strong>3 sec/vitesse 8</strong> deux fois, en raclant entre les deux.</p>
 <h2>Étape 3</h2>
 <p>Ajouter le reste d’huile et <em>mixer</em> <strong>10 sec/vitesse 8</strong> deux fois, en raclant entre les deux.</p>
 <h1>Conseils</h1>

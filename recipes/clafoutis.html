@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Clafoutis</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,20 +27,24 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" hidden>
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count"></strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="80.0" data-unit="g" data-name="de beurre">80 g de beurre</li><li data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="de farine">100 g de farine</li><li data-ingredient data-amount="80.0" data-unit="g" data-name="de sucre">80 g de sucre</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pincée de sel">1 pincée de sel</li><li data-ingredient data-amount="25.0" data-unit="cl" data-name="de lait">25 cl de lait</li><li data-ingredient data-amount="1.0" data-unit="" data-name="sachet de sucre vanillé">1 sachet de sucre vanillé</li><li data-ingredient data-amount="600.0" data-unit="g" data-name="de cerises">600 g de cerises</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="80.0" data-unit="g" data-name="de beurre" data-ml="87.91">80 g de beurre</li><li data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="de farine" data-ml="181.82">100 g de farine</li><li data-ingredient data-amount="80.0" data-unit="g" data-name="de sucre" data-ml="94.12">80 g de sucre</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pincée de sel">1 pincée de sel</li><li data-ingredient data-amount="25.0" data-unit="cl" data-name="de lait" data-ml="250.0">25 cl de lait</li><li data-ingredient data-amount="1.0" data-unit="" data-name="sachet de sucre vanillé">1 sachet de sucre vanillé</li><li data-ingredient data-amount="600.0" data-unit="g" data-name="de cerises">600 g de cerises</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/clafoutis.jpg" alt="Clafoutis"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
 <p><em>Préchauffer</em> le four à <strong>180ºC</strong>.</p>
 <h2>Étape 2</h2>
-<p><em>Fondre</em> la moitié de <span data-ingredient data-amount="80.0" data-unit="g" data-name="de beurre">80 g de beurre</span>. <em>Mélanger</em> <span data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</span>, <span data-ingredient data-amount="100.0" data-unit="g" data-name="de farine">100 g de farine</span>, <span data-ingredient data-amount="80.0" data-unit="g" data-name="de sucre">80 g de sucre</span> et <span data-ingredient data-amount="1.0" data-unit="" data-name="pincée de sel">1 pincée de sel</span>. <em>Incorporer</em> <span data-ingredient data-amount="25.0" data-unit="cl" data-name="de lait">25 cl de lait</span> petit à petit, puis le beurre fondu.</p>
+<p><em>Fondre</em> la moitié de <span data-ingredient data-amount="80.0" data-unit="g" data-name="de beurre" data-ml="87.91">80 g de beurre</span>. <em>Mélanger</em> <span data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</span>, <span data-ingredient data-amount="100.0" data-unit="g" data-name="de farine" data-ml="181.82">100 g de farine</span>, <span data-ingredient data-amount="80.0" data-unit="g" data-name="de sucre" data-ml="94.12">80 g de sucre</span> et <span data-ingredient data-amount="1.0" data-unit="" data-name="pincée de sel">1 pincée de sel</span>. <em>Incorporer</em> <span data-ingredient data-amount="25.0" data-unit="cl" data-name="de lait" data-ml="250.0">25 cl de lait</span> petit à petit, puis le beurre fondu.</p>
 <h2>Étape 3</h2>
 <p>Beurrer grassement le plat avec le reste du beurre, <em>saupoudrer</em> de <span data-ingredient data-amount="1.0" data-unit="" data-name="sachet de sucre vanillé">1 sachet de sucre vanillé</span> et y ranger <span data-ingredient data-amount="600.0" data-unit="g" data-name="de cerises">600 g de cerises</span>. <em>Verser</em> la pâte.</p>
 <h2>Étape 4</h2>

@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Mini madeleines salées</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,20 +27,24 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" data-portions="16">
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count">16</strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="40.0" data-unit="g" data-name="de farine">40 g de farine</li><li data-ingredient data-amount="0.5" data-unit="" data-name="sachet de levure">0.5 sachet de levure</li><li data-ingredient data-amount="1.0" data-unit="" data-name="œuf">1 œuf</li><li data-ingredient data-amount="2.0" data-unit="c. à s." data-name="d&#x27;huile">2 c. à s. d&#x27;huile</li><li data-ingredient data-amount="15.0" data-unit="g" data-name="de gruyère râpé">15 g de gruyère râpé</li><li data-ingredient>sel</li><li data-ingredient>poivre</li><li data-ingredient data-amount="2.0" data-unit="c. à s." data-name="de pesto">2 c. à s. de pesto</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="40.0" data-unit="g" data-name="de farine" data-ml="72.73">40 g de farine</li><li data-ingredient data-amount="0.5" data-unit="" data-name="sachet de levure">0.5 sachet de levure</li><li data-ingredient data-amount="1.0" data-unit="" data-name="œuf">1 œuf</li><li data-ingredient data-amount="2.0" data-unit="c. à s." data-name="d&#x27;huile" data-ml="30.0">2 c. à s. d&#x27;huile</li><li data-ingredient data-amount="15.0" data-unit="g" data-name="de gruyère râpé" data-ml="37.5">15 g de gruyère râpé</li><li data-ingredient>sel</li><li data-ingredient>poivre</li><li data-ingredient data-amount="2.0" data-unit="c. à s." data-name="de pesto" data-ml="30.0">2 c. à s. de pesto</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/mini-madeleines-salees.jpg" alt="Mini madeleines salées"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
-<p><em>Mélanger</em> <span data-ingredient data-amount="40.0" data-unit="g" data-name="de farine">40 g de farine</span> et <span data-ingredient data-amount="0.5" data-unit="" data-name="sachet de levure">0.5 sachet de levure</span>, puis ajouter <span data-ingredient data-amount="1.0" data-unit="" data-name="œuf">1 œuf</span>. Verser <span data-ingredient data-amount="2.0" data-unit="c. à s." data-name="d&#x27;huile">2 c. à s. d&#x27;huile</span> et <em>fouetter vivement</em>.</p>
+<p><em>Mélanger</em> <span data-ingredient data-amount="40.0" data-unit="g" data-name="de farine" data-ml="72.73">40 g de farine</span> et <span data-ingredient data-amount="0.5" data-unit="" data-name="sachet de levure">0.5 sachet de levure</span>, puis ajouter <span data-ingredient data-amount="1.0" data-unit="" data-name="œuf">1 œuf</span>. Verser <span data-ingredient data-amount="2.0" data-unit="c. à s." data-name="d&#x27;huile" data-ml="30.0">2 c. à s. d&#x27;huile</span> et <em>fouetter vivement</em>.</p>
 <h2>Étape 2</h2>
-<p>Ajouter <span data-ingredient data-amount="15.0" data-unit="g" data-name="de gruyère râpé">15 g de gruyère râpé</span>, <span data-ingredient>sel</span>, <span data-ingredient>poivre</span> et <span data-ingredient data-amount="2.0" data-unit="c. à s." data-name="de pesto">2 c. à s. de pesto</span>.</p>
+<p>Ajouter <span data-ingredient data-amount="15.0" data-unit="g" data-name="de gruyère râpé" data-ml="37.5">15 g de gruyère râpé</span>, <span data-ingredient>sel</span>, <span data-ingredient>poivre</span> et <span data-ingredient data-amount="2.0" data-unit="c. à s." data-name="de pesto" data-ml="30.0">2 c. à s. de pesto</span>.</p>
 <h2>Étape 3</h2>
 <p><em>Cuire</em> 4min à <strong>240ºC</strong> puis 6min à <strong>180ºC</strong>.</p>
 <h1>Conseils</h1>

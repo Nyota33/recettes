@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Tarte chèvre miel</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,24 +27,28 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" hidden>
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count"></strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="1.0" data-unit="" data-name="pâte brisée">1 pâte brisée</li><li data-ingredient data-amount="1.0" data-unit="" data-name="oignon">1 oignon</li><li data-ingredient>huile d&#x27;olive</li><li data-ingredient data-amount="10.0" data-unit="cl" data-name="de crème">10 cl de crème</li><li data-ingredient data-amount="6.0" data-unit="" data-name="tranches de bûche de chèvre">6 tranches de bûche de chèvre</li><li data-ingredient data-amount="1.0" data-unit="" data-name="poignée de gruyère râpé">1 poignée de gruyère râpé</li><li data-ingredient data-amount="3.0" data-unit="c. à s." data-name="de miel">3 c. à s. de miel</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="1.0" data-unit="" data-name="pâte brisée">1 pâte brisée</li><li data-ingredient data-amount="1.0" data-unit="" data-name="oignon">1 oignon</li><li data-ingredient>huile d&#x27;olive</li><li data-ingredient data-amount="10.0" data-unit="cl" data-name="de crème" data-ml="100.0">10 cl de crème</li><li data-ingredient data-amount="6.0" data-unit="" data-name="tranches de bûche de chèvre">6 tranches de bûche de chèvre</li><li data-ingredient data-amount="1.0" data-unit="" data-name="poignée de gruyère râpé">1 poignée de gruyère râpé</li><li data-ingredient data-amount="3.0" data-unit="c. à s." data-name="de miel" data-ml="45.0">3 c. à s. de miel</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/tarte-chevre-miel.jpg" alt="Tarte chèvre miel"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
 <p>Piquer <span data-ingredient data-amount="1.0" data-unit="" data-name="pâte brisée">1 pâte brisée</span> et la <em>précuire</em> environ 10min à <strong>200ºC</strong>.</p>
 <h2>Étape 2</h2>
-<p><em>Suer</em> <span data-ingredient data-amount="1.0" data-unit="" data-name="oignon">1 oignon</span> en dés dans de l’<span data-ingredient>huile d&#x27;olive</span>. Quand il est blond, ajouter <span data-ingredient data-amount="10.0" data-unit="cl" data-name="de crème">10 cl de crème</span>.</p>
+<p><em>Suer</em> <span data-ingredient data-amount="1.0" data-unit="" data-name="oignon">1 oignon</span> en dés dans de l’<span data-ingredient>huile d&#x27;olive</span>. Quand il est blond, ajouter <span data-ingredient data-amount="10.0" data-unit="cl" data-name="de crème" data-ml="100.0">10 cl de crème</span>.</p>
 <h2>Étape 3</h2>
 <p>Verser sur la pâte, disposer <span data-ingredient data-amount="6.0" data-unit="" data-name="tranches de bûche de chèvre">6 tranches de bûche de chèvre</span> et parsemer de <span data-ingredient data-amount="1.0" data-unit="" data-name="poignée de gruyère râpé">1 poignée de gruyère râpé</span>, surtout sur les bords.</p>
 <h2>Étape 4</h2>
-<p>Verser <span data-ingredient data-amount="3.0" data-unit="c. à s." data-name="de miel">3 c. à s. de miel</span> en ruban et <em>gratiner</em> au four.</p>
+<p>Verser <span data-ingredient data-amount="3.0" data-unit="c. à s." data-name="de miel" data-ml="45.0">3 c. à s. de miel</span> en ruban et <em>gratiner</em> au four.</p>
 </div>
         <div class="recipe-gallery" id="recipe-gallery"></div>
       </article>

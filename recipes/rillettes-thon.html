@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Rillettes de thon, échalotes et ciboulette</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,13 +27,17 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" hidden>
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count"></strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="2.0" data-unit="" data-name="échalotes">2 échalotes</li><li data-ingredient data-amount="1.0" data-unit="" data-name="botte de ciboulette">1 botte de ciboulette</li><li data-ingredient>zeste de citron</li><li data-ingredient data-amount="280.0" data-unit="g" data-name="de thon au naturel">280 g de thon au naturel</li><li data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de moutarde">1 c. à c. de moutarde</li><li data-ingredient data-amount="150.0" data-unit="g" data-name="de fromage frais">150 g de fromage frais</li><li data-ingredient>sel</li><li data-ingredient>poivre</li><li data-ingredient data-amount="1.0" data-unit="c. à s." data-name="de câpres">1 c. à s. de câpres</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="2.0" data-unit="" data-name="échalotes">2 échalotes</li><li data-ingredient data-amount="1.0" data-unit="" data-name="botte de ciboulette">1 botte de ciboulette</li><li data-ingredient>zeste de citron</li><li data-ingredient data-amount="280.0" data-unit="g" data-name="de thon au naturel">280 g de thon au naturel</li><li data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de moutarde" data-ml="5.0">1 c. à c. de moutarde</li><li data-ingredient data-amount="150.0" data-unit="g" data-name="de fromage frais">150 g de fromage frais</li><li data-ingredient>sel</li><li data-ingredient>poivre</li><li data-ingredient data-amount="1.0" data-unit="c. à s." data-name="de câpres" data-ml="15.0">1 c. à s. de câpres</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/rillettes-thon.jpg" alt="Rillettes de thon, échalotes et ciboulette"></figure>
         <div class="recipe-content" id="recipe-content"><p>Pour un bocal.</p>
@@ -38,9 +45,9 @@
 <h2>Étape 1</h2>
 <p><em>Mixer</em> <span data-ingredient data-amount="2.0" data-unit="" data-name="échalotes">2 échalotes</span>, <span data-ingredient data-amount="1.0" data-unit="" data-name="botte de ciboulette">1 botte de ciboulette</span> et une bande de <span data-ingredient>zeste de citron</span> <strong>Turbo/1 sec</strong>.</p>
 <h2>Étape 2</h2>
-<p>Ajouter <span data-ingredient data-amount="280.0" data-unit="g" data-name="de thon au naturel">280 g de thon au naturel</span> égoutté, <span data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de moutarde">1 c. à c. de moutarde</span>, <span data-ingredient data-amount="150.0" data-unit="g" data-name="de fromage frais">150 g de fromage frais</span>, du <span data-ingredient>sel</span> et du <span data-ingredient>poivre</span>. <em>Mélanger</em> <strong>10 sec/vitesse 3</strong>.</p>
+<p>Ajouter <span data-ingredient data-amount="280.0" data-unit="g" data-name="de thon au naturel">280 g de thon au naturel</span> égoutté, <span data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de moutarde" data-ml="5.0">1 c. à c. de moutarde</span>, <span data-ingredient data-amount="150.0" data-unit="g" data-name="de fromage frais">150 g de fromage frais</span>, du <span data-ingredient>sel</span> et du <span data-ingredient>poivre</span>. <em>Mélanger</em> <strong>10 sec/vitesse 3</strong>.</p>
 <h2>Étape 3</h2>
-<p>Ajouter <span data-ingredient data-amount="1.0" data-unit="c. à s." data-name="de câpres">1 c. à s. de câpres</span> et <em>mélanger</em> <strong>10 sec/vitesse 3</strong>. Garder au frais.</p>
+<p>Ajouter <span data-ingredient data-amount="1.0" data-unit="c. à s." data-name="de câpres" data-ml="15.0">1 c. à s. de câpres</span> et <em>mélanger</em> <strong>10 sec/vitesse 3</strong>. Garder au frais.</p>
 <h1>Conseils</h1>
 <ul>
 <li>Servir avec des gressins, des crackers ou un pain plat.</li>

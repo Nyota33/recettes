@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Gaspacho</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,18 +27,22 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" data-portions="4">
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count">4</strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="1.0" data-unit="" data-name="grosse boîte de tomates">1 grosse boîte de tomates</li><li data-ingredient data-amount="0.5" data-unit="" data-name="poivron vert">0.5 poivron vert</li><li data-ingredient data-amount="0.5" data-unit="" data-name="concombre">0.5 concombre</li><li data-ingredient data-amount="1.0" data-unit="" data-name="échalote">1 échalote</li><li data-ingredient data-amount="1.0" data-unit="" data-name="gousse d&#x27;ail">1 gousse d&#x27;ail</li><li data-ingredient data-amount="2.0" data-unit="c. à s." data-name="d&#x27;huile d&#x27;olive">2 c. à s. d&#x27;huile d&#x27;olive</li><li data-ingredient data-amount="0.5" data-unit="c. à c." data-name="de vinaigre balsamique">0.5 c. à c. de vinaigre balsamique</li><li data-ingredient>tabasco</li><li data-ingredient data-amount="0.5" data-unit="c. à c." data-name="de sucre">0.5 c. à c. de sucre</li><li data-ingredient>sel</li><li data-ingredient>poivre</li><li data-ingredient data-amount="15.0" data-unit="cl" data-name="d&#x27;eau">15 cl d&#x27;eau</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="1.0" data-unit="" data-name="grosse boîte de tomates">1 grosse boîte de tomates</li><li data-ingredient data-amount="0.5" data-unit="" data-name="poivron vert">0.5 poivron vert</li><li data-ingredient data-amount="0.5" data-unit="" data-name="concombre">0.5 concombre</li><li data-ingredient data-amount="1.0" data-unit="" data-name="échalote">1 échalote</li><li data-ingredient data-amount="1.0" data-unit="" data-name="gousse d&#x27;ail">1 gousse d&#x27;ail</li><li data-ingredient data-amount="2.0" data-unit="c. à s." data-name="d&#x27;huile d&#x27;olive" data-ml="30.0">2 c. à s. d&#x27;huile d&#x27;olive</li><li data-ingredient data-amount="0.5" data-unit="c. à c." data-name="de vinaigre balsamique" data-ml="2.5">0.5 c. à c. de vinaigre balsamique</li><li data-ingredient>tabasco</li><li data-ingredient data-amount="0.5" data-unit="c. à c." data-name="de sucre" data-ml="2.5">0.5 c. à c. de sucre</li><li data-ingredient>sel</li><li data-ingredient>poivre</li><li data-ingredient data-amount="15.0" data-unit="cl" data-name="d&#x27;eau" data-ml="150.0">15 cl d&#x27;eau</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/gaspacho.jpg" alt="Gaspacho"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
-<p><em>Couper grossièrement</em> et <em>mixer</em> ensemble <span data-ingredient data-amount="1.0" data-unit="" data-name="grosse boîte de tomates">1 grosse boîte de tomates</span>, <span data-ingredient data-amount="0.5" data-unit="" data-name="poivron vert">0.5 poivron vert</span>, <span data-ingredient data-amount="0.5" data-unit="" data-name="concombre">0.5 concombre</span>, <span data-ingredient data-amount="1.0" data-unit="" data-name="échalote">1 échalote</span>, <span data-ingredient data-amount="1.0" data-unit="" data-name="gousse d&#x27;ail">1 gousse d&#x27;ail</span>, <span data-ingredient data-amount="2.0" data-unit="c. à s." data-name="d&#x27;huile d&#x27;olive">2 c. à s. d&#x27;huile d&#x27;olive</span>, <span data-ingredient data-amount="0.5" data-unit="c. à c." data-name="de vinaigre balsamique">0.5 c. à c. de vinaigre balsamique</span>, <span data-ingredient>tabasco</span>, <span data-ingredient data-amount="0.5" data-unit="c. à c." data-name="de sucre">0.5 c. à c. de sucre</span>, <span data-ingredient>sel</span>, <span data-ingredient>poivre</span> et <span data-ingredient data-amount="15.0" data-unit="cl" data-name="d&#x27;eau">15 cl d&#x27;eau</span>.</p>
+<p><em>Couper grossièrement</em> et <em>mixer</em> ensemble <span data-ingredient data-amount="1.0" data-unit="" data-name="grosse boîte de tomates">1 grosse boîte de tomates</span>, <span data-ingredient data-amount="0.5" data-unit="" data-name="poivron vert">0.5 poivron vert</span>, <span data-ingredient data-amount="0.5" data-unit="" data-name="concombre">0.5 concombre</span>, <span data-ingredient data-amount="1.0" data-unit="" data-name="échalote">1 échalote</span>, <span data-ingredient data-amount="1.0" data-unit="" data-name="gousse d&#x27;ail">1 gousse d&#x27;ail</span>, <span data-ingredient data-amount="2.0" data-unit="c. à s." data-name="d&#x27;huile d&#x27;olive" data-ml="30.0">2 c. à s. d&#x27;huile d&#x27;olive</span>, <span data-ingredient data-amount="0.5" data-unit="c. à c." data-name="de vinaigre balsamique" data-ml="2.5">0.5 c. à c. de vinaigre balsamique</span>, <span data-ingredient>tabasco</span>, <span data-ingredient data-amount="0.5" data-unit="c. à c." data-name="de sucre" data-ml="2.5">0.5 c. à c. de sucre</span>, <span data-ingredient>sel</span>, <span data-ingredient>poivre</span> et <span data-ingredient data-amount="15.0" data-unit="cl" data-name="d&#x27;eau" data-ml="150.0">15 cl d&#x27;eau</span>.</p>
 <h2>Étape 2</h2>
 <p><em>Laisser refroidir</em> le plus longtemps possible au réfrigérateur (ou 30min au congélateur si pressé).</p>
 <h1>Conseils</h1>

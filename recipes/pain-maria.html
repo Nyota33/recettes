@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Pain Maria</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,22 +27,26 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" hidden>
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count"></strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="300.0" data-unit="g" data-name="d&#x27;eau tiède">300 g d&#x27;eau tiède</li><li data-ingredient data-amount="5.0" data-unit="g" data-name="de levure instantanée">5 g de levure instantanée</li><li data-ingredient data-amount="75.0" data-unit="g" data-name="de farine de seigle T110 ou T150">75 g de farine de seigle T110 ou T150</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="de farine d&#x27;épeautre T65">100 g de farine d&#x27;épeautre T65</li><li data-ingredient data-amount="200.0" data-unit="g" data-name="de farine T55 ou T65">200 g de farine T55 ou T65</li><li data-ingredient data-amount="8.0" data-unit="g" data-name="de sel">8 g de sel</li><li data-ingredient data-amount="15.0" data-unit="g" data-name="d&#x27;huile d&#x27;olive">15 g d&#x27;huile d&#x27;olive</li><li data-ingredient data-amount="50.0" data-unit="g" data-name="de graines torréfiées">50 g de graines torréfiées</li><li data-ingredient data-amount="1.0" data-unit="l" data-name="d&#x27;eau bouillante">1 l d&#x27;eau bouillante</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="300.0" data-unit="g" data-name="d&#x27;eau tiède" data-ml="300.0">300 g d&#x27;eau tiède</li><li data-ingredient data-amount="5.0" data-unit="g" data-name="de levure instantanée">5 g de levure instantanée</li><li data-ingredient data-amount="75.0" data-unit="g" data-name="de farine de seigle T110 ou T150" data-ml="136.36">75 g de farine de seigle T110 ou T150</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="de farine d&#x27;épeautre T65" data-ml="181.82">100 g de farine d&#x27;épeautre T65</li><li data-ingredient data-amount="200.0" data-unit="g" data-name="de farine T55 ou T65" data-ml="363.64">200 g de farine T55 ou T65</li><li data-ingredient data-amount="8.0" data-unit="g" data-name="de sel" data-ml="6.67">8 g de sel</li><li data-ingredient data-amount="15.0" data-unit="g" data-name="d&#x27;huile d&#x27;olive" data-ml="16.3">15 g d&#x27;huile d&#x27;olive</li><li data-ingredient data-amount="50.0" data-unit="g" data-name="de graines torréfiées" data-ml="83.33">50 g de graines torréfiées</li><li data-ingredient data-amount="1.0" data-unit="l" data-name="d&#x27;eau bouillante" data-ml="1000.0">1 l d&#x27;eau bouillante</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/pain-maria.jpg" alt="Pain Maria"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
-<p><em>Mélanger</em> <span data-ingredient data-amount="300.0" data-unit="g" data-name="d&#x27;eau tiède">300 g d&#x27;eau tiède</span> (37ºC), <span data-ingredient data-amount="5.0" data-unit="g" data-name="de levure instantanée">5 g de levure instantanée</span>, <span data-ingredient data-amount="75.0" data-unit="g" data-name="de farine de seigle T110 ou T150">75 g de farine de seigle T110 ou T150</span>, <span data-ingredient data-amount="100.0" data-unit="g" data-name="de farine d&#x27;épeautre T65">100 g de farine d&#x27;épeautre T65</span>, <span data-ingredient data-amount="200.0" data-unit="g" data-name="de farine T55 ou T65">200 g de farine T55 ou T65</span>, <span data-ingredient data-amount="8.0" data-unit="g" data-name="de sel">8 g de sel</span> et <span data-ingredient data-amount="15.0" data-unit="g" data-name="d&#x27;huile d&#x27;olive">15 g d&#x27;huile d&#x27;olive</span>.</p>
+<p><em>Mélanger</em> <span data-ingredient data-amount="300.0" data-unit="g" data-name="d&#x27;eau tiède" data-ml="300.0">300 g d&#x27;eau tiède</span> (37ºC), <span data-ingredient data-amount="5.0" data-unit="g" data-name="de levure instantanée">5 g de levure instantanée</span>, <span data-ingredient data-amount="75.0" data-unit="g" data-name="de farine de seigle T110 ou T150" data-ml="136.36">75 g de farine de seigle T110 ou T150</span>, <span data-ingredient data-amount="100.0" data-unit="g" data-name="de farine d&#x27;épeautre T65" data-ml="181.82">100 g de farine d&#x27;épeautre T65</span>, <span data-ingredient data-amount="200.0" data-unit="g" data-name="de farine T55 ou T65" data-ml="363.64">200 g de farine T55 ou T65</span>, <span data-ingredient data-amount="8.0" data-unit="g" data-name="de sel" data-ml="6.67">8 g de sel</span> et <span data-ingredient data-amount="15.0" data-unit="g" data-name="d&#x27;huile d&#x27;olive" data-ml="16.3">15 g d&#x27;huile d&#x27;olive</span>.</p>
 <h2>Étape 2</h2>
-<p>Ajouter rapidement <span data-ingredient data-amount="50.0" data-unit="g" data-name="de graines torréfiées">50 g de graines torréfiées</span> (optionnel).</p>
+<p>Ajouter rapidement <span data-ingredient data-amount="50.0" data-unit="g" data-name="de graines torréfiées" data-ml="83.33">50 g de graines torréfiées</span> (optionnel).</p>
 <h2>Étape 3</h2>
-<p>Couvrir et mettre dans le four éteint, avec en dessous une lèchefrite remplie d’environ <span data-ingredient data-amount="1.0" data-unit="l" data-name="d&#x27;eau bouillante">1 l d&#x27;eau bouillante</span>. <em>Laisser lever 1h30</em>.</p>
+<p>Couvrir et mettre dans le four éteint, avec en dessous une lèchefrite remplie d’environ <span data-ingredient data-amount="1.0" data-unit="l" data-name="d&#x27;eau bouillante" data-ml="1000.0">1 l d&#x27;eau bouillante</span>. <em>Laisser lever 1h30</em>.</p>
 <h2>Étape 4</h2>
 <p>Au bout d’1h15, <em>préchauffer</em> le four à <strong>250ºC</strong> en laissant la lèchefrite.</p>
 <h2>Étape 5</h2>

@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Flan pâtissier</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,20 +27,24 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" hidden>
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count"></strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="1.0" data-unit="l" data-name="de lait">1 l de lait</li><li data-ingredient data-amount="1.0" data-unit="" data-name="gousse de vanille">1 gousse de vanille</li><li data-ingredient data-amount="90.0" data-unit="g" data-name="de Maïzena">90 g de Maïzena</li><li data-ingredient data-amount="150.0" data-unit="g" data-name="de sucre en poudre">150 g de sucre en poudre</li><li data-ingredient data-amount="4.0" data-unit="" data-name="oeufs">4 oeufs</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pâte brisée">1 pâte brisée</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="1.0" data-unit="l" data-name="de lait" data-ml="1000.0">1 l de lait</li><li data-ingredient data-amount="1.0" data-unit="" data-name="gousse de vanille">1 gousse de vanille</li><li data-ingredient data-amount="90.0" data-unit="g" data-name="de Maïzena" data-ml="150.0">90 g de Maïzena</li><li data-ingredient data-amount="150.0" data-unit="g" data-name="de sucre en poudre" data-ml="176.47">150 g de sucre en poudre</li><li data-ingredient data-amount="4.0" data-unit="" data-name="oeufs">4 oeufs</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pâte brisée">1 pâte brisée</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/flan-patissier.jpg" alt="Flan pâtissier"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
-<p><em>Porter à ébullition</em> <span data-ingredient data-amount="1.0" data-unit="l" data-name="de lait">1 l de lait</span> avec <span data-ingredient data-amount="1.0" data-unit="" data-name="gousse de vanille">1 gousse de vanille</span> fendue.</p>
+<p><em>Porter à ébullition</em> <span data-ingredient data-amount="1.0" data-unit="l" data-name="de lait" data-ml="1000.0">1 l de lait</span> avec <span data-ingredient data-amount="1.0" data-unit="" data-name="gousse de vanille">1 gousse de vanille</span> fendue.</p>
 <h2>Étape 2</h2>
-<p><em>Mélanger</em> <span data-ingredient data-amount="90.0" data-unit="g" data-name="de Maïzena">90 g de Maïzena</span> tamisée avec <span data-ingredient data-amount="150.0" data-unit="g" data-name="de sucre en poudre">150 g de sucre en poudre</span> et <span data-ingredient data-amount="4.0" data-unit="" data-name="oeufs">4 oeufs</span> battus. Ajouter le lait bouillant (sans la gousse).</p>
+<p><em>Mélanger</em> <span data-ingredient data-amount="90.0" data-unit="g" data-name="de Maïzena" data-ml="150.0">90 g de Maïzena</span> tamisée avec <span data-ingredient data-amount="150.0" data-unit="g" data-name="de sucre en poudre" data-ml="176.47">150 g de sucre en poudre</span> et <span data-ingredient data-amount="4.0" data-unit="" data-name="oeufs">4 oeufs</span> battus. Ajouter le lait bouillant (sans la gousse).</p>
 <h2>Étape 3</h2>
 <p><em>Épaissir</em> 1 à 2min à <strong>feu doux</strong> sans cesser de remuer.</p>
 <h2>Étape 4</h2>

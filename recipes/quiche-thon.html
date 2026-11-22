@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Quiche au thon</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,18 +27,22 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" hidden>
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count"></strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</li><li data-ingredient>sel</li><li data-ingredient>poivre</li><li data-ingredient data-amount="30.0" data-unit="cl" data-name="de crème fraîche">30 cl de crème fraîche</li><li data-ingredient data-amount="1.0" data-unit="" data-name="grosse boîte de thon">1 grosse boîte de thon</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="de fromage râpé">100 g de fromage râpé</li><li data-ingredient>muscade</li><li data-ingredient>curry</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pâte brisée">1 pâte brisée</li><li data-ingredient>moutarde</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</li><li data-ingredient>sel</li><li data-ingredient>poivre</li><li data-ingredient data-amount="30.0" data-unit="cl" data-name="de crème fraîche" data-ml="300.0">30 cl de crème fraîche</li><li data-ingredient data-amount="1.0" data-unit="" data-name="grosse boîte de thon">1 grosse boîte de thon</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="de fromage râpé" data-ml="250.0">100 g de fromage râpé</li><li data-ingredient>muscade</li><li data-ingredient>curry</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pâte brisée">1 pâte brisée</li><li data-ingredient>moutarde</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/quiche-thon.jpg" alt="Quiche au thon"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
-<p><em>Battre</em> <span data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</span> avec du <span data-ingredient>sel</span> et du <span data-ingredient>poivre</span>. Incorporer <span data-ingredient data-amount="30.0" data-unit="cl" data-name="de crème fraîche">30 cl de crème fraîche</span>, puis <span data-ingredient data-amount="1.0" data-unit="" data-name="grosse boîte de thon">1 grosse boîte de thon</span> émietté, <span data-ingredient data-amount="100.0" data-unit="g" data-name="de fromage râpé">100 g de fromage râpé</span>, une pointe de <span data-ingredient>muscade</span> et éventuellement du <span data-ingredient>curry</span>.</p>
+<p><em>Battre</em> <span data-ingredient data-amount="3.0" data-unit="" data-name="oeufs">3 oeufs</span> avec du <span data-ingredient>sel</span> et du <span data-ingredient>poivre</span>. Incorporer <span data-ingredient data-amount="30.0" data-unit="cl" data-name="de crème fraîche" data-ml="300.0">30 cl de crème fraîche</span>, puis <span data-ingredient data-amount="1.0" data-unit="" data-name="grosse boîte de thon">1 grosse boîte de thon</span> émietté, <span data-ingredient data-amount="100.0" data-unit="g" data-name="de fromage râpé" data-ml="250.0">100 g de fromage râpé</span>, une pointe de <span data-ingredient>muscade</span> et éventuellement du <span data-ingredient>curry</span>.</p>
 <h2>Étape 2</h2>
 <p>Étaler <span data-ingredient data-amount="1.0" data-unit="" data-name="pâte brisée">1 pâte brisée</span> dans un moule, <em>tartiner</em> un fond de <span data-ingredient>moutarde</span> et piquer à la fourchette. Verser la préparation et <em>cuire</em> 45min à <strong>190ºC</strong> (th. 6-7).</p>
 </div>

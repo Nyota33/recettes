@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Guacamole</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,20 +27,24 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" data-portions="4">
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count">4</strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="200.0" data-unit="g" data-name="de tomates">200 g de tomates</li><li data-ingredient data-amount="3.0" data-unit="" data-name="à 4 brins de coriandre">3 à 4 brins de coriandre</li><li data-ingredient data-amount="2.0" data-unit="" data-name="avocats bien mûrs">2 avocats bien mûrs</li><li data-ingredient data-amount="80.0" data-unit="g" data-name="d&#x27;oignon">80 g d&#x27;oignon</li><li data-ingredient>jus d&#x27;1/2 citron vert</li><li data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de purée de piment">1 c. à c. de purée de piment</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pincée de sel">1 pincée de sel</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="200.0" data-unit="g" data-name="de tomates">200 g de tomates</li><li data-ingredient data-amount="3.0" data-unit="" data-name="à 4 brins de coriandre">3 à 4 brins de coriandre</li><li data-ingredient data-amount="2.0" data-unit="" data-name="avocats bien mûrs">2 avocats bien mûrs</li><li data-ingredient data-amount="80.0" data-unit="g" data-name="d&#x27;oignon">80 g d&#x27;oignon</li><li data-ingredient>jus d&#x27;1/2 citron vert</li><li data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de purée de piment" data-ml="5.0">1 c. à c. de purée de piment</li><li data-ingredient data-amount="1.0" data-unit="" data-name="pincée de sel">1 pincée de sel</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/guacamole.jpg" alt="Guacamole"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
 <p>Mettre <span data-ingredient data-amount="200.0" data-unit="g" data-name="de tomates">200 g de tomates</span> en quartiers et <span data-ingredient data-amount="3.0" data-unit="" data-name="à 4 brins de coriandre">3 à 4 brins de coriandre</span> dans le bol, <em>mixer</em> <strong>15 sec/vitesse 5</strong>.</p>
 <h2>Étape 2</h2>
-<p>Ajouter la chair de <span data-ingredient data-amount="2.0" data-unit="" data-name="avocats bien mûrs">2 avocats bien mûrs</span>, <span data-ingredient data-amount="80.0" data-unit="g" data-name="d&#x27;oignon">80 g d&#x27;oignon</span>, le <span data-ingredient>jus d&#x27;1/2 citron vert</span>, <span data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de purée de piment">1 c. à c. de purée de piment</span> et <span data-ingredient data-amount="1.0" data-unit="" data-name="pincée de sel">1 pincée de sel</span>. <em>Mixer</em> <strong>20 sec/vitesse 4</strong> : il doit rester des morceaux.</p>
+<p>Ajouter la chair de <span data-ingredient data-amount="2.0" data-unit="" data-name="avocats bien mûrs">2 avocats bien mûrs</span>, <span data-ingredient data-amount="80.0" data-unit="g" data-name="d&#x27;oignon">80 g d&#x27;oignon</span>, le <span data-ingredient>jus d&#x27;1/2 citron vert</span>, <span data-ingredient data-amount="1.0" data-unit="c. à c." data-name="de purée de piment" data-ml="5.0">1 c. à c. de purée de piment</span> et <span data-ingredient data-amount="1.0" data-unit="" data-name="pincée de sel">1 pincée de sel</span>. <em>Mixer</em> <strong>20 sec/vitesse 4</strong> : il doit rester des morceaux.</p>
 <h2>Étape 3</h2>
 <p>Garder au frais jusqu’au service.</p>
 <h1>Conseils</h1>

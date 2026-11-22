@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Tortilla au four</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,22 +27,26 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" hidden>
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count"></strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="500.0" data-unit="g" data-name="de pommes de terre">500 g de pommes de terre</li><li data-ingredient data-amount="1.0" data-unit="" data-name="poivron rouge">1 poivron rouge</li><li data-ingredient data-amount="2.0" data-unit="" data-name="oignons">2 oignons</li><li data-ingredient data-amount="2.0" data-unit="c. à s." data-name="d&#x27;huile">2 c. à s. d&#x27;huile</li><li data-ingredient>chorizo ou merguez</li><li data-ingredient data-amount="6.0" data-unit="" data-name="oeufs">6 oeufs</li><li data-ingredient data-amount="2.0" data-unit="c. à s." data-name="de persil ciselé">2 c. à s. de persil ciselé</li><li data-ingredient data-amount="0.5" data-unit="c. à c." data-name="de curry">0.5 c. à c. de curry</li><li data-ingredient>sel</li><li data-ingredient>poivre</li><li data-ingredient>fromage râpé</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="500.0" data-unit="g" data-name="de pommes de terre">500 g de pommes de terre</li><li data-ingredient data-amount="1.0" data-unit="" data-name="poivron rouge">1 poivron rouge</li><li data-ingredient data-amount="2.0" data-unit="" data-name="oignons">2 oignons</li><li data-ingredient data-amount="2.0" data-unit="c. à s." data-name="d&#x27;huile" data-ml="30.0">2 c. à s. d&#x27;huile</li><li data-ingredient>chorizo ou merguez</li><li data-ingredient data-amount="6.0" data-unit="" data-name="oeufs">6 oeufs</li><li data-ingredient data-amount="2.0" data-unit="c. à s." data-name="de persil ciselé" data-ml="30.0">2 c. à s. de persil ciselé</li><li data-ingredient data-amount="0.5" data-unit="c. à c." data-name="de curry" data-ml="2.5">0.5 c. à c. de curry</li><li data-ingredient>sel</li><li data-ingredient>poivre</li><li data-ingredient>fromage râpé</li></ul>
         </section>
         
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
 <p>Peler <span data-ingredient data-amount="500.0" data-unit="g" data-name="de pommes de terre">500 g de pommes de terre</span> et les <em>couper en rondelles</em>. Les rincer à l’eau froide et les égoutter. Épépiner <span data-ingredient data-amount="1.0" data-unit="" data-name="poivron rouge">1 poivron rouge</span> et le couper en petits morceaux.</p>
 <h2>Étape 2</h2>
-<p><em>Rissoler</em> <span data-ingredient data-amount="2.0" data-unit="" data-name="oignons">2 oignons</span> hachés 5min dans <span data-ingredient data-amount="2.0" data-unit="c. à s." data-name="d&#x27;huile">2 c. à s. d&#x27;huile</span>. Ajouter les pommes de terre et <em>cuire</em> 15min à feu vif en remuant délicatement. Ajouter le poivron et du <span data-ingredient>chorizo ou merguez</span> en morceaux à mi-cuisson.</p>
+<p><em>Rissoler</em> <span data-ingredient data-amount="2.0" data-unit="" data-name="oignons">2 oignons</span> hachés 5min dans <span data-ingredient data-amount="2.0" data-unit="c. à s." data-name="d&#x27;huile" data-ml="30.0">2 c. à s. d&#x27;huile</span>. Ajouter les pommes de terre et <em>cuire</em> 15min à feu vif en remuant délicatement. Ajouter le poivron et du <span data-ingredient>chorizo ou merguez</span> en morceaux à mi-cuisson.</p>
 <h2>Étape 3</h2>
-<p><em>Battre</em> <span data-ingredient data-amount="6.0" data-unit="" data-name="oeufs">6 oeufs</span> avec <span data-ingredient data-amount="2.0" data-unit="c. à s." data-name="de persil ciselé">2 c. à s. de persil ciselé</span>, <span data-ingredient data-amount="0.5" data-unit="c. à c." data-name="de curry">0.5 c. à c. de curry</span>, du <span data-ingredient>sel</span> et du <span data-ingredient>poivre</span>. Incorporer les légumes et éventuellement du <span data-ingredient>fromage râpé</span>.</p>
+<p><em>Battre</em> <span data-ingredient data-amount="6.0" data-unit="" data-name="oeufs">6 oeufs</span> avec <span data-ingredient data-amount="2.0" data-unit="c. à s." data-name="de persil ciselé" data-ml="30.0">2 c. à s. de persil ciselé</span>, <span data-ingredient data-amount="0.5" data-unit="c. à c." data-name="de curry" data-ml="2.5">0.5 c. à c. de curry</span>, du <span data-ingredient>sel</span> et du <span data-ingredient>poivre</span>. Incorporer les légumes et éventuellement du <span data-ingredient>fromage râpé</span>.</p>
 <h2>Étape 4</h2>
 <p>Verser dans un moule rectangulaire huilé, sur 4cm d’épaisseur. <em>Cuire</em> 30min à <strong>200ºC</strong>, jusqu’à ce que la tortilla soit prise et dorée.</p>
 <h1>Conseils</h1>

@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Tarte aux fraises pâte speculoos</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,24 +27,28 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" data-portions="8">
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count">8</strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="250.0" data-unit="g" data-name="de speculoos">250 g de speculoos</li><li data-ingredient data-amount="75.0" data-unit="g" data-name="de beurre mou">75 g de beurre mou</li><li data-ingredient data-amount="250.0" data-unit="g" data-name="de mascarpone">250 g de mascarpone</li><li data-ingredient data-amount="35.0" data-unit="g" data-name="de sucre glace">35 g de sucre glace</li><li data-ingredient data-amount="20.0" data-unit="cl" data-name="de crème liquide entière">20 cl de crème liquide entière</li><li data-ingredient data-amount="750.0" data-unit="g" data-name="de fraises">750 g de fraises</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="250.0" data-unit="g" data-name="de speculoos">250 g de speculoos</li><li data-ingredient data-amount="75.0" data-unit="g" data-name="de beurre mou" data-ml="82.42">75 g de beurre mou</li><li data-ingredient data-amount="250.0" data-unit="g" data-name="de mascarpone">250 g de mascarpone</li><li data-ingredient data-amount="35.0" data-unit="g" data-name="de sucre glace" data-ml="62.5">35 g de sucre glace</li><li data-ingredient data-amount="20.0" data-unit="cl" data-name="de crème liquide entière" data-ml="200.0">20 cl de crème liquide entière</li><li data-ingredient data-amount="750.0" data-unit="g" data-name="de fraises">750 g de fraises</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/tarte-fraises-speculoos.jpg" alt="Tarte aux fraises pâte speculoos"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
-<p>La veille, préchauffer le four à <strong>180ºC</strong> (th. 6). <em>Mixer</em> <span data-ingredient data-amount="250.0" data-unit="g" data-name="de speculoos">250 g de speculoos</span> avec <span data-ingredient data-amount="75.0" data-unit="g" data-name="de beurre mou">75 g de beurre mou</span> en une pâte granuleuse.</p>
+<p>La veille, préchauffer le four à <strong>180ºC</strong> (th. 6). <em>Mixer</em> <span data-ingredient data-amount="250.0" data-unit="g" data-name="de speculoos">250 g de speculoos</span> avec <span data-ingredient data-amount="75.0" data-unit="g" data-name="de beurre mou" data-ml="82.42">75 g de beurre mou</span> en une pâte granuleuse.</p>
 <h2>Étape 2</h2>
 <p><em>Étaler</em> à la main dans un moule à tarte en remontant un peu sur les bords. <em>Cuire</em> 10min, laisser refroidir puis réserver au réfrigérateur jusqu’au lendemain.</p>
 <h2>Étape 3</h2>
-<p>Le lendemain, <em>mélanger</em> <span data-ingredient data-amount="250.0" data-unit="g" data-name="de mascarpone">250 g de mascarpone</span> et <span data-ingredient data-amount="35.0" data-unit="g" data-name="de sucre glace">35 g de sucre glace</span> jusqu’à ce que ce soit souple.</p>
+<p>Le lendemain, <em>mélanger</em> <span data-ingredient data-amount="250.0" data-unit="g" data-name="de mascarpone">250 g de mascarpone</span> et <span data-ingredient data-amount="35.0" data-unit="g" data-name="de sucre glace" data-ml="62.5">35 g de sucre glace</span> jusqu’à ce que ce soit souple.</p>
 <h2>Étape 4</h2>
-<p><em>Fouetter</em> <span data-ingredient data-amount="20.0" data-unit="cl" data-name="de crème liquide entière">20 cl de crème liquide entière</span> très froide en chantilly. L’<em>incorporer</em> délicatement au mascarpone, puis verser sur le fond de tarte.</p>
+<p><em>Fouetter</em> <span data-ingredient data-amount="20.0" data-unit="cl" data-name="de crème liquide entière" data-ml="200.0">20 cl de crème liquide entière</span> très froide en chantilly. L’<em>incorporer</em> délicatement au mascarpone, puis verser sur le fond de tarte.</p>
 <h2>Étape 5</h2>
 <p><em>Équeuter</em> <span data-ingredient data-amount="750.0" data-unit="g" data-name="de fraises">750 g de fraises</span> et les disposer sur toute la surface.</p>
 </div>

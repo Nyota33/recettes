@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Coulant chocolat pécan</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,20 +27,24 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" data-portions="4">
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count">4</strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="80.0" data-unit="g" data-name="de beurre">80 g de beurre</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="de chocolat noir">100 g de chocolat noir</li><li data-ingredient data-amount="50.0" data-unit="g" data-name="de sucre roux">50 g de sucre roux</li><li data-ingredient data-amount="30.0" data-unit="g" data-name="de farine">30 g de farine</li><li data-ingredient data-amount="2.0" data-unit="" data-name="oeufs">2 oeufs</li><li data-ingredient data-amount="4.0" data-unit="" data-name="à 8 carrés de chocolat blanc">4 à 8 carrés de chocolat blanc</li><li data-ingredient data-amount="4.0" data-unit="" data-name="à 8 noix de pécan">4 à 8 noix de pécan</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="80.0" data-unit="g" data-name="de beurre" data-ml="87.91">80 g de beurre</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="de chocolat noir">100 g de chocolat noir</li><li data-ingredient data-amount="50.0" data-unit="g" data-name="de sucre roux" data-ml="62.5">50 g de sucre roux</li><li data-ingredient data-amount="30.0" data-unit="g" data-name="de farine" data-ml="54.55">30 g de farine</li><li data-ingredient data-amount="2.0" data-unit="" data-name="oeufs">2 oeufs</li><li data-ingredient data-amount="4.0" data-unit="" data-name="à 8 carrés de chocolat blanc">4 à 8 carrés de chocolat blanc</li><li data-ingredient data-amount="4.0" data-unit="" data-name="à 8 noix de pécan">4 à 8 noix de pécan</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/coulant-chocolat-pecan.jpg" alt="Coulant chocolat pécan"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
-<p><em>Fondre</em> <span data-ingredient data-amount="80.0" data-unit="g" data-name="de beurre">80 g de beurre</span> et <span data-ingredient data-amount="100.0" data-unit="g" data-name="de chocolat noir">100 g de chocolat noir</span> au micro-ondes, puis <em>fouetter</em> jusqu’à obtenir un appareil lisse et brillant.</p>
+<p><em>Fondre</em> <span data-ingredient data-amount="80.0" data-unit="g" data-name="de beurre" data-ml="87.91">80 g de beurre</span> et <span data-ingredient data-amount="100.0" data-unit="g" data-name="de chocolat noir">100 g de chocolat noir</span> au micro-ondes, puis <em>fouetter</em> jusqu’à obtenir un appareil lisse et brillant.</p>
 <h2>Étape 2</h2>
-<p>Ajouter en fouettant <span data-ingredient data-amount="50.0" data-unit="g" data-name="de sucre roux">50 g de sucre roux</span>, puis <span data-ingredient data-amount="30.0" data-unit="g" data-name="de farine">30 g de farine</span> et <span data-ingredient data-amount="2.0" data-unit="" data-name="oeufs">2 oeufs</span> entiers, jusqu’à obtenir un mélange homogène.</p>
+<p>Ajouter en fouettant <span data-ingredient data-amount="50.0" data-unit="g" data-name="de sucre roux" data-ml="62.5">50 g de sucre roux</span>, puis <span data-ingredient data-amount="30.0" data-unit="g" data-name="de farine" data-ml="54.55">30 g de farine</span> et <span data-ingredient data-amount="2.0" data-unit="" data-name="oeufs">2 oeufs</span> entiers, jusqu’à obtenir un mélange homogène.</p>
 <h2>Étape 3</h2>
 <p>Verser dans des moules individuels (silicone de préférence). <em>Enfoncer</em> au centre de chacun <span data-ingredient data-amount="4.0" data-unit="" data-name="à 8 carrés de chocolat blanc">4 à 8 carrés de chocolat blanc</span> (1 ou 2 par moule) et poser dessus <span data-ingredient data-amount="4.0" data-unit="" data-name="à 8 noix de pécan">4 à 8 noix de pécan</span>.</p>
 <h2>Étape 4</h2>

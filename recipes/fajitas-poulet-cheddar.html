@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#181a16" media="(prefers-color-scheme: dark)">
     <title>Fajitas au poulet, cheddar et poivron</title>
-    <link rel="stylesheet" href="../assets/style.css?v=793c1bb4d5">
-    <script type="module" src="../assets/recipe.js?v=911730d1f5"></script>
+    <link rel="stylesheet" href="../assets/style.css?v=94e42c5910">
+    <script type="module" src="../assets/recipe.js?v=52aa9f806a"></script>
   </head>
   <body>
     <nav class="detail-nav">
@@ -24,24 +27,28 @@
         <section class="ingredients">
           <div class="ingredients-heading">
             <h2 class="ingredients-title">Ingredients</h2>
+            <label class="simple-toggle" title="🥛 = 200 ml, 🥄 = 15 ml">
+              <input type="checkbox" id="simple-toggle" role="switch">
+              <span>Simple</span>
+            </label>
             <div class="servings" id="servings-control" data-portions="6">
               <button type="button" data-servings-step="-1" aria-label="Decrease servings">−</button>
               <span><strong id="servings-count">6</strong>×</span>
               <button type="button" data-servings-step="1" aria-label="Increase servings">+</button>
             </div>
           </div>
-          <ul id="ingredient-list"><li data-ingredient data-amount="1.0" data-unit="" data-name="petit oignon">1 petit oignon</li><li data-ingredient data-amount="1.0" data-unit="" data-name="poivron rouge">1 poivron rouge</li><li data-ingredient data-amount="2.0" data-unit="" data-name="tomates">2 tomates</li><li data-ingredient data-amount="10.0" data-unit="g" data-name="d&#x27;huile d&#x27;olive">10 g d&#x27;huile d&#x27;olive</li><li data-ingredient data-amount="2.0" data-unit="" data-name="blancs de poulet">2 blancs de poulet</li><li data-ingredient data-amount="1.0" data-unit="c. à s." data-name="de concentré de tomate">1 c. à s. de concentré de tomate</li><li data-ingredient>sel</li><li data-ingredient data-amount="6.0" data-unit="" data-name="tortillas de blé">6 tortillas de blé</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="de crème fraîche épaisse">100 g de crème fraîche épaisse</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="de cheddar râpé">100 g de cheddar râpé</li></ul>
+          <ul id="ingredient-list"><li data-ingredient data-amount="1.0" data-unit="" data-name="petit oignon">1 petit oignon</li><li data-ingredient data-amount="1.0" data-unit="" data-name="poivron rouge">1 poivron rouge</li><li data-ingredient data-amount="2.0" data-unit="" data-name="tomates">2 tomates</li><li data-ingredient data-amount="10.0" data-unit="g" data-name="d&#x27;huile d&#x27;olive" data-ml="10.87">10 g d&#x27;huile d&#x27;olive</li><li data-ingredient data-amount="2.0" data-unit="" data-name="blancs de poulet">2 blancs de poulet</li><li data-ingredient data-amount="1.0" data-unit="c. à s." data-name="de concentré de tomate" data-ml="15.0">1 c. à s. de concentré de tomate</li><li data-ingredient>sel</li><li data-ingredient data-amount="6.0" data-unit="" data-name="tortillas de blé">6 tortillas de blé</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="de crème fraîche épaisse" data-ml="100.0">100 g de crème fraîche épaisse</li><li data-ingredient data-amount="100.0" data-unit="g" data-name="de cheddar râpé">100 g de cheddar râpé</li></ul>
         </section>
         <figure class="recipe-main-image"><img src="../assets/images/fajitas-poulet-cheddar.jpg" alt="Fajitas au poulet, cheddar et poivron"></figure>
         <div class="recipe-content" id="recipe-content"><h1>Préparation</h1>
 <h2>Étape 1</h2>
 <p><em>Préchauffer</em> le four à <strong>160ºC</strong>. Mettre <span data-ingredient data-amount="1.0" data-unit="" data-name="petit oignon">1 petit oignon</span> en quartiers, <span data-ingredient data-amount="1.0" data-unit="" data-name="poivron rouge">1 poivron rouge</span> épluché en dés et <span data-ingredient data-amount="2.0" data-unit="" data-name="tomates">2 tomates</span> en quartiers dans le bol. <em>Mixer</em> <strong>5 sec/vitesse 4</strong>.</p>
 <h2>Étape 2</h2>
-<p>Ajouter <span data-ingredient data-amount="10.0" data-unit="g" data-name="d&#x27;huile d&#x27;olive">10 g d&#x27;huile d&#x27;olive</span> et <em>rissoler</em> <strong>6 min/120ºC/vitesse 1</strong>.</p>
+<p>Ajouter <span data-ingredient data-amount="10.0" data-unit="g" data-name="d&#x27;huile d&#x27;olive" data-ml="10.87">10 g d&#x27;huile d&#x27;olive</span> et <em>rissoler</em> <strong>6 min/120ºC/vitesse 1</strong>.</p>
 <h2>Étape 3</h2>
-<p>Ajouter <span data-ingredient data-amount="2.0" data-unit="" data-name="blancs de poulet">2 blancs de poulet</span> émincés, <span data-ingredient data-amount="1.0" data-unit="c. à s." data-name="de concentré de tomate">1 c. à s. de concentré de tomate</span> et du <span data-ingredient>sel</span>. <em>Cuire</em> <strong>5 min/100ºC/sens inverse/vitesse mijotage</strong>, puis bien égoutter dans le panier.</p>
+<p>Ajouter <span data-ingredient data-amount="2.0" data-unit="" data-name="blancs de poulet">2 blancs de poulet</span> émincés, <span data-ingredient data-amount="1.0" data-unit="c. à s." data-name="de concentré de tomate" data-ml="15.0">1 c. à s. de concentré de tomate</span> et du <span data-ingredient>sel</span>. <em>Cuire</em> <strong>5 min/100ºC/sens inverse/vitesse mijotage</strong>, puis bien égoutter dans le panier.</p>
 <h2>Étape 4</h2>
-<p>Chauffer <span data-ingredient data-amount="6.0" data-unit="" data-name="tortillas de blé">6 tortillas de blé</span> quelques minutes au four. <em>Garnir</em> de <span data-ingredient data-amount="100.0" data-unit="g" data-name="de crème fraîche épaisse">100 g de crème fraîche épaisse</span>, du mélange au poulet et de <span data-ingredient data-amount="100.0" data-unit="g" data-name="de cheddar râpé">100 g de cheddar râpé</span>. Remettre au four jusqu’à ce que le fromage fonde.</p>
+<p>Chauffer <span data-ingredient data-amount="6.0" data-unit="" data-name="tortillas de blé">6 tortillas de blé</span> quelques minutes au four. <em>Garnir</em> de <span data-ingredient data-amount="100.0" data-unit="g" data-name="de crème fraîche épaisse" data-ml="100.0">100 g de crème fraîche épaisse</span>, du mélange au poulet et de <span data-ingredient data-amount="100.0" data-unit="g" data-name="de cheddar râpé">100 g de cheddar râpé</span>. Remettre au four jusqu’à ce que le fromage fonde.</p>
 <h1>Conseils</h1>
 <ul>
 <li>Ajouter du guacamole après cuisson.</li>
