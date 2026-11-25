@@ -1,7 +1,7 @@
 ---
 title: Riz cantonais
 portions: 6
-tags: plat, viande, thermomix
+tags: plat, kids, thermomix
 lang: fr
 ---
 
