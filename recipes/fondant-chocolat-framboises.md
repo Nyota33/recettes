@@ -3,7 +3,7 @@ title: Fondant au chocolat
 portions: 10
 preparation: 5min
 cuisson: 30min
-tags: dessert, gâteau, facile, thermomix, favori
+tags: dessert, enfant, thermomix, favori
 lang: fr
 ---
 
