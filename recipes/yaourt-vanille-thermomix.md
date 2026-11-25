@@ -3,7 +3,7 @@ title: Yaourts à la vanille
 portions: 8
 cuisson: 10min
 repos: 12h
-tags: dessert, thermomix, favori
+tags: dessert, thermomix, favori, enfant
 lang: fr
 ---
 
