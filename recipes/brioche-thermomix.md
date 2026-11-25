@@ -4,7 +4,7 @@ portions: 8
 preparation: 30min
 cuisson: 45min
 repos: 3h
-tags: petit-déjeuner, base, thermomix
+tags: petit-déjeuner, gouter, thermomix
 lang: fr
 ---
 
