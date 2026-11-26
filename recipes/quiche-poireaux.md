@@ -25,4 +25,4 @@ Parsemer le reste du fromage et *gratiner* 5min.
 
 # Conseils
 
-- Sans pâte : 30cl de crème, 80g de farine et 2 oeufs.
+- Sans pâte : 30cl de lait, 80g de farine et 2 oeufs.
